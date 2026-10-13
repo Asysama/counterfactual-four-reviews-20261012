@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "dafc969cc7286a3fb2a17cf1caf8bf5035b1be353ab0b667974c89cff01d0164": {
+      "path": "runtime-witness.json",
+      "sha256": "dafc969cc7286a3fb2a17cf1caf8bf5035b1be353ab0b667974c89cff01d0164",
+      "generator": "electrostatic_shuttle_contact_charge_transfer_failure",
+      "case_set": "seeds42,98",
+      "source_commit": "d341d752737e689d88f3928129ef2ea4249265ef"
+    }
+  },
+  "cases": {
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042": {
+      "witness_id": "dafc969cc7286a3fb2a17cf1caf8bf5035b1be353ab0b667974c89cff01d0164",
+      "metadata_path": "electrostatic_shuttle_contact_charge_transfer_failure_00000042/metadata.json",
+      "metadata_sha256": "8840510fc13b7383e64e69f0222dc5e0cf2dd4314c32025bec9c624140fb9285"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098": {
+      "witness_id": "dafc969cc7286a3fb2a17cf1caf8bf5035b1be353ab0b667974c89cff01d0164",
+      "metadata_path": "electrostatic_shuttle_contact_charge_transfer_failure_00000098/metadata.json",
+      "metadata_sha256": "315b077ecec5fea4916b99f599f0c16cd16aaad65fdb88d221df031a72d64444"
+    }
+  },
+  "failures": []
+}

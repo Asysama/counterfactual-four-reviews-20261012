@@ -1,0 +1,804 @@
+{
+  "generator_name": "electrostatic_shuttle_contact_charge_transfer_failure",
+  "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "files": {
+    "accepted.jsonl": {
+      "bytes": 354,
+      "sha256": "6d85c80d66aa396bbf6fcadcd9a8000b1d0c2d9301bc32a669ea3c19079337da"
+    },
+    "application.json": {
+      "bytes": 559,
+      "sha256": "10267e4320537407dd100e44c9b96a902dda5f1635e5570b0afa1ab2b04fa8ce"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/browser-derivatives.json": {
+      "bytes": 775,
+      "sha256": "e791a1fb40ab4823ff79c538f939af837e64b40cd7adfa4b8d300899c47b88f6"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-000.png": {
+      "bytes": 245880,
+      "sha256": "97d7486fc62f7620fcbdd66cfa4a76744e2b8e65198a0fef92d5e2db4b34c37c"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-034.png": {
+      "bytes": 261235,
+      "sha256": "60cd4783fcc29233f724e8067ae00ebec8eabe23b962d75d94e1ce97ffb1f81d"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-035.png": {
+      "bytes": 261321,
+      "sha256": "bb35f756381e5385219b4e0b5426ad1eaa9adc54184df289986a26ed124eb049"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-090.png": {
+      "bytes": 259939,
+      "sha256": "a7a5b823eb45cc12fc4073644094e05d69a3d2db1a989c5242a22da6ba9a6f50"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-119.png": {
+      "bytes": 260987,
+      "sha256": "5fc7cbc94d3ba92c548d09d1ac97d40181d0b972427efa87315557b1a51fb917"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4": {
+      "bytes": 56489,
+      "sha256": "30ce688340c56ab99a1573057a63e108aa774d4dd838ccb5325ea723a4e16582"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4": {
+      "bytes": 2244379,
+      "sha256": "bfea7a11d260b671eef37f91dd0ef7b67a7f1d583b21ef21a78f2a5c981f76a3"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/prompt.txt": {
+      "bytes": 337,
+      "sha256": "077c5f0a5c4cc342ced7a9869ff960224d92c00eb6ad305eb5d739bba1ab788b"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/trajectory.npz": {
+      "bytes": 2499,
+      "sha256": "37f6df5bce1ad467b67b37848df51f7ed8df822715cb2319f2832e613798aadb"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video_browser.mp4": {
+      "bytes": 2214109,
+      "sha256": "20c5a3386a35bd1241628d3730bd65e19aa0113563f0f41afea44e99f7eaed56"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/decoded-audit.json": {
+      "bytes": 970,
+      "sha256": "b2b81a7e8f7e717bb6a81fc6fd5dbabc799ca8466de2d004cc0ad3f33a4365f8"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "0a12f3d88275171087fa7d779efb8888d972f3e2cbfefc7d4f46b3696b161781"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/manifest.json": {
+      "bytes": 5207,
+      "sha256": "bc39f2e2c4b9a7f334a1bba6ee9e44dce50e51e2b17ee111da4a0240d6f046c1"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-000.png": {
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-034.png": {
+      "bytes": 13023,
+      "sha256": "0c9b6e1801f3114409f3468f4fa23afe831faf69b15122643df157e213d93a6b"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-035.png": {
+      "bytes": 13024,
+      "sha256": "c52defc22e000111155ca9992c23bc2beb835e51c6c089fae452aaf22b2e80f5"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-090.png": {
+      "bytes": 13015,
+      "sha256": "f433f906ebd8dcfab0dea1c7eab98615b1a8f987ca0b0eb07115e9684a3007a8"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-119.png": {
+      "bytes": 13009,
+      "sha256": "fd0aab502631699550cde0c86fbd75a5cde36e36f4f8e2c6dd6c3bf13f41a6c1"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/metadata.json": {
+      "bytes": 7188,
+      "sha256": "8840510fc13b7383e64e69f0222dc5e0cf2dd4314c32025bec9c624140fb9285"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-000.png": {
+      "bytes": 245880,
+      "sha256": "97d7486fc62f7620fcbdd66cfa4a76744e2b8e65198a0fef92d5e2db4b34c37c"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-034.png": {
+      "bytes": 254235,
+      "sha256": "3abee5a09ba20c1473f3d19846276cc880279411ed1a6cd3f11815d5c32627d1"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-035.png": {
+      "bytes": 254373,
+      "sha256": "b9172dabb8d96848a88c67f8548226ddec442a2a89d3f1d0edde4912f54e3a8a"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-090.png": {
+      "bytes": 252969,
+      "sha256": "ed9d680333fb1e8f925b371560b3bb4cba3f9e1f622653269f3e7b3451318732"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-119.png": {
+      "bytes": 253967,
+      "sha256": "6620b90aa9c4ea23fc4369da30e2c15a4c95da1131c9f877e80726ef3f2fdfb2"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/prompt.txt": {
+      "bytes": 256,
+      "sha256": "932d444d07041c8dd42f44d9db09904315c3dc3e78a856c47d56070966ae60cf"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/trajectory.npz": {
+      "bytes": 5387,
+      "sha256": "06df9c88993c231463de1221a7ca5a7793c35b5bb411dbab8baec9473e4be6fa"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video_browser.mp4": {
+      "bytes": 2211156,
+      "sha256": "cbb4dc1234d740060b4ec1ac7e40d88823a7933bc655c19bac7c34a2266dad8f"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-000.png": {
+      "bytes": 245880,
+      "sha256": "97d7486fc62f7620fcbdd66cfa4a76744e2b8e65198a0fef92d5e2db4b34c37c"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-034.png": {
+      "bytes": 259334,
+      "sha256": "d7e5191edab9e9bbb533c45564d313b9260767efbb7185d3885ac7e7096932bd"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-035.png": {
+      "bytes": 258996,
+      "sha256": "d9558c7c29b27d2cf01cff17c36b4615b5d6d1aacd2c134bb2157a154c72c2d2"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-090.png": {
+      "bytes": 260965,
+      "sha256": "4a826a9c0a8ca248c4ec624b1116ec3e1df821ef15c6c6cff88b097c68de0318"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-119.png": {
+      "bytes": 262253,
+      "sha256": "f270e2eaaefd2fd83038f38dcfb43ccbbc722c3d6b8572c5379207a4c35e408a"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/browser-derivatives.json": {
+      "bytes": 775,
+      "sha256": "899c01b84f42ac7fe73276741139efcacb2f0be71002b6f15aea8a4b9fdbdc47"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual-000.png": {
+      "bytes": 262979,
+      "sha256": "a810675f0ed995b83c68b17e8bc9c9ecc998db9b65e6c02d68c1cb7708400361"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual-034.png": {
+      "bytes": 274884,
+      "sha256": "ad661bb25e2ee1c79fb7c42d6c3cfb5ef32e30fce4298514244bf5dbc9160446"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual-035.png": {
+      "bytes": 275341,
+      "sha256": "0b99712b8b2101c0e08210b1007f825049e4b702c8d9da9e07ddad462696ad94"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual-090.png": {
+      "bytes": 275221,
+      "sha256": "769ad591eea576af262236e07bacd415d371c06e77fb380370f312e1ca23f444"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual-119.png": {
+      "bytes": 274882,
+      "sha256": "5c16c4a38e9abc6c0fa76e552a766b253f4ad3c883cc844b184f64405fc7ab99"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4": {
+      "bytes": 48541,
+      "sha256": "c84c1508182f8caa59c6167e7888f70af37e0ae85cd3ff8961d27ccf371e385a"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4": {
+      "bytes": 2175994,
+      "sha256": "16e3ce3490e5a25fdd9ef8f164e7d61e44b449cb3be0b0ac94cfffd657a81ea2"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/prompt.txt": {
+      "bytes": 337,
+      "sha256": "077c5f0a5c4cc342ced7a9869ff960224d92c00eb6ad305eb5d739bba1ab788b"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/trajectory.npz": {
+      "bytes": 2363,
+      "sha256": "2a2f2eeb25636f1832c96b3e4586b4b209373b616d8db124ea7c6a87cd946dc8"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/video_browser.mp4": {
+      "bytes": 2152160,
+      "sha256": "2a73c238939d31961eba6f8898c51aa6c10424d4c56daeb8e69ac9626f56e64d"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/decoded-audit.json": {
+      "bytes": 970,
+      "sha256": "b2b81a7e8f7e717bb6a81fc6fd5dbabc799ca8466de2d004cc0ad3f33a4365f8"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "70cf5a583aef9becdd8f915094b0acc104ef41a8a192d97cced7c98fd3d65438"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/manifest.json": {
+      "bytes": 5207,
+      "sha256": "49127a4a5bea2819889ac160d925b073ffec0fba5339b55c5bad1408f58a4d92"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/mask-000.png": {
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/mask-034.png": {
+      "bytes": 12817,
+      "sha256": "fa9ae37fa26c798a41b2648956fee1f967765ebb72212d573c8789e19a193508"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/mask-035.png": {
+      "bytes": 12818,
+      "sha256": "c0c9623d5397bc2b5c9d8e30e43fe677d3b3b7d1bb8357921ea07c54f1203424"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/mask-090.png": {
+      "bytes": 12828,
+      "sha256": "b8156c06d8addc6d4f0399ffbe6ab7ed99f1c25806a67010dceda06f4d4794fa"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/mask-119.png": {
+      "bytes": 12821,
+      "sha256": "8c5e6ca18c1e1381251491199afbfaba5bc6edb80659696e8492709e9d7a3651"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/metadata.json": {
+      "bytes": 7173,
+      "sha256": "315b077ecec5fea4916b99f599f0c16cd16aaad65fdb88d221df031a72d64444"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/overlay-000.png": {
+      "bytes": 262979,
+      "sha256": "a810675f0ed995b83c68b17e8bc9c9ecc998db9b65e6c02d68c1cb7708400361"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/overlay-034.png": {
+      "bytes": 271376,
+      "sha256": "f5f2c6674133bbc470da0593f425f45fec2e7d1fa27f11d31055b98e16573b2e"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/overlay-035.png": {
+      "bytes": 271777,
+      "sha256": "46fed65efb45497623701c60021e2a20682493af767bc1a91960cc7915a0ed9f"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/overlay-090.png": {
+      "bytes": 271597,
+      "sha256": "0198604600097a57e46de7a5fcc497cc59c9d2c06a836bc364413d0227922a54"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/overlay-119.png": {
+      "bytes": 271467,
+      "sha256": "61a69b9f6fcf6a715317ae3b719ccd61602f23085d2c49f9b196e40f06e889dd"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/prompt.txt": {
+      "bytes": 256,
+      "sha256": "932d444d07041c8dd42f44d9db09904315c3dc3e78a856c47d56070966ae60cf"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/trajectory.npz": {
+      "bytes": 4088,
+      "sha256": "60bdbe10ac70649031c20a152d9b5f813b4b96b2562301fe45a2b82d7f4a73b3"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/video_browser.mp4": {
+      "bytes": 2152828,
+      "sha256": "a39ced3d71e74c1d6131ae5098db4c75e10b2ae6f0dec3a6105c7d062219c34c"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true-000.png": {
+      "bytes": 262979,
+      "sha256": "a810675f0ed995b83c68b17e8bc9c9ecc998db9b65e6c02d68c1cb7708400361"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true-034.png": {
+      "bytes": 274328,
+      "sha256": "2cadffea3fd5d50985c240c7069b44c67de87c19f7495a89b3442d938e72f0f8"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true-035.png": {
+      "bytes": 273053,
+      "sha256": "8a565fb93134a51ecd3e8f31c3ba7470dddd73c73e36673e36337da9f4f779aa"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true-090.png": {
+      "bytes": 270293,
+      "sha256": "916e76221f79b6c0ae3ecc3bddc2a7a4c5e2f2bac92a1d8d22eac86deee49f9e"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true-119.png": {
+      "bytes": 271751,
+      "sha256": "c09cfbfd14b388de42b06cfcc0918314fa6bb863d65d6b4f8ac4390893725ffd"
+    },
+    "expected-case-ids.json": {
+      "bytes": 139,
+      "sha256": "fe52b6787ed65b681ddd643ac29544ee57419f70b76853b97f6522ed2e56afc4"
+    },
+    "external-native-media.json": {
+      "bytes": 4955,
+      "sha256": "a479df631781dfc1491f72ea7a9aca1612a0fb5c2a405768285c781e49853f87"
+    },
+    "index.html": {
+      "bytes": 16907,
+      "sha256": "b28aefa82f3cec141d985a6b777d0d20efd1558ea3db413bae4a6d6b6b7fd8ac"
+    },
+    "production-header.json": {
+      "bytes": 2344,
+      "sha256": "add569c4a74ef27aac61e44e54baaea756fa5b6cc8d1c7008b48b9175adc7973"
+    },
+    "review-evidence/2026-10-13_geometry-audit.py": {
+      "bytes": 3205,
+      "sha256": "e19773f6ccc7a28e7f20b2ae85168f62bf263216189fb72a23c21e363e536987"
+    },
+    "review-evidence/2026-10-13_independent-all-v6.py": {
+      "bytes": 9447,
+      "sha256": "dd7f03e47c64f3cb2715a3e5dccffdb51f368eac1975e12d37f6f5dc9b0a3285"
+    },
+    "review-evidence/2026-10-13_inspection-artifacts.py": {
+      "bytes": 2090,
+      "sha256": "a29460ec6a350a3e7c36522b2312086ecf717bf6a240a7274549ceb70cf7af74"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_high-counterfactual-35.png": {
+      "bytes": 88799,
+      "sha256": "7f7b0de14b824e2b56a9ad518747584c2e97c5dc4b1955017d3ae1cb52a5edfb"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_high-counterfactual-90.png": {
+      "bytes": 88799,
+      "sha256": "7f7b0de14b824e2b56a9ad518747584c2e97c5dc4b1955017d3ae1cb52a5edfb"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_high-true-35.png": {
+      "bytes": 88359,
+      "sha256": "b2f42daea892135df6aaa0efab0131ae01b315e3e7b5ba46bb05e3ee8141e291"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_high-true-90.png": {
+      "bytes": 88984,
+      "sha256": "05eef8dd35029ebd9081625805ed152cb5cd17d57ebb1e138c5976789e64033e"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_low-counterfactual-35.png": {
+      "bytes": 89018,
+      "sha256": "f62b7c202efde3dc292684a5d91bb644827187fb9ba252a1044e561c93baefd3"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_low-counterfactual-90.png": {
+      "bytes": 89018,
+      "sha256": "f62b7c202efde3dc292684a5d91bb644827187fb9ba252a1044e561c93baefd3"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_low-true-35.png": {
+      "bytes": 88704,
+      "sha256": "1096705bbfefd61a8a2c7814cc542d9ce964f232868ab7d3ea299284eff16703"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_low-true-90.png": {
+      "bytes": 89284,
+      "sha256": "8fa0a6f8e6de3a8318333c51d9adf12252f97ce36907a5a3ea3a5de637f4859c"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/axis-probes.json": {
+      "bytes": 22360,
+      "sha256": "c7db481b30fce0f69048b6aa8a02672fb027ae73eb0e25db42f5177bd7bdfb09"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/baseline-counterfactual-35.png": {
+      "bytes": 89081,
+      "sha256": "35b7ce7835dd2107b9cd83545b6642e484a383039fe08d34f13c6af44293a7c3"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/baseline-counterfactual-90.png": {
+      "bytes": 89081,
+      "sha256": "b499042b7d17ca96dc71dac23ff27ba2758309587e2d905ca3f4648489afc7f3"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/baseline-true-35.png": {
+      "bytes": 88772,
+      "sha256": "c99c8fc9b539ddfc54115862ace58ae155a4125c9c05eb649fe5d5fc676a55a1"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/baseline-true-90.png": {
+      "bytes": 89186,
+      "sha256": "12fe2ee0bd4becdd75e9b06afcef6e7e78853be740adda4e418d5f98d8a28dbe"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_high-counterfactual-35.png": {
+      "bytes": 89382,
+      "sha256": "74bafd161f8e57b2f88a9e582bd355433cd7b5fe73b1fdd5cdac633a6293a7c0"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_high-counterfactual-90.png": {
+      "bytes": 89382,
+      "sha256": "74bafd161f8e57b2f88a9e582bd355433cd7b5fe73b1fdd5cdac633a6293a7c0"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_high-true-35.png": {
+      "bytes": 89478,
+      "sha256": "c8d683aaec111c5ca67552acbb1bf878c7a2e32c30024427ed081106164006d9"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_high-true-90.png": {
+      "bytes": 87062,
+      "sha256": "229cbd98b52ab417f08ba11ad0b66b17b1d5f142a30bbd5f372b9eb2b677c32c"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_low-counterfactual-35.png": {
+      "bytes": 87969,
+      "sha256": "9531690bdf061e63604b4bbf9b4d6e7d128578e64b35b10d03c17d08038b8676"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_low-counterfactual-90.png": {
+      "bytes": 87969,
+      "sha256": "3572ec1c0bcbbf0f3fc17b894b8cd665c1a0c274f2b019d3ec96d756b0ea16a1"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_low-true-35.png": {
+      "bytes": 87340,
+      "sha256": "ffca6e9ad34ffbe425b903c19a08a07fcd64c014aba48c6eb3ca5411eb548e5d"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/depth_low-true-90.png": {
+      "bytes": 85173,
+      "sha256": "5b95fc37c6f5ed754e68f59a1f07da1931b094992171cad6bcb11c383233081b"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_high-counterfactual-35.png": {
+      "bytes": 88647,
+      "sha256": "715fd720c217cb3810f1adbe2a4bf385f92255b17dff34b0f5589273ef946697"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_high-counterfactual-90.png": {
+      "bytes": 88647,
+      "sha256": "715fd720c217cb3810f1adbe2a4bf385f92255b17dff34b0f5589273ef946697"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_high-true-35.png": {
+      "bytes": 88484,
+      "sha256": "291ab7bad551b4a46dd0bbba475308c485fa93598a8405296f796348c06fb8af"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_high-true-90.png": {
+      "bytes": 85225,
+      "sha256": "c675ef62a145cc3f2527e27f243fa69e95c2ef8db9784099d803deedd4500ed8"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_low-counterfactual-35.png": {
+      "bytes": 91061,
+      "sha256": "9d1ea791a7083239b706f57642885bf1259d0afde67a0725677b62bf50027a29"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_low-counterfactual-90.png": {
+      "bytes": 91061,
+      "sha256": "124f68e7ad302479ad3254ef74cc9bcca3d85c5773c9614e24481ed736701320"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_low-true-35.png": {
+      "bytes": 90345,
+      "sha256": "b2be6707ce45e74ee3fd49fc024b3f2a48b01b173f96fc3aa12e227318324852"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/length_low-true-90.png": {
+      "bytes": 89568,
+      "sha256": "41d1ff87d05b0680dcccbc370b6d4456ab0ee1a2b6d0bcaef08f0455ce350354"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_high-counterfactual-35.png": {
+      "bytes": 87947,
+      "sha256": "4e6b6870e91ea95e0fdc0ddb5ab1b5f146f4aad8111a8f977e6639d0e349624c"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_high-counterfactual-90.png": {
+      "bytes": 89081,
+      "sha256": "1c774135e568347a7a0beb466131c37da14d4a48464d15d178f3de5d9d840e1e"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_high-true-35.png": {
+      "bytes": 87947,
+      "sha256": "0c8794b184f4227c796550c2a63547f7d642af4f19473317da3368b69ed5bea0"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_high-true-90.png": {
+      "bytes": 87494,
+      "sha256": "6c124d28114c7e1fe33517bd92b087877236fcc9c21a3bfaad4c5506a58f859e"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_low-counterfactual-35.png": {
+      "bytes": 89081,
+      "sha256": "3fee6b108731c1b91e037b274095ca55301b510a7c211480d62678ce0f6755c3"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_low-counterfactual-90.png": {
+      "bytes": 89081,
+      "sha256": "49341af9738a729c817e4ba5a4d7b21438f7a533b029047062c61ebe739bd0b2"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_low-true-35.png": {
+      "bytes": 89380,
+      "sha256": "b10d527b40f02575eef33ec7d6e82b40ca53a5a3c591f7332e212219e7757302"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/onset_low-true-90.png": {
+      "bytes": 89052,
+      "sha256": "0d11d66758209373b72030b630ad89c5454bbfa5fa0b72afeba03959b7daece5"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_high-counterfactual-35.png": {
+      "bytes": 89081,
+      "sha256": "a9ad97cc4e769bdfceb13d6324e88109f5e2092e7cf58356a3bc57469c09396f"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_high-counterfactual-90.png": {
+      "bytes": 89081,
+      "sha256": "8ba79910faa134e7bbb55c6097952ced0fb9fa1619c4d3867a3a0654a4e6d308"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_high-true-35.png": {
+      "bytes": 89370,
+      "sha256": "89c9f4d49a210a614a21c7c10eb5880b9be70e8242dfb125f26178abfd53e9a7"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_high-true-90.png": {
+      "bytes": 88009,
+      "sha256": "fdb73547a2c4971acbe5e3589767ee0304a5dc78b5637d9702dc20a2f9215768"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_low-counterfactual-35.png": {
+      "bytes": 89081,
+      "sha256": "04c5ea0548e1c9eaaeed13b2064bc5d9781f725a4f27b3229dcba6af01110a11"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_low-counterfactual-90.png": {
+      "bytes": 89081,
+      "sha256": "86ac8de8f8b4c0662932cebf88c49f9360095fcd3747950dc89d426c5c4cc306"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_low-true-35.png": {
+      "bytes": 89153,
+      "sha256": "57ba904af55356d97df2730714ca5ac110f229dbb03676c6f37a12cb7662ca73"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/response_low-true-90.png": {
+      "bytes": 89046,
+      "sha256": "c1de4138c29d84505641a11ca0a86a5b3547cf14de3c06a76ec8678bdccbf98f"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_high-counterfactual-35.png": {
+      "bytes": 96286,
+      "sha256": "077a36719bd1e0f3186d29929fc03eec071abf11868802bc31a100d71b85ca7e"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_high-counterfactual-90.png": {
+      "bytes": 96286,
+      "sha256": "372fa3ba6abb6dfd2a9104b19d7386e8282655ec84b4218afdae5da7cadcb08b"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_high-true-35.png": {
+      "bytes": 96410,
+      "sha256": "d10e9c7159136fda8f953bfeaa39a3d3280b2252a3c1cd09ebc236974b0500d5"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_high-true-90.png": {
+      "bytes": 96141,
+      "sha256": "d0092be94a83512aeadead97f5167ac5153a204be0dc80fc2e75f1f45ef5125b"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_low-counterfactual-35.png": {
+      "bytes": 95168,
+      "sha256": "b00dcc71817abf46e5cd5da05a8e21d8e2e17f2e9253d8620ef910ebb0f491a9"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_low-counterfactual-90.png": {
+      "bytes": 95168,
+      "sha256": "b00dcc71817abf46e5cd5da05a8e21d8e2e17f2e9253d8620ef910ebb0f491a9"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_low-true-35.png": {
+      "bytes": 95274,
+      "sha256": "db0695c1859e9468e84e36037533facfee4c66a0412de5c6ec16ac10550760d7"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/view_low-true-90.png": {
+      "bytes": 95627,
+      "sha256": "0abc0a6f8a4311a6ddc05dc6d73c1e9464c0594a469e8093e23509f76015e78f"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes.log": {
+      "bytes": 9236,
+      "sha256": "cde6574a1f308b3df16e3787714f55547759a43145c8af6ebf21947184697155"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-bounded-resources.json": {
+      "bytes": 902,
+      "sha256": "7754f64e4a744f44f05bdb9b5a9962a03b8d817cb111ea488634baf55c44bc93"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-bounded-resources.log": {
+      "bytes": 76,
+      "sha256": "52f49ee391047782046422f7476ddd6868f4d5c98cedfc69fe25a763419fcbfa"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-browser-media.json": {
+      "bytes": 2348,
+      "sha256": "4b90a91efbe032ba2a059404d5753a1a52810a72f7e972b63ac9227f42ee0527"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-geometry.json": {
+      "bytes": 1182,
+      "sha256": "523651bff55e6c3666171957a04f1f736aecf7e862c3995325b5740ca6cccd63"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-geometry.log": {
+      "bytes": 154,
+      "sha256": "ef26b794afce8f956dd69ce1b40246d14e777601942ff729f94308517188ba6b"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-head.json": {
+      "bytes": 100,
+      "sha256": "6b67ca9d46f449346e9323eb0db19bc47aff458782a28713280563fa6504987d"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-help.log": {
+      "bytes": 408,
+      "sha256": "dcc788fb18ad4a0c2c330386bb19d7e773ed995c866aed883f9d0741273a873d"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-independent.json": {
+      "bytes": 3294,
+      "sha256": "fe6df39bab2e307742d8f20f3348fc9013c850457252ceb1782d902fff5e9fd1"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-independent.log": {
+      "bytes": 160,
+      "sha256": "cc4b6c7f40088e1ae7e9a3d910d1389f7347beb7524ce1d4ae679edec5234e87"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-inspection.log": {
+      "bytes": 180,
+      "sha256": "c70ac758ed7e611326bc5ef38d8b35661d70e0c7b7cfedc0d80ab29710260a6a"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-render.log": {
+      "bytes": 142308,
+      "sha256": "38e5869d4cae18aa81494b9b3e33edc33c9e2ab3401905cf3a12ee6b8ce8be97"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-reproduce.log": {
+      "bytes": 70084,
+      "sha256": "b7f85fcc29affe9a7e3f28f861b41c5447f48b60f34c4bd74d490131d49a04b3"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-resume.log": {
+      "bytes": 702,
+      "sha256": "81c21808088e75fb0dfc2b5820ceb9e2e77533dd72e04e3987dc6a7e8217f1a4"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-runtime-index.log": {
+      "bytes": 1280,
+      "sha256": "1dfa560b3fdc6e69be4342ea6736d1c1faa6db6c7d2f6bc637903ff79c7cc21b"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-runtime.json": {
+      "bytes": 308,
+      "sha256": "53ce26cce54a73047aeecd3da7d54a4235e7bd0e02199d6b5d00f3d982a0142e"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-scale.json": {
+      "bytes": 782,
+      "sha256": "39f86dfce9cbb3e6d5037f1b987026d39b7c7f592bb3d33555175369fb621cb0"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-scale.log": {
+      "bytes": 782,
+      "sha256": "39f86dfce9cbb3e6d5037f1b987026d39b7c7f592bb3d33555175369fb621cb0"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-six-axis-independent.json": {
+      "bytes": 2389,
+      "sha256": "02d1644963a6aa011c42d18064ad45c971be06dcebcfdb7e41e13685574c467d"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-six-axis-inspection.jpg": {
+      "bytes": 85539,
+      "sha256": "7ab90d3428745c29b26a80be0e8c6ef7853f51f61090efb4a73eeae94039dc32"
+    },
+    "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-tests.log": {
+      "bytes": 98,
+      "sha256": "13cc0e2242b34abc964aba9555f159a79b4eacb07e52d4e0fd83f844158bb310"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/full-scenes-display.jpg": {
+      "bytes": 76467,
+      "sha256": "44ceb6618c0f8484f807b20acf114a30d2dca06b1e06af2ef857c7fb1a944444"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/full-scenes.jpg": {
+      "bytes": 213755,
+      "sha256": "62643f996c74ddc9e40d6c9c712d4456ac17d4463e70dff0a26cd7a39d80f386"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-cf-034.png": {
+      "bytes": 12884,
+      "sha256": "4afd3f521ee77f7f2db6c211098d10fb7997db6cb672564a7c0970c22bcc9fdf"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-cf-035.png": {
+      "bytes": 12928,
+      "sha256": "32f7ad4ec9b14c44f31487d0d1894eb9741b8d815a53c85c330e6425b9718160"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-cf-036.png": {
+      "bytes": 12932,
+      "sha256": "3d7ee43f1129bedc5eb1ff3c7d16ec48444cce23c01316cd75f21cd80defd440"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-cf-037.png": {
+      "bytes": 12955,
+      "sha256": "676edbf335548b6227265e2d2a5d842d3ddf43c0489f27afe22d133d89672e97"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-mask-034.png": {
+      "bytes": 908,
+      "sha256": "6161dad5f734ad14f11d12cef478c54d80efaab31afe390b25cd9738b7eb38a8"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-mask-035.png": {
+      "bytes": 909,
+      "sha256": "ab9f225b741e99b67f659a51c8034529320923f49831c4f567d67ae091e2ef1e"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-mask-036.png": {
+      "bytes": 908,
+      "sha256": "c3d738a0be90c5638fcd335ae2e152566ccbbc27c55595f0f3355d39939d6e21"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-mask-037.png": {
+      "bytes": 908,
+      "sha256": "94d904a747aeec9190a55a44a77661a7cec48b7e3024af5af3cdc0efa1b63b26"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-overlay-034.png": {
+      "bytes": 6774,
+      "sha256": "7ac761f5c5a20786630bd1e6f581ceca5bcc654780ea8e2d7961b20e6cc0ce89"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-overlay-035.png": {
+      "bytes": 6824,
+      "sha256": "d2d0579f4e7533dd4a7d4b5efb32811a1172d6cb943c3c4d6a888b760caedd4d"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-overlay-036.png": {
+      "bytes": 6799,
+      "sha256": "1b89e0afa2fc2acad1be37b35945d09afe32cf3606a00cbfe586d3c05b8dfbad"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-overlay-037.png": {
+      "bytes": 6823,
+      "sha256": "c134ea3ee3064468410adfeca568450965217dd87fd28cb9014a171ff7e85ea5"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/native-temporal-display.png": {
+      "bytes": 49114,
+      "sha256": "ff00fd9b2439860c1174de73bcd91a8fa181177c67c2118a6bb55b02682b0663"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/full-scenes-display.jpg": {
+      "bytes": 77688,
+      "sha256": "667b89164a1be9d4fe7d87d6ce54af1cfd27f9213d11268291d89885924fe2bd"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/full-scenes.jpg": {
+      "bytes": 216397,
+      "sha256": "2a4a4afbdf786d8d4d102e7a3847033cefdcbcf900890dfcc0ece268ff9dfb90"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-cf-034.png": {
+      "bytes": 10413,
+      "sha256": "5e4f8866c599d9d5b5c912a2c2efe8251e89011de9e21886dc2282403254103c"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-cf-035.png": {
+      "bytes": 10416,
+      "sha256": "5f95b786e90f936467d61ab3cea2792112c667d99dd7680f95e228e317c71da3"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-cf-036.png": {
+      "bytes": 10350,
+      "sha256": "f5042b606b7e0b2fd83c23541ff3e0bbbd03e256a69b2bf9d1a638aeadb2b2fe"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-cf-037.png": {
+      "bytes": 10447,
+      "sha256": "e2b7793e9ec2c08d5e562dd23989298013b11b0a1376bb3aa68f47b8200a0c4a"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-mask-034.png": {
+      "bytes": 698,
+      "sha256": "417a80704121d67e6c6bbb3edd156b2fe52c90edaeec641d9273f52b2f6d95f0"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-mask-035.png": {
+      "bytes": 698,
+      "sha256": "709f669721bae69e1b1efa4b7a371d625a02929d6ff67340db45098fa31b42fb"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-mask-036.png": {
+      "bytes": 698,
+      "sha256": "5aeb0b83a5e989314acd5ce45e0ff5ebfef14b1649a0234aa744637fb72fe932"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-mask-037.png": {
+      "bytes": 699,
+      "sha256": "7df51b3a72afdf9a43ff6012b9b85f52d47814a2dbc683224528bc1ca128b787"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-overlay-034.png": {
+      "bytes": 6751,
+      "sha256": "0d1b2e8fdb054be762629caac81ae1ba63341494b8f64108915d497713cc9059"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-overlay-035.png": {
+      "bytes": 6752,
+      "sha256": "cb557b003cd80d67a4df4de1017295f039fad454388be35eb92a26738616255f"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-overlay-036.png": {
+      "bytes": 6711,
+      "sha256": "568741cb919983b55e107f107a7ecce83a5c9fb3bc9bc2e76059f4bbf3b9f606"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-overlay-037.png": {
+      "bytes": 6789,
+      "sha256": "f56c757f9fd321a49e5277ddba1933fac2180fe6ef94e6c6edc3f4748359a5f8"
+    },
+    "review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/native-temporal-display.png": {
+      "bytes": 49264,
+      "sha256": "cd241d768c433bf2b6e91e8499eb205096e7564e27c6429b5008a3656c0c7846"
+    },
+    "review-evidence/native-inspection/manifest.json": {
+      "bytes": 3477,
+      "sha256": "4513496c6b700e3767418af14a180e8193448ebe678014a286514ad05791e688"
+    },
+    "review.json": {
+      "bytes": 562,
+      "sha256": "981069d46363689f70169044a200f6077ca18a85f96dc298fcd4a8070c41302c"
+    },
+    "runtime-witness-index.json": {
+      "bytes": 1280,
+      "sha256": "1dfa560b3fdc6e69be4342ea6736d1c1faa6db6c7d2f6bc637903ff79c7cc21b"
+    },
+    "runtime-witness.json": {
+      "bytes": 18479,
+      "sha256": "dafc969cc7286a3fb2a17cf1caf8bf5035b1be353ab0b667974c89cff01d0164"
+    }
+  },
+  "external_files": {
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-true.mp4",
+      "bytes": 28309120,
+      "sha256": "7ac94c67565f6f90bdb7ec5fd6366c0a1b4aaa60d0684359e82fa7741b3aadd1",
+      "github_asset_id": 636570482,
+      "server_digest": "sha256:7ac94c67565f6f90bdb7ec5fd6366c0a1b4aaa60d0684359e82fa7741b3aadd1"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-counterfactual.mp4",
+      "bytes": 28624138,
+      "sha256": "54daabb6f956e19906493afb622e76909ea982d03f84aaff42c817f87e060fca",
+      "github_asset_id": 636571376,
+      "server_digest": "sha256:54daabb6f956e19906493afb622e76909ea982d03f84aaff42c817f87e060fca"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-mask.mp4",
+      "bytes": 2083070,
+      "sha256": "a5d408bb54d9d605871f4a99d659cd4f16c45bd20cc004f36f8338b707172165",
+      "github_asset_id": 636571595,
+      "server_digest": "sha256:a5d408bb54d9d605871f4a99d659cd4f16c45bd20cc004f36f8338b707172165"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-overlay.mp4",
+      "bytes": 28094883,
+      "sha256": "be4c15a0f7d4471dc04fb437ae426b2f6675846dc32f57984811e6631de216a9",
+      "github_asset_id": 636571708,
+      "server_digest": "sha256:be4c15a0f7d4471dc04fb437ae426b2f6675846dc32f57984811e6631de216a9"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-true.mp4",
+      "bytes": 31401189,
+      "sha256": "faf0afbc605421a8a2da6688ea9a750b65341dc92ed61cfccc06c4f1a1e7832c",
+      "github_asset_id": 636571775,
+      "server_digest": "sha256:faf0afbc605421a8a2da6688ea9a750b65341dc92ed61cfccc06c4f1a1e7832c"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-counterfactual.mp4",
+      "bytes": 31688786,
+      "sha256": "1149268932df5a657cfdec2a89b2ced7d15b041571c3fea6fb4e1f6df52a3099",
+      "github_asset_id": 636571861,
+      "server_digest": "sha256:1149268932df5a657cfdec2a89b2ced7d15b041571c3fea6fb4e1f6df52a3099"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-mask.mp4",
+      "bytes": 2023170,
+      "sha256": "4c8f86ae5f31ff3f8cc2c4758ebc3c60e9c8b2c92d8ff311df2d349fe23da7ba",
+      "github_asset_id": 636573603,
+      "server_digest": "sha256:4c8f86ae5f31ff3f8cc2c4758ebc3c60e9c8b2c92d8ff311df2d349fe23da7ba"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-overlay.mp4",
+      "bytes": 31363861,
+      "sha256": "ec45c60b8fc7d3bd8107d78f95b82e78dd5ce014e2e631750bafbb34a0d8ca14",
+      "github_asset_id": 636573894,
+      "server_digest": "sha256:ec45c60b8fc7d3bd8107d78f95b82e78dd5ce014e2e631750bafbb34a0d8ca14"
+    }
+  }
+}

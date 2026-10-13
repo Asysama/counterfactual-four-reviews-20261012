@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "f771db562814b3f03ba6bdc3db0c622e7c948fa1d584941454bd07dc724fe006": {
+      "path": "runtime-witness.json",
+      "sha256": "f771db562814b3f03ba6bdc3db0c622e7c948fa1d584941454bd07dc724fe006",
+      "generator": "rattleback_rocking_spin_coupling_reversal",
+      "case_set": "seeds42,98",
+      "source_commit": "0ec4a1c689519b849bbe0e8a9666b5272ac90354"
+    }
+  },
+  "cases": {
+    "rattleback_rocking_spin_coupling_reversal_00000042": {
+      "witness_id": "f771db562814b3f03ba6bdc3db0c622e7c948fa1d584941454bd07dc724fe006",
+      "metadata_path": "rattleback_rocking_spin_coupling_reversal_00000042/metadata.json",
+      "metadata_sha256": "9a59e0b0f6b430c04d87d34e1970e09f54129abf70e13e3b876f4824015b77ae"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098": {
+      "witness_id": "f771db562814b3f03ba6bdc3db0c622e7c948fa1d584941454bd07dc724fe006",
+      "metadata_path": "rattleback_rocking_spin_coupling_reversal_00000098/metadata.json",
+      "metadata_sha256": "18148def1a3c9683cb53e4743540447879653ada5180ace4a2d0ba1d196d77c7"
+    }
+  },
+  "failures": []
+}

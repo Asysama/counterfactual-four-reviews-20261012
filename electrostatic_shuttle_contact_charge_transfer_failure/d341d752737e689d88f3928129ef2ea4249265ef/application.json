@@ -1,0 +1,8 @@
+{
+  "generator_name": "electrostatic_shuttle_contact_charge_transfer_failure",
+  "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/667",
+  "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/index.html",
+  "note": "Contributor self-check still pending. Two representative cases; owner review pending; no Sara application submitted.",
+  "self_check_complete": false
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case_id": "electrostatic_shuttle_contact_charge_transfer_failure_00000042",
+      "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.341561496257782,
+      "target_z_bounds": [
+        1.1610000133514404,
+        1.4549288749694824
+      ],
+      "target_objects": [
+        "graphite_coated_conductive_sphere"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    },
+    {
+      "case_id": "electrostatic_shuttle_contact_charge_transfer_failure_00000098",
+      "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.3706573247909546,
+      "target_z_bounds": [
+        1.4769999980926514,
+        1.6984422206878662
+      ],
+      "target_objects": [
+        "graphite_coated_conductive_sphere"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    }
+  ]
+}

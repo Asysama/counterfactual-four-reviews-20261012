@@ -1,0 +1,17 @@
+{
+  "decision": "NOT VERIFIED",
+  "generator_correctness": "NOT VERIFIED",
+  "scale_readiness": "NOT VERIFIED",
+  "runtime_provenance": "PASS",
+  "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "accepted_cases": 2,
+  "static_audited": 100000,
+  "rendered_primary_axes": [
+    "length",
+    "response",
+    "onset",
+    "depth"
+  ],
+  "self_check_complete": false,
+  "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/index.html"
+}

@@ -1,0 +1,122 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>静电摆球接触后没有换电荷</title><style>body{max-width:1240px;margin:auto;padding:24px;font:16px/1.6 system-ui;background:#f3f6fa;color:#182337}h1{font-size:28px}a{color:#175fbf}code{overflow-wrap:anywhere}article{padding:22px;background:white;border:1px solid #d9e1ed;border-radius:12px;margin:22px 0}.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}video{width:100%;aspect-ratio:1;background:#4e5460;scroll-margin-top:100px}button{padding:10px 14px;margin:5px;background:#225fbe;border:0;color:white;border-radius:6px;cursor:pointer}pre{padding:14px;background:#eaf0f8;overflow-wrap:anywhere;white-space:pre-wrap;font-size:12px}nav{position:sticky;top:0;z-index:3;background:#fff;padding:12px;border:1px solid #ddd}nav a{margin-right:20px}td,th{border:1px solid #d2dae8;padding:8px;text-align:left}table{border-collapse:collapse;width:100%}.badge{background:#e8efff;padding:10px;border-radius:6px}@media(max-width:700px){.grid{grid-template-columns:1fr}body{padding:12px}}</style><body><p><a href="../../index.html">← 四项总览</a></p><h1>静电摆球接触后没有换电荷</h1><p><code>electrostatic_shuttle_contact_charge_transfer_failure</code></p><p><a href="https://github.com/hipo-dev/counterfactual-data/pull/667">PR #667</a> · <code>d341d752737e689d88f3928129ef2ea4249265ef</code></p><p class="badge">NOT VERIFIED · 浏览器、画面检查及复现仍在进行</p><p>正式原片：原生 2048×2048、24fps、120 帧、5 秒。播放器使用 1024×1024 浏览器副本；RGB 与叠加为有损，浏览器 mask 另行验证为黑白。严格像素标签以原生无损 RGB mask 为准。</p><p>运动来自文档明确声明的简化物理模型，Blender Workbench 负责渲染。摇摆舟为平均模态模型，4 倍慢放；其他三项按正常时间播放。</p><button onclick="playAll()">播放本项全部八段</button><button onclick="seekEvidence()">证据帧</button><button onclick="seekFrame(0)">开头</button><button onclick="seekFrame(119)">最后一帧</button><nav><a href="#electrostatic_shuttle_contact_charge_transfer_failure_00000042">Seed 42</a><a href="#electrostatic_shuttle_contact_charge_transfer_failure_00000098">Seed 98</a></nav><article id="electrostatic_shuttle_contact_charge_transfer_failure_00000042"><h2>Seed 42</h2><p>介入：34 帧；首次差异：34 帧；证据：35 帧。</p><p><b>True：</b>A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. It contacts a plate, exchanges charge and is repelled toward the other plate, repeatedly shuttling between them.</p><p><b>Counterfactual：</b>A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. After ordinary shuttling, one plate contact wrongly fails to exchange its charge. The sphere retains its old charge and remains attracted against that plate instead of returning across the gap.</p><div class="grid"><div><h3>True</h3><video id="seed42-0" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-true.mp4">原生正式视频</a></p></div><div><h3>Counterfactual</h3><video id="seed42-1" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-counterfactual.mp4">原生正式视频</a></p></div><div><h3>白色目标 / 黑色背景 mask</h3><video id="seed42-2" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-mask.mp4">原生正式视频</a></p></div><div><h3>红色目标叠加</h3><video id="seed42-3" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-overlay.mp4">原生正式视频</a></p></div></div><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000042/metadata.json">元数据</a> · <a href="electrostatic_shuttle_contact_charge_transfer_failure_00000042/manifest.json">文件校验清单</a> · <a href="review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000042/full-scenes.jpg">成品视频整景检查</a></p></article><article id="electrostatic_shuttle_contact_charge_transfer_failure_00000098"><h2>Seed 98</h2><p>介入：34 帧；首次差异：34 帧；证据：35 帧。</p><p><b>True：</b>A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. It contacts a plate, exchanges charge and is repelled toward the other plate, repeatedly shuttling between them.</p><p><b>Counterfactual：</b>A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. After ordinary shuttling, one plate contact wrongly fails to exchange its charge. The sphere retains its old charge and remains attracted against that plate instead of returning across the gap.</p><div class="grid"><div><h3>True</h3><video id="seed98-0" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/video_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/video_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-true.mp4">原生正式视频</a></p></div><div><h3>Counterfactual</h3><video id="seed98-1" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/video_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/video_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-counterfactual.mp4">原生正式视频</a></p></div><div><h3>白色目标 / 黑色背景 mask</h3><video id="seed98-2" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-mask.mp4">原生正式视频</a></p></div><div><h3>红色目标叠加</h3><video id="seed98-3" controls muted playsinline preload="metadata" data-evidence="1.4583333333333333" src="electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4"></video><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4">直接播放网址</a> · <a href="https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-overlay.mp4">原生正式视频</a></p></div></div><p><a href="electrostatic_shuttle_contact_charge_transfer_failure_00000098/metadata.json">元数据</a> · <a href="electrostatic_shuttle_contact_charge_transfer_failure_00000098/manifest.json">文件校验清单</a> · <a href="review-evidence/native-inspection/electrostatic_shuttle_contact_charge_transfer_failure_00000098/full-scenes.jpg">成品视频整景检查</a></p></article><h2>证据与运行记录</h2><p><a href="runtime-witness.json">成功渲染环境</a> · <a href="runtime-witness-index.json">案例与运行记录对应表</a> · <a href="external-native-media.json">全部原生视频完整网址</a></p><p><a href="review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-independent.json">独立逐帧与物理检查</a> · <a href="review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-geometry.json">接触与画面范围检查</a> · <a href="review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-scale.json">100000 静态配方审计</a> · <a href="review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/axis-probes.json">全部六个轴的实际渲染</a> · <a href="review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-reproduce-compare.json">独立重新生成比较</a></p><details><summary>独立物理测量</summary><pre>{
+  &quot;status&quot;: &quot;PASS&quot;,
+  &quot;cases&quot;: [
+    {
+      &quot;status&quot;: &quot;PASS&quot;,
+      &quot;head_sha&quot;: &quot;d341d752737e689d88f3928129ef2ea4249265ef&quot;,
+      &quot;case_id&quot;: &quot;electrostatic_shuttle_contact_charge_transfer_failure_00000042&quot;,
+      &quot;first_changed_frame&quot;: 34,
+      &quot;minimum_target_border_px&quot;: 702,
+      &quot;minimum_mask_pixels&quot;: 9064,
+      &quot;physical_witnesses&quot;: {
+        &quot;true_contacts&quot;: 26,
+        &quot;cf_contacts&quot;: 3,
+        &quot;true_contact_times&quot;: [
+          1.0871527777777776,
+          1.2416666666666667,
+          1.3961805555555555,
+          1.5506944444444446,
+          1.7052083333333332,
+          1.8597222222222223,
+          2.0142361111111113,
+          2.1687499999999997,
+          2.323263888888889,
+          2.477777777777778,
+          2.6322916666666667,
+          2.786805555555556,
+          2.9413194444444444,
+          3.095833333333333,
+          3.2503472222222225,
+          3.4048611111111113,
+          3.5593749999999997,
+          3.713888888888889,
+          3.868402777777778,
+          4.022916666666666,
+          4.1774305555555555,
+          4.331944444444445,
+          4.486458333333333,
+          4.6409722222222225,
+          4.795486111111111,
+          4.95
+        ],
+        &quot;contact_charge_retained_C&quot;: 2.255764358148898e-09,
+        &quot;cf_terminal_contact_x&quot;: 0.5122361735282909,
+        &quot;evidence_frame&quot;: 35
+      },
+      &quot;decoded_frames_each_stream&quot;: 120,
+      &quot;visual_inspection&quot;: &quot;PENDING&quot;,
+      &quot;browser_playback&quot;: &quot;PENDING&quot;
+    },
+    {
+      &quot;status&quot;: &quot;PASS&quot;,
+      &quot;head_sha&quot;: &quot;d341d752737e689d88f3928129ef2ea4249265ef&quot;,
+      &quot;case_id&quot;: &quot;electrostatic_shuttle_contact_charge_transfer_failure_00000098&quot;,
+      &quot;first_changed_frame&quot;: 34,
+      &quot;minimum_target_border_px&quot;: 763,
+      &quot;minimum_mask_pixels&quot;: 5038,
+      &quot;physical_witnesses&quot;: {
+        &quot;true_contacts&quot;: 37,
+        &quot;cf_contacts&quot;: 3,
+        &quot;true_contact_times&quot;: [
+          1.2034722222222223,
+          1.3062500000000001,
+          1.409027777777778,
+          1.5118055555555554,
+          1.6145833333333333,
+          1.7173611111111111,
+          1.8201388888888888,
+          1.9229166666666666,
+          2.0256944444444445,
+          2.1284722222222223,
+          2.2312499999999997,
+          2.3340277777777776,
+          2.4368055555555554,
+          2.5395833333333333,
+          2.642361111111111,
+          2.745138888888889,
+          2.8479166666666664,
+          2.9506944444444443,
+          3.053472222222222,
+          3.15625,
+          3.259027777777778,
+          3.3618055555555557,
+          3.4645833333333336,
+          3.567361111111111,
+          3.670138888888889,
+          3.7729166666666667,
+          3.8756944444444446,
+          3.9784722222222224,
+          4.08125,
+          4.184027777777778,
+          4.2868055555555555,
+          4.389583333333333,
+          4.492361111111111,
+          4.595138888888889,
+          4.697916666666667,
+          4.800694444444445,
+          4.903472222222223
+        ],
+        &quot;contact_charge_retained_C&quot;: 1.472036023357533e-09,
+        &quot;cf_terminal_contact_x&quot;: 0.4161918909917363,
+        &quot;evidence_frame&quot;: 35
+      },
+      &quot;decoded_frames_each_stream&quot;: 120,
+      &quot;visual_inspection&quot;: &quot;PENDING&quot;,
+      &quot;browser_playback&quot;: &quot;PENDING&quot;
+    }
+  ],
+  &quot;formal_streams&quot;: 8,
+  &quot;visual_and_browser_pending&quot;: true
+}</pre></details><details><summary>浏览器实时播放状态</summary><pre id="receipt">尚未加载</pre></details><h2>申请 JSON（尚未提交）</h2><pre>{
+  &quot;generator_name&quot;: &quot;electrostatic_shuttle_contact_charge_transfer_failure&quot;,
+  &quot;pr_url&quot;: &quot;https://github.com/hipo-dev/counterfactual-data/pull/667&quot;,
+  &quot;head_sha&quot;: &quot;d341d752737e689d88f3928129ef2ea4249265ef&quot;,
+  &quot;review_url&quot;: &quot;https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/index.html&quot;,
+  &quot;note&quot;: &quot;Contributor self-check still pending. Two representative cases; owner review pending; no Sara application submitted.&quot;,
+  &quot;self_check_complete&quot;: false
+}</pre><script>const videos=[...document.querySelectorAll('video')];const history=[];
+function receipt(){document.getElementById('receipt').textContent=JSON.stringify({videos:videos.map(v=>({id:v.id,url:v.currentSrc,time:v.currentTime,duration:v.duration,width:v.videoWidth,height:v.videoHeight,ended:v.ended,paused:v.paused,readyState:v.readyState,error:v.error?{code:v.error.code,message:v.error.message}:null})),events:history},null,2)}
+async function playAll(){for(const v of videos){v.currentTime=0;v.muted=true}try{await Promise.all(videos.map(v=>v.play()))}catch(e){history.push({event:'play-error',message:String(e)})}receipt()}
+function seekEvidence(){for(const v of videos){v.pause();v.currentTime=Number(v.dataset.evidence)}receipt()}
+function seekFrame(i){for(const v of videos){v.pause();v.currentTime=i/24}receipt()}
+for(const v of videos){for(const type of ['ended','seeked','error','loadedmetadata'])v.addEventListener(type,()=>{history.push({id:v.id,event:type,time:v.currentTime});receipt()})}setInterval(receipt,500);</script></body></html>

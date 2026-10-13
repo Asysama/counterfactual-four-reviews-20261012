@@ -1,0 +1,145 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.0,
+      1.649999976158142
+    ],
+    "pos": [
+      -0.24890980124473572,
+      -4.75600004196167,
+      3.457279920578003
+    ],
+    "projection": "perspective"
+  },
+  "category": "electrostatic_charge_shuttle",
+  "descriptions": {
+    "counterfactual": "A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. After ordinary shuttling, one plate contact wrongly fails to exchange its charge. The sphere retains its old charge and remains attracted against that plate instead of returning across the gap.",
+    "true": "A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. It contacts a plate, exchanges charge and is repelled toward the other plate, repeatedly shuttling between them."
+  },
+  "evidence_frame": 35,
+  "first_changed_frame": 34,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "d341d752737e689d88f3928129ef2ea4249265ef",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "824c26235c2cb97d5e77dc803c8af2b4e1f9de6a7747c3b02f3b85b0dfa50f06",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "cdbb5fed987c0771c98e4d851de017d4b56e39b0563695740c54eec651bdd02d",
+      "engine/run.py": "110daed05be5ca59a8e02ad145d8aee8e8d4a3116fe66d4b139e5398385c85c5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "de58be9b0ba94e876d811ae87f20605fc2a95bf4de5c9d9f4540c1a9f28e5a09",
+      "src/scaling.py": "7469d12eea433d028c84866f45d5891b4b55273092f23c8bc7c5d9c942fdfa43",
+      "src/violation.py": "644ddc00b70913141720854f85782210d45cb21adf3b5602b765a778644fb7d5",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_physics.py": "ff672a9d4a0396e79f68affc335097c8203c5daea9d11b46d6ece54faf910894"
+    }
+  },
+  "intervention_frame": 34,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "graphite_coated_conductive_sphere"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 34,
+  "onset_frame": 34,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_contact_charge_transfer_disabled/mask.mp4",
+      "mask_overlay": "counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4",
+      "prompt": "counterfactual_contact_charge_transfer_disabled/prompt.txt",
+      "trajectory": "counterfactual_contact_charge_transfer_disabled/trajectory.npz",
+      "video": "counterfactual_contact_charge_transfer_disabled/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "electrostatic_shuttle_contact_charge_transfer_failure",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 3,
+      "bob_anchor": [
+        0.0,
+        0.0,
+        2.8
+      ],
+      "bob_mass": 4.1194837386950565e-05,
+      "bob_radius": 0.103,
+      "charge_magnitude": 2.255764358148898e-09,
+      "damping_rate": 0.25,
+      "depth": 1.03,
+      "electric_field": 127399.99999999999,
+      "gravity": 9.81,
+      "length": 1.28,
+      "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+      "onset": 23,
+      "physical_length": 0.1536,
+      "plate_half_gap": 0.6152361735282909,
+      "plate_height": 1.1,
+      "plate_width": 0.8045,
+      "response": 0.9099999999999999,
+      "rod_length": 1.5359999999999998,
+      "scene_unit_m": 0.1,
+      "theta_limit": 0.34,
+      "time_scale": 1.0,
+      "view": 4
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. It contacts a plate, exchanges charge and is repelled toward the other plate, repeatedly shuttling between them.",
+        "A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. After ordinary shuttling, one plate contact wrongly fails to exchange its charge. The sphere retains its old charge and remains attracted against that plate instead of returning across the gap."
+      ],
+      "correct_if_true": [
+        "A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. It contacts a plate, exchanges charge and is repelled toward the other plate, repeatedly shuttling between them."
+      ],
+      "violation_if_true": [
+        "A conductive lightweight sphere hangs on an insulating suspension between two oppositely charged metal plates connected to a maintained supply. After ordinary shuttling, one plate contact wrongly fails to exchange its charge. The sphere retains its old charge and remains attracted against that plate instead of returning across the gap."
+      ],
+      "violation_types": [
+        "electrostatic_shuttle_contact_charge_transfer_failure"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "electrostatic_shuttle_contact_charge_transfer_failure_00000042",
+  "timebase": {
+    "internal_substeps": null,
+    "outer_steps_per_recorded_frame": 120,
+    "physical_dt": 0.00034722222222222224,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "contact_charge_transfer_disabled"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case_id": "copper_sheet_false_static_magnetic_shielding_00000042",
+      "head_sha": "a60c430b69c98fd4a09f38923f53429025b382d5",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.39479026198387146,
+      "target_z_bounds": [
+        1.2376000881195068,
+        1.4214848279953003
+      ],
+      "target_objects": [
+        "steel_ball"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    },
+    {
+      "case_id": "copper_sheet_false_static_magnetic_shielding_00000098",
+      "head_sha": "a60c430b69c98fd4a09f38923f53429025b382d5",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.40127718448638916,
+      "target_z_bounds": [
+        1.5,
+        1.6434588432312012
+      ],
+      "target_objects": [
+        "steel_ball"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    }
+  ]
+}

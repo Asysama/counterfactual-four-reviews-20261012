@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "decoder": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "cases": [
+    {
+      "case_id": "electrostatic_shuttle_contact_charge_transfer_failure_00000042",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 2211156,
+          "sha256": "cbb4dc1234d740060b4ec1ac7e40d88823a7933bc655c19bac7c34a2266dad8f"
+        },
+        {
+          "path": "counterfactual_contact_charge_transfer_disabled/video_browser.mp4",
+          "bytes": 2214109,
+          "sha256": "20c5a3386a35bd1241628d3730bd65e19aa0113563f0f41afea44e99f7eaed56"
+        },
+        {
+          "path": "counterfactual_contact_charge_transfer_disabled/mask_browser.mp4",
+          "bytes": 56489,
+          "sha256": "30ce688340c56ab99a1573057a63e108aa774d4dd838ccb5325ea723a4e16582"
+        },
+        {
+          "path": "counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4",
+          "bytes": 2244379,
+          "sha256": "bfea7a11d260b671eef37f91dd0ef7b67a7f1d583b21ef21a78f2a5c981f76a3"
+        }
+      ]
+    },
+    {
+      "case_id": "electrostatic_shuttle_contact_charge_transfer_failure_00000098",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 2152828,
+          "sha256": "a39ced3d71e74c1d6131ae5098db4c75e10b2ae6f0dec3a6105c7d062219c34c"
+        },
+        {
+          "path": "counterfactual_contact_charge_transfer_disabled/video_browser.mp4",
+          "bytes": 2152160,
+          "sha256": "2a73c238939d31961eba6f8898c51aa6c10424d4c56daeb8e69ac9626f56e64d"
+        },
+        {
+          "path": "counterfactual_contact_charge_transfer_disabled/mask_browser.mp4",
+          "bytes": 48541,
+          "sha256": "c84c1508182f8caa59c6167e7888f70af37e0ae85cd3ff8961d27ccf371e385a"
+        },
+        {
+          "path": "counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4",
+          "bytes": 2175994,
+          "sha256": "16e3ce3490e5a25fdd9ef8f164e7d61e44b449cb3be0b0ac94cfffd657a81ea2"
+        }
+      ]
+    }
+  ]
+}

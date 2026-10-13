@@ -1,0 +1,165 @@
+{
+  "head_sha": "a60c430b69c98fd4a09f38923f53429025b382d5",
+  "case_id": "copper_sheet_false_static_magnetic_shielding_00000042",
+  "trajectory_and_recipe_exact": true,
+  "streams": {
+    "true/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 1,
+      "total_differing_pixels": 3,
+      "max_differing_pixels_per_frame": 2,
+      "differences": [
+        {
+          "frame": 31,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 909,
+              "y": 1221,
+              "original": [
+                71,
+                80,
+                71
+              ],
+              "reproduced": [
+                72,
+                80,
+                72
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 109,
+          "pixel_count": 2,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 892,
+              "y": 1200,
+              "original": [
+                83,
+                93,
+                84
+              ],
+              "reproduced": [
+                83,
+                93,
+                83
+              ]
+            },
+            {
+              "x": 892,
+              "y": 1201,
+              "original": [
+                81,
+                92,
+                81
+              ],
+              "reproduced": [
+                81,
+                92,
+                80
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "78604cdd607279324c09079de0cdbc7e1ab9ccae1890d8f8791202b59c91f729",
+      "reproduced_sha256": "e1069111974a3ba04d1f876ce722c0a1a5749a827374c7793a5b0506348f15f9"
+    },
+    "counterfactual_false_copper_static_field_attenuation/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 1,
+      "total_differing_pixels": 2,
+      "max_differing_pixels_per_frame": 1,
+      "differences": [
+        {
+          "frame": 76,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 851,
+              "y": 1215,
+              "original": [
+                67,
+                74,
+                67
+              ],
+              "reproduced": [
+                66,
+                73,
+                66
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 79,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 847,
+              "y": 1215,
+              "original": [
+                79,
+                90,
+                79
+              ],
+              "reproduced": [
+                79,
+                91,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "dbd90d594bfe34d059c9c545252b2fee79d826176e98e229f900bd74321eb367",
+      "reproduced_sha256": "aa21eaa6c036ccadd03a80e1c1377a5bb0d1e9a5427a8fd1590d0178d0a2bb25"
+    },
+    "counterfactual_false_copper_static_field_attenuation/mask.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "9f2850fb0e5fcaefc27a8bec228f9b9c045206d2e07d1fd3d3781cab3814c69f",
+      "reproduced_sha256": "9f2850fb0e5fcaefc27a8bec228f9b9c045206d2e07d1fd3d3781cab3814c69f"
+    },
+    "counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 1,
+      "total_differing_pixels": 1,
+      "max_differing_pixels_per_frame": 1,
+      "differences": [
+        {
+          "frame": 79,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 847,
+              "y": 1215,
+              "original": [
+                79,
+                90,
+                79
+              ],
+              "reproduced": [
+                79,
+                91,
+                79
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "8469c79f27ff8eb7e154ee27d25037f6520de8b01f7fd725fed6842c5f1b7847",
+      "reproduced_sha256": "5d551d43f52971b50dedf437d932fe153fc884572730eacbaa12c89dc1a6c6e3"
+    }
+  }
+}

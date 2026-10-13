@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+  "decoder": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "cases": [
+    {
+      "case_id": "rattleback_rocking_spin_coupling_reversal_00000042",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 1510886,
+          "sha256": "025e0763052af340a28c99f093255c37e0f02fd5cb914cc840c61309c9b6cd05"
+        },
+        {
+          "path": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/video_browser.mp4",
+          "bytes": 1516840,
+          "sha256": "a634cf7b1f1ea4b77b33c9b5175144d7340ce334b37a6103111aabe9c5baaec1"
+        },
+        {
+          "path": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_browser.mp4",
+          "bytes": 129606,
+          "sha256": "c9ef4a93be3dc200ed34da71ca7dc2551aaddb8b126c5d2e0c1da7e68d549dfc"
+        },
+        {
+          "path": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay_browser.mp4",
+          "bytes": 1415206,
+          "sha256": "42a930604095e748661bc68c3a014996c87382f3c05723750c5f9d17e20fb1e7"
+        }
+      ]
+    },
+    {
+      "case_id": "rattleback_rocking_spin_coupling_reversal_00000098",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 1475362,
+          "sha256": "7b2927e1845d286db5bacd687cf428c3461398dc648f72b1f78fa14942696b07"
+        },
+        {
+          "path": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/video_browser.mp4",
+          "bytes": 1473761,
+          "sha256": "4ca6098a355652fd40d10c5209daf8ae01753d3cda0379950c86f1ade898be6a"
+        },
+        {
+          "path": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_browser.mp4",
+          "bytes": 109293,
+          "sha256": "f0d0dba18cb4b9e2d27b749b49a4396d94546da45d6834c0959d3e6edaf995d8"
+        },
+        {
+          "path": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay_browser.mp4",
+          "bytes": 1404480,
+          "sha256": "9d631c3db1ae2840630dcf68de6a422d5270d378b219427f364c2f1f73110e50"
+        }
+      ]
+    }
+  ]
+}

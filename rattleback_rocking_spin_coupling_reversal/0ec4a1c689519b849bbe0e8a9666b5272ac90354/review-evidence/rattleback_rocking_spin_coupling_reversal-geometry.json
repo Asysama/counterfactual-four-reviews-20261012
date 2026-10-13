@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case_id": "rattleback_rocking_spin_coupling_reversal_00000042",
+      "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.19415360689163208,
+      "target_z_bounds": [
+        0.4399999976158142,
+        0.8971339464187622
+      ],
+      "target_objects": [
+        "attached_top_direction_strip",
+        "continuous_convex_rattleback",
+        "rigidly_attached_brass_mass_-1",
+        "rigidly_attached_brass_mass_1"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    },
+    {
+      "case_id": "rattleback_rocking_spin_coupling_reversal_00000098",
+      "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.22806218266487122,
+      "target_z_bounds": [
+        0.4399999976158142,
+        0.8685108423233032
+      ],
+      "target_objects": [
+        "attached_top_direction_strip",
+        "continuous_convex_rattleback",
+        "rigidly_attached_brass_mass_-1",
+        "rigidly_attached_brass_mass_1"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    }
+  ]
+}

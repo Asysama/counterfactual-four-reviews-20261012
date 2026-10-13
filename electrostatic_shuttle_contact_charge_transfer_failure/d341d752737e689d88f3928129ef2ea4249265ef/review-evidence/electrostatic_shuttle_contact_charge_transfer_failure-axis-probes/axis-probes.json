@@ -1,0 +1,629 @@
+{
+  "generator": "electrostatic_shuttle_contact_charge_transfer_failure",
+  "commit": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "baseline-true-35.png": "c99c8fc9b539ddfc54115862ace58ae155a4125c9c05eb649fe5d5fc676a55a1",
+        "baseline-true-90.png": "12fe2ee0bd4becdd75e9b06afcef6e7e78853be740adda4e418d5f98d8a28dbe",
+        "baseline-counterfactual-35.png": "35b7ce7835dd2107b9cd83545b6642e484a383039fe08d34f13c6af44293a7c3",
+        "baseline-counterfactual-90.png": "b499042b7d17ca96dc71dac23ff27ba2758309587e2d905ca3f4648489afc7f3"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.12,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.5031845105689772,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.2,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "length_low-true-35.png": "b2be6707ce45e74ee3fd49fc024b3f2a48b01b173f96fc3aa12e227318324852",
+        "length_low-true-90.png": "41d1ff87d05b0680dcccbc370b6d4456ab0ee1a2b6d0bcaef08f0455ce350354",
+        "length_low-counterfactual-35.png": "9d1ea791a7083239b706f57642885bf1259d0afde67a0725677b62bf50027a29",
+        "length_low-counterfactual-90.png": "124f68e7ad302479ad3254ef74cc9bcca3d85c5773c9614e24481ed736701320"
+      },
+      "metrics": {
+        "true-35": 3.0392529522931135,
+        "true-90": 3.035591973198785,
+        "counterfactual-35": 2.8911398428457753,
+        "counterfactual-90": 2.8911398428457753
+      },
+      "changed_pixels": {
+        "true-35": 102499,
+        "true-90": 102038,
+        "counterfactual-35": 99520,
+        "counterfactual-90": 99520
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1632,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6472509343738092,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.6320000000000001,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "length_high-true-35.png": "291ab7bad551b4a46dd0bbba475308c485fa93598a8405296f796348c06fb8af",
+        "length_high-true-90.png": "c675ef62a145cc3f2527e27f243fa69e95c2ef8db9784099d803deedd4500ed8",
+        "length_high-counterfactual-35.png": "715fd720c217cb3810f1adbe2a4bf385f92255b17dff34b0f5589273ef946697",
+        "length_high-counterfactual-90.png": "715fd720c217cb3810f1adbe2a4bf385f92255b17dff34b0f5589273ef946697"
+      },
+      "metrics": {
+        "true-35": 1.2777681703920718,
+        "true-90": 1.3361172146267362,
+        "counterfactual-35": 1.119535658094618,
+        "counterfactual-90": 1.119535658094618
+      },
+      "changed_pixels": {
+        "true-35": 68637,
+        "true-90": 69649,
+        "counterfactual-35": 66614,
+        "counterfactual-90": 66614
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 119000.0,
+        "charge_magnitude": 2.107032642226993e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "response_low-true-35.png": "57ba904af55356d97df2730714ca5ac110f229dbb03676c6f37a12cb7662ca73",
+        "response_low-true-90.png": "c1de4138c29d84505641a11ca0a86a5b3547cf14de3c06a76ec8678bdccbf98f",
+        "response_low-counterfactual-35.png": "04c5ea0548e1c9eaaeed13b2064bc5d9781f725a4f27b3229dcba6af01110a11",
+        "response_low-counterfactual-90.png": "86ac8de8f8b4c0662932cebf88c49f9360095fcd3747950dc89d426c5c4cc306"
+      },
+      "metrics": {
+        "true-35": 0.2696335404007523,
+        "true-90": 0.30641795970775465,
+        "counterfactual-35": 0.0,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 5886,
+        "true-90": 6561,
+        "counterfactual-35": 0,
+        "counterfactual-90": 0
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 156800.00000000003,
+        "charge_magnitude": 2.7763253638755675e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "response_high-true-35.png": "89c9f4d49a210a614a21c7c10eb5880b9be70e8242dfb125f26178abfd53e9a7",
+        "response_high-true-90.png": "fdb73547a2c4971acbe5e3589767ee0304a5dc78b5637d9702dc20a2f9215768",
+        "response_high-counterfactual-35.png": "a9ad97cc4e769bdfceb13d6324e88109f5e2092e7cf58356a3bc57469c09396f",
+        "response_high-counterfactual-90.png": "8ba79910faa134e7bbb55c6097952ced0fb9fa1619c4d3867a3a0654a4e6d308"
+      },
+      "metrics": {
+        "true-35": 0.31281478316695605,
+        "true-90": 0.30538996943721064,
+        "counterfactual-35": 0.0,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 6566,
+        "true-90": 6523,
+        "counterfactual-35": 0,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "onset_low-true-35.png": "b10d527b40f02575eef33ec7d6e82b40ca53a5a3c591f7332e212219e7757302",
+        "onset_low-true-90.png": "0d11d66758209373b72030b630ad89c5454bbfa5fa0b72afeba03959b7daece5",
+        "onset_low-counterfactual-35.png": "3fee6b108731c1b91e037b274095ca55301b510a7c211480d62678ce0f6755c3",
+        "onset_low-counterfactual-90.png": "49341af9738a729c817e4ba5a4d7b21438f7a533b029047062c61ebe739bd0b2"
+      },
+      "metrics": {
+        "true-35": 0.3062099880642361,
+        "true-90": 0.30574600784866895,
+        "counterfactual-35": 0.0,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 6546,
+        "true-90": 6576,
+        "counterfactual-35": 0,
+        "counterfactual-90": 0
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "onset_high-true-35.png": "0c8794b184f4227c796550c2a63547f7d642af4f19473317da3368b69ed5bea0",
+        "onset_high-true-90.png": "6c124d28114c7e1fe33517bd92b087877236fcc9c21a3bfaad4c5506a58f859e",
+        "onset_high-counterfactual-35.png": "4e6b6870e91ea95e0fdc0ddb5ab1b5f146f4aad8111a8f977e6639d0e349624c",
+        "onset_high-counterfactual-90.png": "1c774135e568347a7a0beb466131c37da14d4a48464d15d178f3de5d9d840e1e"
+      },
+      "metrics": {
+        "true-35": 0.30012229636863424,
+        "true-90": 0.30397316261574076,
+        "counterfactual-35": 0.3010875560619213,
+        "counterfactual-90": 0.0
+      },
+      "changed_pixels": {
+        "true-35": 6445,
+        "true-90": 6471,
+        "counterfactual-35": 6494,
+        "counterfactual-90": 0
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.075,
+        "bob_mass": 1.5904312808798326e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 1.196029268977995e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.5872361735282908,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.7625
+      },
+      "images": {
+        "depth_low-true-35.png": "ffca6e9ad34ffbe425b903c19a08a07fcd64c014aba48c6eb3ca5411eb548e5d",
+        "depth_low-true-90.png": "5b95fc37c6f5ed754e68f59a1f07da1931b094992171cad6bcb11c383233081b",
+        "depth_low-counterfactual-35.png": "9531690bdf061e63604b4bbf9b4d6e7d128578e64b35b10d03c17d08038b8676",
+        "depth_low-counterfactual-90.png": "3572ec1c0bcbbf0f3fc17b894b8cd665c1a0c274f2b019d3ec96d756b0ea16a1"
+      },
+      "metrics": {
+        "true-35": 0.939290929723669,
+        "true-90": 0.9419018780743634,
+        "counterfactual-35": 0.690652917932581,
+        "counterfactual-90": 0.690652917932581
+      },
+      "changed_pixels": {
+        "true-35": 30172,
+        "true-90": 30196,
+        "counterfactual-35": 26640,
+        "counterfactual-90": 26640
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.111,
+        "bob_mass": 5.155847402905995e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.619782510769401e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6232361735282907,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8165
+      },
+      "images": {
+        "depth_high-true-35.png": "c8d683aaec111c5ca67552acbb1bf878c7a2e32c30024427ed081106164006d9",
+        "depth_high-true-90.png": "229cbd98b52ab417f08ba11ad0b66b17b1d5f142a30bbd5f372b9eb2b677c32c",
+        "depth_high-counterfactual-35.png": "74bafd161f8e57b2f88a9e582bd355433cd7b5fe73b1fdd5cdac633a6293a7c0",
+        "depth_high-counterfactual-90.png": "74bafd161f8e57b2f88a9e582bd355433cd7b5fe73b1fdd5cdac633a6293a7c0"
+      },
+      "metrics": {
+        "true-35": 0.4719441731770833,
+        "true-90": 0.5444595902054398,
+        "counterfactual-35": 0.24934669777199073,
+        "counterfactual-90": 0.24934669777199073
+      },
+      "changed_pixels": {
+        "true-35": 22451,
+        "true-90": 23649,
+        "counterfactual-35": 19266,
+        "counterfactual-90": 19266
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "appearance_low-true-35.png": "1096705bbfefd61a8a2c7814cc542d9ce964f232868ab7d3ea299284eff16703",
+        "appearance_low-true-90.png": "8fa0a6f8e6de3a8318333c51d9adf12252f97ce36907a5a3ea3a5de637f4859c",
+        "appearance_low-counterfactual-35.png": "f62b7c202efde3dc292684a5d91bb644827187fb9ba252a1044e561c93baefd3",
+        "appearance_low-counterfactual-90.png": "f62b7c202efde3dc292684a5d91bb644827187fb9ba252a1044e561c93baefd3"
+      },
+      "metrics": {
+        "true-35": 2.931589197229456,
+        "true-90": 2.931171558521412,
+        "counterfactual-35": 2.9367613615813077,
+        "counterfactual-90": 2.9367613615813077
+      },
+      "changed_pixels": {
+        "true-35": 213461,
+        "true-90": 213451,
+        "counterfactual-35": 213769,
+        "counterfactual-90": 213769
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "appearance_high-true-35.png": "b2f42daea892135df6aaa0efab0131ae01b315e3e7b5ba46bb05e3ee8141e291",
+        "appearance_high-true-90.png": "05eef8dd35029ebd9081625805ed152cb5cd17d57ebb1e138c5976789e64033e",
+        "appearance_high-counterfactual-35.png": "7f7b0de14b824e2b56a9ad518747584c2e97c5dc4b1955017d3ae1cb52a5edfb",
+        "appearance_high-counterfactual-90.png": "7f7b0de14b824e2b56a9ad518747584c2e97c5dc4b1955017d3ae1cb52a5edfb"
+      },
+      "metrics": {
+        "true-35": 3.95256268536603,
+        "true-90": 3.9528780336733216,
+        "counterfactual-35": 3.959664238823785,
+        "counterfactual-90": 3.959664238823785
+      },
+      "changed_pixels": {
+        "true-35": 213501,
+        "true-90": 213490,
+        "counterfactual-35": 213805,
+        "counterfactual-90": 213805
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "view_low-true-35.png": "db0695c1859e9468e84e36037533facfee4c66a0412de5c6ec16ac10550760d7",
+        "view_low-true-90.png": "0abc0a6f8a4311a6ddc05dc6d73c1e9464c0594a469e8093e23509f76015e78f",
+        "view_low-counterfactual-35.png": "b00dcc71817abf46e5cd5da05a8e21d8e2e17f2e9253d8620ef910ebb0f491a9",
+        "view_low-counterfactual-90.png": "b00dcc71817abf46e5cd5da05a8e21d8e2e17f2e9253d8620ef910ebb0f491a9"
+      },
+      "metrics": {
+        "true-35": 4.4119138364438655,
+        "true-90": 4.469933969003183,
+        "counterfactual-35": 4.421563042534722,
+        "counterfactual-90": 4.421563042534722
+      },
+      "changed_pixels": {
+        "true-35": 279492,
+        "true-90": 280373,
+        "counterfactual-35": 279673,
+        "counterfactual-90": 279673
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "physical_length": 0.1536,
+        "bob_radius": 0.103,
+        "bob_mass": 4.1194837386950565e-05,
+        "electric_field": 127399.99999999999,
+        "charge_magnitude": 2.255764358148898e-09,
+        "theta_limit": 0.34,
+        "damping_rate": 0.25,
+        "plate_half_gap": 0.6152361735282909,
+        "scene_unit_m": 0.1,
+        "model": "conductive shuttle reduced electrostatic-pendulum model, maintained plate potentials, inelastic resolved contacts",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.8
+        ],
+        "rod_length": 1.5359999999999998,
+        "plate_height": 1.1,
+        "plate_width": 0.8045
+      },
+      "images": {
+        "view_high-true-35.png": "d10e9c7159136fda8f953bfeaa39a3d3280b2252a3c1cd09ebc236974b0500d5",
+        "view_high-true-90.png": "d0092be94a83512aeadead97f5167ac5153a204be0dc80fc2e75f1f45ef5125b",
+        "view_high-counterfactual-35.png": "077a36719bd1e0f3186d29929fc03eec071abf11868802bc31a100d71b85ca7e",
+        "view_high-counterfactual-90.png": "372fa3ba6abb6dfd2a9104b19d7386e8282655ec84b4218afdae5da7cadcb08b"
+      },
+      "metrics": {
+        "true-35": 5.0012054443359375,
+        "true-90": 4.997589111328125,
+        "counterfactual-35": 5.031868828667535,
+        "counterfactual-90": 5.031868828667535
+      },
+      "changed_pixels": {
+        "true-35": 245034,
+        "true-90": 245831,
+        "counterfactual-35": 245219,
+        "counterfactual-90": 245219
+      }
+    }
+  }
+}

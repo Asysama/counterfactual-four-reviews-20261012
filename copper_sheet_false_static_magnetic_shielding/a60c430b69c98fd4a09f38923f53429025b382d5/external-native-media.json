@@ -1,0 +1,61 @@
+{
+  "head_sha": "a60c430b69c98fd4a09f38923f53429025b382d5",
+  "files": {
+    "copper_sheet_false_static_magnetic_shielding_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-42-true.mp4",
+      "bytes": 26746371,
+      "sha256": "78604cdd607279324c09079de0cdbc7e1ab9ccae1890d8f8791202b59c91f729",
+      "github_asset_id": 636567334,
+      "server_digest": "sha256:78604cdd607279324c09079de0cdbc7e1ab9ccae1890d8f8791202b59c91f729"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-42-counterfactual.mp4",
+      "bytes": 26313321,
+      "sha256": "dbd90d594bfe34d059c9c545252b2fee79d826176e98e229f900bd74321eb367",
+      "github_asset_id": 636567343,
+      "server_digest": "sha256:dbd90d594bfe34d059c9c545252b2fee79d826176e98e229f900bd74321eb367"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-42-mask.mp4",
+      "bytes": 2012778,
+      "sha256": "9f2850fb0e5fcaefc27a8bec228f9b9c045206d2e07d1fd3d3781cab3814c69f",
+      "github_asset_id": 636567342,
+      "server_digest": "sha256:9f2850fb0e5fcaefc27a8bec228f9b9c045206d2e07d1fd3d3781cab3814c69f"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-42-overlay.mp4",
+      "bytes": 26094428,
+      "sha256": "8469c79f27ff8eb7e154ee27d25037f6520de8b01f7fd725fed6842c5f1b7847",
+      "github_asset_id": 636567345,
+      "server_digest": "sha256:8469c79f27ff8eb7e154ee27d25037f6520de8b01f7fd725fed6842c5f1b7847"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-98-true.mp4",
+      "bytes": 26207719,
+      "sha256": "9f6a97460d72bd0fcf2770c97898dd83fd61060a112334569eded8c41fa8e0a6",
+      "github_asset_id": 636567340,
+      "server_digest": "sha256:9f6a97460d72bd0fcf2770c97898dd83fd61060a112334569eded8c41fa8e0a6"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000098/counterfactual_false_copper_static_field_attenuation/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-98-counterfactual.mp4",
+      "bytes": 25846573,
+      "sha256": "e4eb6b27dd0912d87d290d697cd667353d119a6db5b2a7f6492555da0a8a7b74",
+      "github_asset_id": 636567611,
+      "server_digest": "sha256:e4eb6b27dd0912d87d290d697cd667353d119a6db5b2a7f6492555da0a8a7b74"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000098/counterfactual_false_copper_static_field_attenuation/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-98-mask.mp4",
+      "bytes": 1977299,
+      "sha256": "880d4bccbaae99f7ab2ec507782775398216c0a173f984765598c39c32c09b20",
+      "github_asset_id": 636568749,
+      "server_digest": "sha256:880d4bccbaae99f7ab2ec507782775398216c0a173f984765598c39c32c09b20"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000098/counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/copper_sheet_false_static_magnetic_shielding-a60c430b69c98fd4a09f38923f53429025b382d5-98-overlay.mp4",
+      "bytes": 25732036,
+      "sha256": "379e5708a81eb275a49456a87c55a44d4deac63563dc6f07004df8f396ee5ee1",
+      "github_asset_id": 636568914,
+      "server_digest": "sha256:379e5708a81eb275a49456a87c55a44d4deac63563dc6f07004df8f396ee5ee1"
+    }
+  }
+}

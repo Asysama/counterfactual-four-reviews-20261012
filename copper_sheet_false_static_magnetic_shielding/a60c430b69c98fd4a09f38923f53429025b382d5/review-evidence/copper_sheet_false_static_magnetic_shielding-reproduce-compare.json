@@ -1,0 +1,22 @@
+{
+  "true/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 2.649095323350694e-09,
+    "max_frame_mean": 1.5894571940104166e-07
+  },
+  "counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 6.622738308376735e-10,
+    "max_frame_mean": 7.947285970052083e-08
+  },
+  "counterfactual_false_copper_static_field_attenuation/mask.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_false_copper_static_field_attenuation/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 2.649095323350694e-09,
+    "max_frame_mean": 2.384185791015625e-07
+  }
+}

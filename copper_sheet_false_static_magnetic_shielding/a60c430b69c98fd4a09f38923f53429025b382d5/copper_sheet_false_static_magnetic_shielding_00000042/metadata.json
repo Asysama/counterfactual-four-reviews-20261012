@@ -1,0 +1,149 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.550000011920929,
+      0.0,
+      1.899999976158142
+    ],
+    "pos": [
+      3.8847556114196777,
+      -6.156000137329102,
+      4.239279747009277
+    ],
+    "projection": "perspective"
+  },
+  "category": "static_magnetic_shielding",
+  "descriptions": {
+    "counterfactual": "A steel sphere hangs from an insulating suspension beside a fixed permanent magnet. An ordinary copper sheet slides slowly between the magnet and sphere and stops without touching either. Although the magnet stays fixed, the sheet wrongly eliminates its steady magnetic attraction and the sphere returns toward the vertical.",
+    "true": "A steel sphere hangs from an insulating suspension beside a fixed permanent magnet. An ordinary copper sheet slides slowly between the magnet and sphere and stops without touching either. After the insertion transient, the sphere remains deflected toward the magnet."
+  },
+  "evidence_frame": 28,
+  "first_changed_frame": 24,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "a60c430b69c98fd4a09f38923f53429025b382d5",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "824c26235c2cb97d5e77dc803c8af2b4e1f9de6a7747c3b02f3b85b0dfa50f06",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "cdbb5fed987c0771c98e4d851de017d4b56e39b0563695740c54eec651bdd02d",
+      "engine/run.py": "110daed05be5ca59a8e02ad145d8aee8e8d4a3116fe66d4b139e5398385c85c5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "62d917069e388c7d232b4538f820486d0a8d80783329d2ccb7a855c8589defd3",
+      "src/scaling.py": "7469d12eea433d028c84866f45d5891b4b55273092f23c8bc7c5d9c942fdfa43",
+      "src/violation.py": "e31dc2f780cd334672434f1fdc170f7892294cb576751702e9c9a176507ec5ad",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_physics.py": "21ceebbd207395c15d76ff024ac128a9798e03bda53b402bfc91928fc06122e0"
+    }
+  },
+  "intervention_frame": 24,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "steel_ball"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 24,
+  "onset_frame": 24,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_false_copper_static_field_attenuation/mask.mp4",
+      "mask_overlay": "counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4",
+      "prompt": "counterfactual_false_copper_static_field_attenuation/prompt.txt",
+      "trajectory": "counterfactual_false_copper_static_field_attenuation/trajectory.npz",
+      "video": "counterfactual_false_copper_static_field_attenuation/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "copper_sheet_false_static_magnetic_shielding",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 3,
+      "bob_anchor": [
+        0.0,
+        0.0,
+        2.6
+      ],
+      "bob_mass": 0.018279522509836204,
+      "bob_radius": 0.0824,
+      "camera_azimuth_degrees": 32.8,
+      "damping_rate": 6.5,
+      "depth": 1.03,
+      "dipole_moment_Am2": 526.1324071799546,
+      "gravity": 9.81,
+      "length": 1.28,
+      "magnet_side": 0.8072939249553919,
+      "magnet_x": 2.0122109817261036,
+      "magnet_z": 1.3390848071629775,
+      "magnetic_gap_m": 0.1792,
+      "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+      "onset": 23,
+      "physical_length": 0.128,
+      "response": 0.9099999999999999,
+      "scene_unit_m": 0.1,
+      "screen_end_z": 1.4590848071629776,
+      "screen_height": 1.024,
+      "screen_stop_frame": 17,
+      "screen_x": 0.9882109817261036,
+      "theta_equilibrium": 0.1729,
+      "time_scale": 1.0,
+      "view": 4
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A steel sphere hangs from an insulating suspension beside a fixed permanent magnet. An ordinary copper sheet slides slowly between the magnet and sphere and stops without touching either. After the insertion transient, the sphere remains deflected toward the magnet.",
+        "A steel sphere hangs from an insulating suspension beside a fixed permanent magnet. An ordinary copper sheet slides slowly between the magnet and sphere and stops without touching either. Although the magnet stays fixed, the sheet wrongly eliminates its steady magnetic attraction and the sphere returns toward the vertical."
+      ],
+      "correct_if_true": [
+        "A steel sphere hangs from an insulating suspension beside a fixed permanent magnet. An ordinary copper sheet slides slowly between the magnet and sphere and stops without touching either. After the insertion transient, the sphere remains deflected toward the magnet."
+      ],
+      "violation_if_true": [
+        "A steel sphere hangs from an insulating suspension beside a fixed permanent magnet. An ordinary copper sheet slides slowly between the magnet and sphere and stops without touching either. Although the magnet stays fixed, the sheet wrongly eliminates its steady magnetic attraction and the sphere returns toward the vertical."
+      ],
+      "violation_types": [
+        "copper_sheet_false_static_magnetic_shielding"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "copper_sheet_false_static_magnetic_shielding_00000042",
+  "timebase": {
+    "internal_substeps": null,
+    "outer_steps_per_recorded_frame": 40,
+    "physical_dt": 0.0010416666666666667,
+    "physical_seconds_per_video_second": 1.0,
+    "solver": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+    "source_dt": 0.041666666666666664
+  },
+  "violation_type": "false_copper_static_field_attenuation"
+}

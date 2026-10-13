@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "2ebd3fbf0f9a5daf2c211f8c473c2cc786d4a08410d61c5c3d8dc56349814722": {
+      "path": "runtime-witness.json",
+      "sha256": "2ebd3fbf0f9a5daf2c211f8c473c2cc786d4a08410d61c5c3d8dc56349814722",
+      "generator": "copper_sheet_false_static_magnetic_shielding",
+      "case_set": "seeds42,98",
+      "source_commit": "a60c430b69c98fd4a09f38923f53429025b382d5"
+    }
+  },
+  "cases": {
+    "copper_sheet_false_static_magnetic_shielding_00000042": {
+      "witness_id": "2ebd3fbf0f9a5daf2c211f8c473c2cc786d4a08410d61c5c3d8dc56349814722",
+      "metadata_path": "copper_sheet_false_static_magnetic_shielding_00000042/metadata.json",
+      "metadata_sha256": "102ad3239e9c7483128ba5c5f4fc1f9a24751c64adb34dbf58e5b16eb8670734"
+    },
+    "copper_sheet_false_static_magnetic_shielding_00000098": {
+      "witness_id": "2ebd3fbf0f9a5daf2c211f8c473c2cc786d4a08410d61c5c3d8dc56349814722",
+      "metadata_path": "copper_sheet_false_static_magnetic_shielding_00000098/metadata.json",
+      "metadata_sha256": "5de281fc0629953d1c6eeba99f1012f5c20441d507c32133b0c03ae74cfebf97"
+    }
+  },
+  "failures": []
+}

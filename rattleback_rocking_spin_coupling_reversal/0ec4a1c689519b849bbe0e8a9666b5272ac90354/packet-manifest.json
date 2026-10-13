@@ -1,0 +1,804 @@
+{
+  "generator_name": "rattleback_rocking_spin_coupling_reversal",
+  "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+  "files": {
+    "accepted.jsonl": {
+      "bytes": 330,
+      "sha256": "bd2faa7efbc3930f58a89c3970c9c57997c7a94e74122d26179732edde8040d0"
+    },
+    "application.json": {
+      "bytes": 535,
+      "sha256": "e236b9b83957b322a20c0aee2f06dae3472f83f5d0bd98a7140335c3b0fb90e5"
+    },
+    "expected-case-ids.json": {
+      "bytes": 115,
+      "sha256": "0858cf1480819aa4e6359233922771c83fd6d632a792623046ec3522d5921f2e"
+    },
+    "external-native-media.json": {
+      "bytes": 4823,
+      "sha256": "fa91c7729ede6a9c214684a70be505c46676b5f0088a78f371ce49ee288056af"
+    },
+    "index.html": {
+      "bytes": 15022,
+      "sha256": "f0fc935092ed407f7b737a6660b92846dd09dbdf2867a7b39136536682b83263"
+    },
+    "production-header.json": {
+      "bytes": 2332,
+      "sha256": "7c7c07f49199c160a45068aef9269a260c41f1779624ca2b9a6d50f0fb905968"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/browser-derivatives.json": {
+      "bytes": 805,
+      "sha256": "ec992c2de6adf8eee12b824670ffbc5b31e675fc3a3ff0a1cb1b226768de4d00"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual-000.png": {
+      "bytes": 164348,
+      "sha256": "f2a41865a49b5d26da0b8ee0935119b2b3c779494db16ff7338165b6e5ae6863"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual-024.png": {
+      "bytes": 166176,
+      "sha256": "d6c7249176e882c0d8006b9cdd1743543337f334a5ace199d89f7241a0106134"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual-038.png": {
+      "bytes": 144560,
+      "sha256": "006099119903506b0b8eaa0b707f2ad1dc366c822a39e54875f6a2b069552e48"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual-090.png": {
+      "bytes": 172785,
+      "sha256": "96ea217866aa61eb571465eee6cdd7e104b9abc5f3867554934cef4de294b1eb"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual-119.png": {
+      "bytes": 157959,
+      "sha256": "e90c78306bcd979905e48984ba50132033c4e8d8967503bed92c033b28caeafd"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_browser.mp4": {
+      "bytes": 129606,
+      "sha256": "c9ef4a93be3dc200ed34da71ca7dc2551aaddb8b126c5d2e0c1da7e68d549dfc"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay_browser.mp4": {
+      "bytes": 1415206,
+      "sha256": "42a930604095e748661bc68c3a014996c87382f3c05723750c5f9d17e20fb1e7"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/prompt.txt": {
+      "bytes": 300,
+      "sha256": "e8386fdc102bacfa1c2611b19864f2e0144aa9025e99a6d4e9eb1d58703feb8c"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/trajectory.npz": {
+      "bytes": 7104,
+      "sha256": "c7577fa2a5d8e4c0a0ff1251cb125faa063686269f0c5d27f08a9546f3032df0"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/video_browser.mp4": {
+      "bytes": 1516840,
+      "sha256": "a634cf7b1f1ea4b77b33c9b5175144d7340ce334b37a6103111aabe9c5baaec1"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/decoded-audit.json": {
+      "bytes": 1000,
+      "sha256": "570a7fc11b2e2bd589546c7a0f4dd5b2f8234c7ba892b10794c74753974f0e31"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "ec27457bd4c5f1a2f7624b6579503c6a8d0f57e0b05a8b5e6b3a9947d96aa8c1"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/manifest.json": {
+      "bytes": 5285,
+      "sha256": "3a8a123531586097d92406f19cc2812362e4296efaf4381ee4e56fed87755f19"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/mask-000.png": {
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/mask-024.png": {
+      "bytes": 14142,
+      "sha256": "2fe6f085d5a2bb5f3176182e39591fbc68ef9c9b03cab0c572bd04583df600ad"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/mask-038.png": {
+      "bytes": 13989,
+      "sha256": "f0139637c9257a1eb039b47f899b6de8b14ac27358c4d959fe4b32344e77a3de"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/mask-090.png": {
+      "bytes": 14753,
+      "sha256": "0d7d1fe9c786dc2871c38532f0048c56bff911d9a83c78251909d097ae890372"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/mask-119.png": {
+      "bytes": 15850,
+      "sha256": "12dfba071702341534db8c6dc5dd4832e895cd0496f5d9acea16c6ddf86522d8"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/metadata.json": {
+      "bytes": 7256,
+      "sha256": "9a59e0b0f6b430c04d87d34e1970e09f54129abf70e13e3b876f4824015b77ae"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/overlay-000.png": {
+      "bytes": 164348,
+      "sha256": "f2a41865a49b5d26da0b8ee0935119b2b3c779494db16ff7338165b6e5ae6863"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/overlay-024.png": {
+      "bytes": 80829,
+      "sha256": "bc8c1cc82af343ab2f1fab2087339bf6fb88de62cd1825af6cadd3db68a46f90"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/overlay-038.png": {
+      "bytes": 79159,
+      "sha256": "779c92d6588c23f049719fb364b28a584b6fa3d93d59ab36acd2a72dbc9b1cf7"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/overlay-090.png": {
+      "bytes": 81567,
+      "sha256": "62c5f3d58a818e0734aeec0a595fda2bfa7dc1c6bae73eba4c18eacb06553378"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/overlay-119.png": {
+      "bytes": 84127,
+      "sha256": "42322cec570438c40707da6a58971657e3329d17faae92ad4992ebdbdb76cede"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true/prompt.txt": {
+      "bytes": 276,
+      "sha256": "b4f88eda4b568f64ce4ae10febf82699fd42f95b21123cef77765b5459b04120"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true/trajectory.npz": {
+      "bytes": 7094,
+      "sha256": "7dbf31fe30983aabf73dd9110cf313b40272b4a8fa31e9f93eb3e8dc62cb932a"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true/video_browser.mp4": {
+      "bytes": 1510886,
+      "sha256": "025e0763052af340a28c99f093255c37e0f02fd5cb914cc840c61309c9b6cd05"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true-000.png": {
+      "bytes": 164348,
+      "sha256": "f2a41865a49b5d26da0b8ee0935119b2b3c779494db16ff7338165b6e5ae6863"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true-024.png": {
+      "bytes": 165643,
+      "sha256": "73a6d6a1f94bfab0308938cf4efb22b40375f5266a7615a469fb76f1666bb4f1"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true-038.png": {
+      "bytes": 174761,
+      "sha256": "c2e4d57a352250580886396f48718a0f9e4ce083265751afb6b938fdb1f97b14"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true-090.png": {
+      "bytes": 155965,
+      "sha256": "d4e5c5dfabdf39688deddfac0874d2f092abaae0dc5150dad8c1ff4e831e9ff0"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/true-119.png": {
+      "bytes": 183168,
+      "sha256": "ca0a0eda237d60f28ef74185514e1316506ea742fcd49287faa0d8b8ae4076c5"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/browser-derivatives.json": {
+      "bytes": 805,
+      "sha256": "8078ee4cb122c236185e06898ad01705e72f083259b99ee274c9eb3e250b4343"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual-000.png": {
+      "bytes": 169796,
+      "sha256": "386e3dd6b89ecbae4a8c2844970513d0030507ef1d2e0b8d72313c517766ccce"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual-028.png": {
+      "bytes": 170776,
+      "sha256": "4b578aa57cf46207d9b469a9ec450a4fb99e7bed9e1ebbe788e2bd4a8e6ca862"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual-042.png": {
+      "bytes": 144681,
+      "sha256": "203910aabee9584f240fc1457837573fbbce961a6a75382e4ca4855dd6fe9872"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual-090.png": {
+      "bytes": 170871,
+      "sha256": "69e195f66557c775333914d88f293d809f460e23858bff224831649abc10d3dc"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual-119.png": {
+      "bytes": 152441,
+      "sha256": "4aca29366ddb7ed8e6a7fdbeca553517aa0eabc4e0e8a391aa6653f01a943cc1"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_browser.mp4": {
+      "bytes": 109293,
+      "sha256": "f0d0dba18cb4b9e2d27b749b49a4396d94546da45d6834c0959d3e6edaf995d8"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay_browser.mp4": {
+      "bytes": 1404480,
+      "sha256": "9d631c3db1ae2840630dcf68de6a422d5270d378b219427f364c2f1f73110e50"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/prompt.txt": {
+      "bytes": 300,
+      "sha256": "e8386fdc102bacfa1c2611b19864f2e0144aa9025e99a6d4e9eb1d58703feb8c"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/trajectory.npz": {
+      "bytes": 6877,
+      "sha256": "4a081111b478d50f2457dcf5e3cab3859e0bd23f1ed8e56aa91f439810f3688f"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/video_browser.mp4": {
+      "bytes": 1473761,
+      "sha256": "4ca6098a355652fd40d10c5209daf8ae01753d3cda0379950c86f1ade898be6a"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/decoded-audit.json": {
+      "bytes": 1000,
+      "sha256": "f6627763e075d4f74d529d87999798a3325dbdd9abe453b32afb89e26f7919aa"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "f9e71325bdc90f9867130222a35a6a0bfe20eeb176558078363b3928fed36895"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/manifest.json": {
+      "bytes": 5285,
+      "sha256": "0e0ead06f1479ad157f2818488174bb74a1c4fb06f122216b18af525b73e8bcc"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/mask-000.png": {
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/mask-028.png": {
+      "bytes": 14241,
+      "sha256": "6d9e1fcaa6af864b5ca95c6157f81553821a340a21f0d1e04bb2240ce6099063"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/mask-042.png": {
+      "bytes": 13770,
+      "sha256": "d319e0d33d1fff134608d58c771e38a251b15fe095c18086aeea72db60bf31d3"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/mask-090.png": {
+      "bytes": 14942,
+      "sha256": "436a20280ec8b882dfe1a783b87ba39e5e69320a108c30f0c38043fe13233f60"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/mask-119.png": {
+      "bytes": 14768,
+      "sha256": "540dc3416618f16ef4573a440b29ed1608046e83b5e11a591ecdc43f6a013884"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/metadata.json": {
+      "bytes": 7237,
+      "sha256": "18148def1a3c9683cb53e4743540447879653ada5180ace4a2d0ba1d196d77c7"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/overlay-000.png": {
+      "bytes": 169796,
+      "sha256": "386e3dd6b89ecbae4a8c2844970513d0030507ef1d2e0b8d72313c517766ccce"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/overlay-028.png": {
+      "bytes": 93417,
+      "sha256": "e2e8eb9ab385500d53995531c75e5910bf523e38e94e97b00e8b884b5885972b"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/overlay-042.png": {
+      "bytes": 88175,
+      "sha256": "1daec1f641cdaf7ce08a027b729e30a563d4967b27893aed3ec2bfeb696b0ea5"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/overlay-090.png": {
+      "bytes": 96730,
+      "sha256": "92ea8518524012a63075f9789803cbfdfdac189785aabbde4a95fc064c7879f0"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/overlay-119.png": {
+      "bytes": 93747,
+      "sha256": "0439db2cee4df3e322995a43cba8a08e2563c7cf473e25dbcd501027981ea106"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true/prompt.txt": {
+      "bytes": 276,
+      "sha256": "b4f88eda4b568f64ce4ae10febf82699fd42f95b21123cef77765b5459b04120"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true/trajectory.npz": {
+      "bytes": 6869,
+      "sha256": "3f3ccf6ac09d072278328fd8e5ff141ab53d9fe0807a9f3f1ffd16a189f6902a"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true/video_browser.mp4": {
+      "bytes": 1475362,
+      "sha256": "7b2927e1845d286db5bacd687cf428c3461398dc648f72b1f78fa14942696b07"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true-000.png": {
+      "bytes": 169796,
+      "sha256": "386e3dd6b89ecbae4a8c2844970513d0030507ef1d2e0b8d72313c517766ccce"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true-028.png": {
+      "bytes": 170944,
+      "sha256": "8b6a1f0cbac94da9134492370369c3e560f32edee71532b4e86f4ec85a677a62"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true-042.png": {
+      "bytes": 170664,
+      "sha256": "f00237f7c8f9d27b11200cda2ba0841d47b7232860e7ff0f2d9f96876ac5f925"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true-090.png": {
+      "bytes": 153029,
+      "sha256": "529d56a705d2fcdff5a400d58f33c3519dfc53dbe717754f51fd88a613fd1d4e"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true-119.png": {
+      "bytes": 173586,
+      "sha256": "6a25bf9b6cfab7d69e550bbbd7db73186a4c2737ad503cef1537b0fde1fcbe13"
+    },
+    "review-evidence/2026-10-13_geometry-audit.py": {
+      "bytes": 3205,
+      "sha256": "e19773f6ccc7a28e7f20b2ae85168f62bf263216189fb72a23c21e363e536987"
+    },
+    "review-evidence/2026-10-13_independent-all-v6.py": {
+      "bytes": 9447,
+      "sha256": "dd7f03e47c64f3cb2715a3e5dccffdb51f368eac1975e12d37f6f5dc9b0a3285"
+    },
+    "review-evidence/2026-10-13_inspection-artifacts.py": {
+      "bytes": 2090,
+      "sha256": "a29460ec6a350a3e7c36522b2312086ecf717bf6a240a7274549ceb70cf7af74"
+    },
+    "review-evidence/native-inspection/manifest.json": {
+      "bytes": 3452,
+      "sha256": "38e99aaf0c2811a9112231a1a6bf7123a1316f7b363991113129c0fb41c77861"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/full-scenes-display.jpg": {
+      "bytes": 59712,
+      "sha256": "951f7407061932ce4efc903fe16f34ce37b4d6020d8fcf67128e3665c847f185"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/full-scenes.jpg": {
+      "bytes": 150689,
+      "sha256": "d2534fc1f9919665ef3f62a15f7245a5e6029c77eadb12d63ec73faa27cdca88"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-cf-037.png": {
+      "bytes": 73423,
+      "sha256": "c9aa5f9af50f2144898548e472d4a83fc7a76c9e56c484bece87fad985932c65"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-cf-038.png": {
+      "bytes": 73030,
+      "sha256": "14adcc7bfcffac7c644d38bf3bd0ffeb723446ada29527a3333a2bc2408b8ca2"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-cf-039.png": {
+      "bytes": 74652,
+      "sha256": "8118a10b305181a43a049c975e608c9e723e929ff7e9fb96e60473d8736afebc"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-cf-040.png": {
+      "bytes": 76989,
+      "sha256": "e53ffdd5a01cb6a7fc344c4c45e9123aa6e213263e91d4dfc26a9a39f9b0f6fe"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-mask-037.png": {
+      "bytes": 2894,
+      "sha256": "e1a3d431f2fb515312cf00dd5109899bc7c781e907ae2c478f8cea22f50c4764"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-mask-038.png": {
+      "bytes": 2943,
+      "sha256": "f6600b81866dca55c361e4f4932ddad53c131b4733cbecbf274c422e276b5ffc"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-mask-039.png": {
+      "bytes": 3001,
+      "sha256": "114892fbe001599bc5bd93778b9eac58415de18f668263ec7205de891bd912a3"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-mask-040.png": {
+      "bytes": 3305,
+      "sha256": "87cfb04763023ae234cf77a4323538ae08f877652ec500dd2c8ca6225c341fa2"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-overlay-037.png": {
+      "bytes": 11017,
+      "sha256": "a37b2b6a66a538e269a9281fa4246697d2b23ef182711c2862d833edcd700353"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-overlay-038.png": {
+      "bytes": 10919,
+      "sha256": "1a56afa2d102b0864f1330a55c4e5cefdbd8ec1d9a3719bdb62fc3b7786e7669"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-overlay-039.png": {
+      "bytes": 10934,
+      "sha256": "2140ae99eb63c5995343378677c7e3d584c3c43a44ec0f4688c318859c738afd"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-overlay-040.png": {
+      "bytes": 11508,
+      "sha256": "53208a859e68939b9e5f008f82cd2970aff20ab9242880e06d275975f35789c8"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000042/native-temporal-display.png": {
+      "bytes": 360610,
+      "sha256": "e765a2324200fcb0b380682c50785ed7f94c9ecfba932ab36f1a341cfe477765"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/full-scenes-display.jpg": {
+      "bytes": 58851,
+      "sha256": "fd846117ed696b9e4a1a838eb6a683a35441356e1819bf8936663e136fe7a338"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/full-scenes.jpg": {
+      "bytes": 149121,
+      "sha256": "ffa32e4db11d524ad29e6252b78abb2d67efda74f4b5803c8a5993a2603a9054"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-cf-041.png": {
+      "bytes": 67042,
+      "sha256": "6683c76b6c2d85029ed05699d9d1e0ebee1f78c92171a57943709c6a2f5b2463"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-cf-042.png": {
+      "bytes": 64067,
+      "sha256": "6f57c05d07752f135f9d5ea3568a0414407b96f50b85e2b2ca8f09155e02fe81"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-cf-043.png": {
+      "bytes": 62048,
+      "sha256": "0ee2e7fc486043d35cca0c0d216382188ee1e0324960a110319412257ad65685"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-cf-044.png": {
+      "bytes": 61937,
+      "sha256": "2291c0ec02f4ad65bf0612a295fd5f073bf0a18a1559aadad0cfbfb24175b231"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-mask-041.png": {
+      "bytes": 2577,
+      "sha256": "a708faca33ca58305e5bc8271cf4888772d76ab77b241b6b2d4368ad592dcd7e"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-mask-042.png": {
+      "bytes": 2552,
+      "sha256": "faa3d62fdeede91d4174f5aa36c9f316745966d24119c442aa9ac0dae280ef80"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-mask-043.png": {
+      "bytes": 2518,
+      "sha256": "6154ce3b2284e1b5bc1771c24c3e9b52a50e38a3f171c5ed324d77b4b4ca4ea3"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-mask-044.png": {
+      "bytes": 2570,
+      "sha256": "b854107ee01011c550201503a476702a065b5762082cf7d412d81dd211ffafb0"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-overlay-041.png": {
+      "bytes": 10564,
+      "sha256": "52970d895bee7a0aecd412ee344c84a9648680f07e98a0a531a385e1421e37fc"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-overlay-042.png": {
+      "bytes": 10330,
+      "sha256": "de09739cb49bbcae0a342f9df64717f0d635124441caa3bb6b765a9947a32d25"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-overlay-043.png": {
+      "bytes": 10457,
+      "sha256": "cb7335281fe4780b84e2662592551e1d08d3fcbf99f014821d2c8fc8941cd878"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-overlay-044.png": {
+      "bytes": 10326,
+      "sha256": "fd963173f8b1858035c9400e44f36fb6897f103e00d0e63542d159f27cb084f9"
+    },
+    "review-evidence/native-inspection/rattleback_rocking_spin_coupling_reversal_00000098/native-temporal-display.png": {
+      "bytes": 290443,
+      "sha256": "afc2c27860cb3089e30537071b5794f06b053550adb69a9c4773cd22c70c4e7b"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_high-counterfactual-35.png": {
+      "bytes": 53860,
+      "sha256": "1d3f8c2c528f1e9abb2ca92f0747205eadc323ff29033c6f9b5c5f3a28923a2a"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_high-counterfactual-90.png": {
+      "bytes": 60055,
+      "sha256": "ba986675d569cd8297dda73ae6c712b4c1c866de44c1b83996711e6fd543f4d3"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_high-true-35.png": {
+      "bytes": 59823,
+      "sha256": "b9ea79cedcd395d3bcbadcebaa611dfea188b202a5a8a456e70a844450b120ba"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_high-true-90.png": {
+      "bytes": 58287,
+      "sha256": "eb591711cc0640169ad36bc751b4c5dbdabdf5fd3b1db129bd2e7da3b1f07e0b"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_low-counterfactual-35.png": {
+      "bytes": 54592,
+      "sha256": "9d5c37877329575221fc363895aa1833970ad075cf903fcd108d0a979e02e7a0"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_low-counterfactual-90.png": {
+      "bytes": 60626,
+      "sha256": "84d102c1a71ac4a11f44bbd85ade9e2d62fe74ca6ace8f2681635c42d2fbde6d"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_low-true-35.png": {
+      "bytes": 60464,
+      "sha256": "d6821ccf05224a301236b9c0071fc45f7ea7d1059c40275a8d95ab606a991682"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/appearance_low-true-90.png": {
+      "bytes": 58978,
+      "sha256": "ad0a7826ca21899f6d0bcb3d8c577b98a1aac182ae184a4d173d7ea08a1df67a"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/axis-probes.json": {
+      "bytes": 21857,
+      "sha256": "a276be4635b2e10d49269017d0a620d55bf7eca1358a61b181ab2574a6bff398"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/baseline-counterfactual-35.png": {
+      "bytes": 54368,
+      "sha256": "3139a7153c2410daa6ce5c051ec4146e85b65a628c402600922fffed15a8fb0e"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/baseline-counterfactual-90.png": {
+      "bytes": 60479,
+      "sha256": "71ef11bb0f799ce3b52aa1e760001b2148fcbdbe226d2bb703face00b4e5cef2"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/baseline-true-35.png": {
+      "bytes": 60191,
+      "sha256": "955ab84002abc3dd97cae024de1edbe050dc5ba83176d0a25f4b7e7d6416063d"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/baseline-true-90.png": {
+      "bytes": 58757,
+      "sha256": "c5abcd9426c1b96a486cae29d975c3cc19465fe1bf991292ebf319c06c4d6a21"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_high-counterfactual-35.png": {
+      "bytes": 55093,
+      "sha256": "19f9a343f52d04ec773c5976b9c73e694ebe8f983c60370d19677edf4025ccd8"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_high-counterfactual-90.png": {
+      "bytes": 60908,
+      "sha256": "d8b609007978fa6f172dccaeac6e7a1c98eccdf0cf3074d15c33c3a626f9ddaf"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_high-true-35.png": {
+      "bytes": 60968,
+      "sha256": "c46ce8405dd3a38c00717bcb1aa64dcba010641313b195f67aa26e9f8448b120"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_high-true-90.png": {
+      "bytes": 59138,
+      "sha256": "c2511ea439ef48cc18e0736502990a521b127aa2ba949a18589c6c7d7733904c"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_low-counterfactual-35.png": {
+      "bytes": 51552,
+      "sha256": "50467ceea114e813fa4b5550b13f8238ef4fdde5cca044d91d97dabe6b2e9410"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_low-counterfactual-90.png": {
+      "bytes": 58980,
+      "sha256": "d767efb3d145461bf558f3420f14fa46214825dec512ad3b2018a4d40fac0c7c"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_low-true-35.png": {
+      "bytes": 57048,
+      "sha256": "e6fb8f194c01b1c835488a064c6f63c7b3d78f2e2f600daacb2e763f92cfff80"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/depth_low-true-90.png": {
+      "bytes": 56888,
+      "sha256": "4ec1e1cab3ca5ce9987a0c3ad1cca5b1cb97ee48b094b6ef95878959a2276e0f"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_high-counterfactual-35.png": {
+      "bytes": 55398,
+      "sha256": "b10e7f8e65fcd639c9f67a1d66c79b2b7aa7087c57838d3cecb125ed74333db5"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_high-counterfactual-90.png": {
+      "bytes": 61761,
+      "sha256": "5bd49510fff38cedca455ae34ee6ba1374ba1c8eea97c8fe804b21abf226042d"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_high-true-35.png": {
+      "bytes": 61458,
+      "sha256": "5f596fe8ee4001861eab70ea2902e75d15c06481a1314a204353605fecc6c5a0"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_high-true-90.png": {
+      "bytes": 60344,
+      "sha256": "96fd09216bfd106b8cd0183a7beba4f70b6450fc467b6baf54fd0696254743e7"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_low-counterfactual-35.png": {
+      "bytes": 52921,
+      "sha256": "1ab5ad336fc683bd66c45be72530a71e3476b89d86c0472331c038d073ba0490"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_low-counterfactual-90.png": {
+      "bytes": 56740,
+      "sha256": "31ed1337ad0f3567f934c96b2e21c6e0fed2d5a412908e8853514f22d1584133"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_low-true-35.png": {
+      "bytes": 57258,
+      "sha256": "89823ab8d4d0130945da26d053c5731a6efed3b0e766ac1a5109be624bb15e9a"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/length_low-true-90.png": {
+      "bytes": 54393,
+      "sha256": "91d911ced2f6b469e5c8d27e9ad1100f8ca8fccdbc6ef5fddcca7d03860862ec"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_high-counterfactual-35.png": {
+      "bytes": 57237,
+      "sha256": "2ca00735dc4b5a82436e08c6d96c4e05a8badb4edfd85fb14b6debbbd80b7f4f"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_high-counterfactual-90.png": {
+      "bytes": 61745,
+      "sha256": "f04b16cd1ced9f48e83f74fbc97e7d36b8aa13a2357659f9258f4d0f07c7ffdf"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_high-true-35.png": {
+      "bytes": 55962,
+      "sha256": "bcefb8206426b7d44564a3e71ee539f399b3898e1b9f8b256179c777ad4d28dc"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_high-true-90.png": {
+      "bytes": 59523,
+      "sha256": "74024e49c25feaffa88f406abf43c7659127c3c82cb1267fab83b61b66a82556"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_low-counterfactual-35.png": {
+      "bytes": 54399,
+      "sha256": "6aedb038d0d2a1220367381d85743b936075188f052abfaa9f312a1875803485"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_low-counterfactual-90.png": {
+      "bytes": 59441,
+      "sha256": "cb417eeacda2e83c15260e6e83a0974266b8d34818b024d71c83db0ad7472a57"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_low-true-35.png": {
+      "bytes": 60871,
+      "sha256": "604b8901154d948a6c30f0771c6ac409aa364fd0fa86908d37d2582b7303b978"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/onset_low-true-90.png": {
+      "bytes": 57690,
+      "sha256": "9910ed88c13651d99019e467c4c335d385c77ffe74c90ea6393dea53e9a03733"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_high-counterfactual-35.png": {
+      "bytes": 54440,
+      "sha256": "e622aa3fc87ab34836b6c0d8739d97e4fc17d1257312bd4bcaa68b78e0ba94be"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_high-counterfactual-90.png": {
+      "bytes": 59232,
+      "sha256": "e3e0b2ad94329442fbd079cc7b1742d1b3ece36c8a82032ec95f895b7028397c"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_high-true-35.png": {
+      "bytes": 60634,
+      "sha256": "970a71fb08590767421724bd3d354e57f7870976392940a4dd0bd6378930bb27"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_high-true-90.png": {
+      "bytes": 57299,
+      "sha256": "363357385929f3537402f8302b7923c3c698cdfb0e33bde32b7d76be24301496"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_low-counterfactual-35.png": {
+      "bytes": 54420,
+      "sha256": "b35fe513f8126518d22b41d2b78536215375aaca2dec239aa57fb64bafcda260"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_low-counterfactual-90.png": {
+      "bytes": 60523,
+      "sha256": "c00393cae97b3dc8eb5ca22a477bb32580722fef9ddf04b84c66f7a2470c0125"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_low-true-35.png": {
+      "bytes": 60223,
+      "sha256": "cde28e459516670c38929e5ebd1e2a5fa7d11e22007dd393e83ce6826938584e"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/response_low-true-90.png": {
+      "bytes": 59111,
+      "sha256": "bcc956096727ea7427d4602fc97eacb02c60a0084965111a3338c422fb88ed82"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_high-counterfactual-35.png": {
+      "bytes": 63761,
+      "sha256": "623a2a8ef38e4e3e5c91c061f8648ec3f4ba75fbf84b89d9541225b302c772e1"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_high-counterfactual-90.png": {
+      "bytes": 67848,
+      "sha256": "0de5d326ec850a56e082b12953f1d0a1d6f56516eab4f08b4e3b09a37f952629"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_high-true-35.png": {
+      "bytes": 68299,
+      "sha256": "05b705d8ab34ae61d07680aff1dde35fa492bb7cbcae811c6e8707ab306267ef"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_high-true-90.png": {
+      "bytes": 62584,
+      "sha256": "ed26b7ca461149b69113acc740e48164f2aa434a9c835b9eb05444060e0a2cf8"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_low-counterfactual-35.png": {
+      "bytes": 58589,
+      "sha256": "2799351906574aa8b368bd1e2998d6c39464da9484e7f1f4fc9024b2b627c28b"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_low-counterfactual-90.png": {
+      "bytes": 62762,
+      "sha256": "4b513c7c69616d880dd4efe9e13ea3cce1eac735625ef080ecf03e7a40add693"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_low-true-35.png": {
+      "bytes": 60410,
+      "sha256": "5aaef7f27084fa3b6bb142dc7a2ec70b08909269967b5e83914ed77e9695ded2"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes/view_low-true-90.png": {
+      "bytes": 62432,
+      "sha256": "37037821d556e0788fa354c3f60310d592b4f3322d3c171a1786feb9390f2b94"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-axis-probes.log": {
+      "bytes": 8612,
+      "sha256": "0f358a0b93bc3f41ece012f0ad94b894fbf4464d953d848f628a8786895f62c6"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-bounded-resources.json": {
+      "bytes": 902,
+      "sha256": "3712bbd70255a933cd0e539a3afeba483d66f968130957ec1e3d8bfc3688d0d5"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-bounded-resources.log": {
+      "bytes": 64,
+      "sha256": "185b543447d0074725b6ddf04686d50f43970474e22089384504925fea6a64b4"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-browser-media.json": {
+      "bytes": 2386,
+      "sha256": "0b32a124f4922785a22eaa529332ad8dd8816759280cc7e5012fc979ac71041b"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-geometry.json": {
+      "bytes": 1397,
+      "sha256": "6765a1586d98ac7171686bfefc0f9185b716bb991662694e01eadf357b8a8d83"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-geometry.log": {
+      "bytes": 130,
+      "sha256": "b504ef6c9b9cab350b2a708d5dac2be1aacd3dc5c8da16bc83800a4fe01dcee9"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-head.json": {
+      "bytes": 88,
+      "sha256": "e54f95c80b731e409adc7ec8fad9c366c827fb52a4a9a28b1308d3dffa617da6"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-help.log": {
+      "bytes": 408,
+      "sha256": "dcc788fb18ad4a0c2c330386bb19d7e773ed995c866aed883f9d0741273a873d"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-independent.json": {
+      "bytes": 1855,
+      "sha256": "81b3dfaa19ad06133e60377542e4cec83f8cdcf430014010aacb1e3f4dbe5cd1"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-independent.log": {
+      "bytes": 136,
+      "sha256": "10349b5149ca6714454568b729cda75635c1203c797ef259e752cb8bcdb06179"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-inspection.log": {
+      "bytes": 156,
+      "sha256": "a0231c6a3c1232682c5157cb57d5e8b55b16dc8207a8ae162a2be296012f09f5"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-render.log": {
+      "bytes": 134496,
+      "sha256": "ade2e89ea9d3f17b01e1208acdf5c2f7e7d3a859cd4dde727617bf6e7dad3584"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduce.log": {
+      "bytes": 57977,
+      "sha256": "b9ca5961766a47fc5c794b7dacc023425d384509fd5beaf10da70e65e0765d9f"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-resume.log": {
+      "bytes": 654,
+      "sha256": "483b8504dd5f2040eb74bf69a54df197e81ac3cc5f97bd6052aee74e41b3e030"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-runtime-index.log": {
+      "bytes": 1220,
+      "sha256": "2a178a3bb254965b6a73e5ceafab2700f7717ce8e58b3cf0d75695d9c1e03ee6"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-runtime.json": {
+      "bytes": 296,
+      "sha256": "fe14b4596fa9bf38755ebf068cabb521fd40519ceddb2ba8824698d812019aec"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-scale.json": {
+      "bytes": 770,
+      "sha256": "58f50db19e7ffd6eb0a3a3ac411868ed5f84437b14911696e93e6ab1e29310a3"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-scale.log": {
+      "bytes": 770,
+      "sha256": "58f50db19e7ffd6eb0a3a3ac411868ed5f84437b14911696e93e6ab1e29310a3"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-six-axis-independent.json": {
+      "bytes": 2405,
+      "sha256": "3d636b2318645718ce1ee08dcb514aa65f4568f8f96f2a7ba2ad4e1c828e1c8e"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-six-axis-inspection.jpg": {
+      "bytes": 67783,
+      "sha256": "092e79c6da2e1653c8f941048bc05cdea917e9709a0f90384e602a477b0b7176"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-tests.log": {
+      "bytes": 99,
+      "sha256": "6ef9ef1c91710f19f70ebedce0c4729dd55a71e2315415100e72e714b27a82c3"
+    },
+    "review.json": {
+      "bytes": 550,
+      "sha256": "f5a15c03581ca273cc82bf257d133442e58e6dacffe52e3dc9033bbfe9375782"
+    },
+    "runtime-witness-index.json": {
+      "bytes": 1220,
+      "sha256": "2a178a3bb254965b6a73e5ceafab2700f7717ce8e58b3cf0d75695d9c1e03ee6"
+    },
+    "runtime-witness.json": {
+      "bytes": 17547,
+      "sha256": "f771db562814b3f03ba6bdc3db0c622e7c948fa1d584941454bd07dc724fe006"
+    }
+  },
+  "external_files": {
+    "rattleback_rocking_spin_coupling_reversal_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-42-true.mp4",
+      "bytes": 20697101,
+      "sha256": "44cb87f9b4cef42ba16e6bbf96ee40c7ef6330935a718526bc3eb6e77265fff6",
+      "github_asset_id": 636574806,
+      "server_digest": "sha256:44cb87f9b4cef42ba16e6bbf96ee40c7ef6330935a718526bc3eb6e77265fff6"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-42-counterfactual.mp4",
+      "bytes": 20389514,
+      "sha256": "51e34b711e1ebb7f0a144016e153a63079a02f1e5463773a7f216a646be43af7",
+      "github_asset_id": 636575351,
+      "server_digest": "sha256:51e34b711e1ebb7f0a144016e153a63079a02f1e5463773a7f216a646be43af7"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-42-mask.mp4",
+      "bytes": 2779777,
+      "sha256": "48359195a65e8f26a116143d01c802f16aa760575a4970e6e1cd4ee410cc79f6",
+      "github_asset_id": 636575695,
+      "server_digest": "sha256:48359195a65e8f26a116143d01c802f16aa760575a4970e6e1cd4ee410cc79f6"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-42-overlay.mp4",
+      "bytes": 13382726,
+      "sha256": "0ce05e8268685c360df7b4eea8fcca6a3df00af2b4baed9b806a005c6e175ef1",
+      "github_asset_id": 636575838,
+      "server_digest": "sha256:0ce05e8268685c360df7b4eea8fcca6a3df00af2b4baed9b806a005c6e175ef1"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-98-true.mp4",
+      "bytes": 21976969,
+      "sha256": "79125f6aec4174d3f81ca5c722bd130a5a0ac5ee3d1e6be396aff26b1944423c",
+      "github_asset_id": 636576011,
+      "server_digest": "sha256:79125f6aec4174d3f81ca5c722bd130a5a0ac5ee3d1e6be396aff26b1944423c"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-98-counterfactual.mp4",
+      "bytes": 21613303,
+      "sha256": "e76223b705762ff15cb485f4ccda3a0868b3c4809a6f944c18c713b18e0f49c7",
+      "github_asset_id": 636576909,
+      "server_digest": "sha256:e76223b705762ff15cb485f4ccda3a0868b3c4809a6f944c18c713b18e0f49c7"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-98-mask.mp4",
+      "bytes": 2581306,
+      "sha256": "78febc0a45b616b78c0b482d4ba465788503f00d7be14e346c0b5a78027b6a98",
+      "github_asset_id": 636577230,
+      "server_digest": "sha256:78febc0a45b616b78c0b482d4ba465788503f00d7be14e346c0b5a78027b6a98"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/rattleback_rocking_spin_coupling_reversal-0ec4a1c689519b849bbe0e8a9666b5272ac90354-98-overlay.mp4",
+      "bytes": 16255084,
+      "sha256": "c8b1f26fb1591f17c7a43020d02f211abffe50fff0af91934f42d5d536d7516e",
+      "github_asset_id": 636577339,
+      "server_digest": "sha256:c8b1f26fb1591f17c7a43020d02f211abffe50fff0af91934f42d5d536d7516e"
+    }
+  }
+}

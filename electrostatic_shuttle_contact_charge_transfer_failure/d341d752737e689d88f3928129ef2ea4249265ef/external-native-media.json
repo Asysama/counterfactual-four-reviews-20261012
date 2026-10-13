@@ -1,0 +1,61 @@
+{
+  "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "files": {
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-true.mp4",
+      "bytes": 28309120,
+      "sha256": "7ac94c67565f6f90bdb7ec5fd6366c0a1b4aaa60d0684359e82fa7741b3aadd1",
+      "github_asset_id": 636570482,
+      "server_digest": "sha256:7ac94c67565f6f90bdb7ec5fd6366c0a1b4aaa60d0684359e82fa7741b3aadd1"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-counterfactual.mp4",
+      "bytes": 28624138,
+      "sha256": "54daabb6f956e19906493afb622e76909ea982d03f84aaff42c817f87e060fca",
+      "github_asset_id": 636571376,
+      "server_digest": "sha256:54daabb6f956e19906493afb622e76909ea982d03f84aaff42c817f87e060fca"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-mask.mp4",
+      "bytes": 2083070,
+      "sha256": "a5d408bb54d9d605871f4a99d659cd4f16c45bd20cc004f36f8338b707172165",
+      "github_asset_id": 636571595,
+      "server_digest": "sha256:a5d408bb54d9d605871f4a99d659cd4f16c45bd20cc004f36f8338b707172165"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-42-overlay.mp4",
+      "bytes": 28094883,
+      "sha256": "be4c15a0f7d4471dc04fb437ae426b2f6675846dc32f57984811e6631de216a9",
+      "github_asset_id": 636571708,
+      "server_digest": "sha256:be4c15a0f7d4471dc04fb437ae426b2f6675846dc32f57984811e6631de216a9"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-true.mp4",
+      "bytes": 31401189,
+      "sha256": "faf0afbc605421a8a2da6688ea9a750b65341dc92ed61cfccc06c4f1a1e7832c",
+      "github_asset_id": 636571775,
+      "server_digest": "sha256:faf0afbc605421a8a2da6688ea9a750b65341dc92ed61cfccc06c4f1a1e7832c"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-counterfactual.mp4",
+      "bytes": 31688786,
+      "sha256": "1149268932df5a657cfdec2a89b2ced7d15b041571c3fea6fb4e1f6df52a3099",
+      "github_asset_id": 636571861,
+      "server_digest": "sha256:1149268932df5a657cfdec2a89b2ced7d15b041571c3fea6fb4e1f6df52a3099"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-mask.mp4",
+      "bytes": 2023170,
+      "sha256": "4c8f86ae5f31ff3f8cc2c4758ebc3c60e9c8b2c92d8ff311df2d349fe23da7ba",
+      "github_asset_id": 636573603,
+      "server_digest": "sha256:4c8f86ae5f31ff3f8cc2c4758ebc3c60e9c8b2c92d8ff311df2d349fe23da7ba"
+    },
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/electrostatic_shuttle_contact_charge_transfer_failure-d341d752737e689d88f3928129ef2ea4249265ef-98-overlay.mp4",
+      "bytes": 31363861,
+      "sha256": "ec45c60b8fc7d3bd8107d78f95b82e78dd5ce014e2e631750bafbb34a0d8ca14",
+      "github_asset_id": 636573894,
+      "server_digest": "sha256:ec45c60b8fc7d3bd8107d78f95b82e78dd5ce014e2e631750bafbb34a0d8ca14"
+    }
+  }
+}
