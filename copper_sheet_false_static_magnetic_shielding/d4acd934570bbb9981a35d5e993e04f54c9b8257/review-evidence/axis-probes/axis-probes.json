@@ -1,0 +1,681 @@
+{
+  "generator": "copper_sheet_false_static_magnetic_shielding",
+  "commit": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "baseline-true-35.png": "52ff16a92a345fa8b10562fe573fbad4bedaafa2396a062cd1bbacf1f5946872",
+        "baseline-true-90.png": "8a9b6a8069fbf8ef64f1607c027afa8b15702083e5a18e576f8989394ce47480",
+        "baseline-counterfactual-35.png": "2b3fb14bf119977cde25c15e6074eb9e338bf1e92e3e64854e08cf985b4c116f",
+        "baseline-counterfactual-90.png": "332bef8d3d5ff4e0281e99a6e40a767892c4f5b9387e28cc7f88330ad291f302"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.13999999999999999,
+        "dipole_moment_Am2": 300.0073397290841,
+        "magnet_side": 0.6694384094337514,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 1.704487181425243,
+        "magnet_z": 1.6474835663634402,
+        "screen_x": 0.9044871814252431,
+        "screen_height": 0.8,
+        "screen_end_z": 1.76748356636344,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "length_low-true-35.png": "369cf190ac1bc223a24f2be816ace4af407c2b85c412cdf5a4de40efe757e841",
+        "length_low-true-90.png": "1d8a086cbcbb2e6edc0962b2e5356297466f4137ebd49f622283992b4c75a0fd",
+        "length_low-counterfactual-35.png": "f4ff1f653e17a98e41a849b7debef47e0f94ecbac83b09303ae19029044a5d34",
+        "length_low-counterfactual-90.png": "108280744c5b28383abc5b1d98c03a984e81f532701eeef119952e180f624300"
+      },
+      "metrics": {
+        "true-35": 7.343036792896412,
+        "true-90": 7.343036792896412,
+        "counterfactual-35": 7.363606205692998,
+        "counterfactual-90": 7.369377983940972
+      },
+      "changed_pixels": {
+        "true-35": 112489,
+        "true-90": 112489,
+        "counterfactual-35": 110084,
+        "counterfactual-90": 110153
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.136,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1904,
+        "dipole_moment_Am2": 880.0717068755679,
+        "magnet_side": 0.9583099993228412,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.3181025667383306,
+        "magnet_z": 1.3045776502542785,
+        "screen_x": 1.2301025667383307,
+        "screen_height": 1.088,
+        "screen_end_z": 1.4245776502542786,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "length_high-true-35.png": "409c9a8dde998839211a102edb128ceb33d27d5eb1afc55936208339d7bcbcc0",
+        "length_high-true-90.png": "409c9a8dde998839211a102edb128ceb33d27d5eb1afc55936208339d7bcbcc0",
+        "length_high-counterfactual-35.png": "48106e84e14872becbbde35df01c9f0f930e87b8be23268bafbbe8806c5fbe64",
+        "length_high-counterfactual-90.png": "75c02455705ef104d7ef024ac669aad8bbf2d042b812fcc4b3a39cdbcb3c4aa9"
+      },
+      "metrics": {
+        "true-35": 3.709122834382234,
+        "true-90": 3.709122834382234,
+        "counterfactual-35": 3.6873157642505787,
+        "counterfactual-90": 3.709869384765625
+      },
+      "changed_pixels": {
+        "true-35": 70504,
+        "true-90": 70504,
+        "counterfactual-35": 68493,
+        "counterfactual-90": 68604
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.28900000000000003,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 686.4889218218293,
+        "magnet_side": 0.8821542099632681,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.1567921131685495,
+        "magnet_z": 1.373082433832646,
+        "screen_x": 1.1327921131685499,
+        "screen_height": 1.024,
+        "screen_end_z": 1.493082433832646,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "response_low-true-35.png": "c88d32e6871f388f2d23ff94d119ff3c3c4a95ab11df529ee6ddb9b63905f026",
+        "response_low-true-90.png": "864de2d39305f4053bb63c76ffac5f71aafb3dd5c5851e462433421099089276",
+        "response_low-counterfactual-35.png": "b508340239a8b7fdb407d633cf42b8a80e4b3ea4fadf65ae016638781bd569e4",
+        "response_low-counterfactual-90.png": "3d2724e937c4d71b04ffe4c709decd2f4ebbde441c996c1cab891d129d6450b9"
+      },
+      "metrics": {
+        "true-35": 1.0743634259259258,
+        "true-90": 1.0743634259259258,
+        "counterfactual-35": 0.9905372902199074,
+        "counterfactual-90": 0.9707720721209491
+      },
+      "changed_pixels": {
+        "true-35": 25986,
+        "true-90": 25986,
+        "counterfactual-35": 25352,
+        "counterfactual-90": 22937
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3808000000000001,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 796.5872414682544,
+        "magnet_side": 0.9269958333459299,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.267729001404997,
+        "magnet_z": 1.411689469363246,
+        "screen_x": 1.243729001404997,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5316894693632461,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "response_high-true-35.png": "0515d26353ad2072eb61038e06418ea3cf4962e8279a7ef45c343211c8410bbc",
+        "response_high-true-90.png": "0515d26353ad2072eb61038e06418ea3cf4962e8279a7ef45c343211c8410bbc",
+        "response_high-counterfactual-35.png": "640e73adc0ecac82fe1c5120627d6a0364b6c0e46c7e847545edc880777d0835",
+        "response_high-counterfactual-90.png": "744ecc6ac52a077b63eacc2d002017b4ea8f177a7b1ac90fcc08cfcdb80afd75"
+      },
+      "metrics": {
+        "true-35": 2.7443610297309027,
+        "true-90": 2.7443610297309027,
+        "counterfactual-35": 2.609227498372396,
+        "counterfactual-90": 2.5427766022858798
+      },
+      "changed_pixels": {
+        "true-35": 46443,
+        "true-90": 46443,
+        "counterfactual-35": 45154,
+        "counterfactual-90": 42499
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 14,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "onset_low-true-35.png": "f7385b5a8d136414fa22bccfefd2ec27c91485d926970088cfb7d1568bee0d73",
+        "onset_low-true-90.png": "f7385b5a8d136414fa22bccfefd2ec27c91485d926970088cfb7d1568bee0d73",
+        "onset_low-counterfactual-35.png": "3a9307416d6ff745ea9013122c06d3971746e20fc33e9e72256a0efa6b7dddec",
+        "onset_low-counterfactual-90.png": "81b3db7391fa2d865cfafe32841315aa205982cd7445a61beed1a76362d87699"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-90": 0.0,
+        "counterfactual-35": 0.2029198540581597,
+        "counterfactual-90": 0.00021757902922453704
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-90": 0,
+        "counterfactual-35": 3586,
+        "counterfactual-90": 299
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 23,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "onset_high-true-35.png": "cbb343b72f7fd9fa4e32c4c953594f6d98de6b2107756289beb1be1c80e23e13",
+        "onset_high-true-90.png": "89fb9d821150028658c48a759ffdbbcbd958e3e1c02e24226502f63a1cdc5080",
+        "onset_high-counterfactual-35.png": "85a4e5382745e33b3e2c0b2f8af6d3e2f28e568b1c3aa10c4f2e1b38915ce16b",
+        "onset_high-counterfactual-90.png": "b4a2f8c3c6aa0c3a5252d3e63bce381a22feee9c092c5eecc78a1487c6d8a465"
+      },
+      "metrics": {
+        "true-35": 0.0,
+        "true-90": 0.0,
+        "counterfactual-35": 0.18369264955873843,
+        "counterfactual-90": 0.000335693359375
+      },
+      "changed_pixels": {
+        "true-35": 0,
+        "true-90": 0,
+        "counterfactual-35": 3458,
+        "counterfactual-90": 422
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.09749999999999999,
+        "bob_mass": 0.0302828718754726,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "depth_low-true-35.png": "f99bddc50615d68197bc9e49d926f60bfa8118799cfde1f3aa6ab50de11786dd",
+        "depth_low-true-90.png": "0dc6ec99e28541cea8a3130e21328deb87ee05fd92c37c1d4ad7382562e7dfab",
+        "depth_low-counterfactual-35.png": "18f058df4cf542078a9346911df7491468390bb9a2800e779c2b75d18fc91bad",
+        "depth_low-counterfactual-90.png": "0598c92180ff13a90204aefdafca9e83c50dc6a325e5ff4357691735c1c56597"
+      },
+      "metrics": {
+        "true-35": 0.07970456723813657,
+        "true-90": 0.07970456723813657,
+        "counterfactual-35": 0.08103660300925926,
+        "counterfactual-90": 0.08663770887586805
+      },
+      "changed_pixels": {
+        "true-35": 2311,
+        "true-90": 2311,
+        "counterfactual-35": 2183,
+        "counterfactual-90": 2212
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.14429999999999998,
+        "bob_mass": 0.09817077178293208,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "depth_high-true-35.png": "09ea26d6309192156a12e1a27e34c202a3525eb3cddea3cdb464c51290bbb34d",
+        "depth_high-true-90.png": "2ebe706d39ccefb6f8ff58452716119b15fc2fe7fa2130707760fb288c028f57",
+        "depth_high-counterfactual-35.png": "b26ddea2321dbcec480d1508fdb762e874fbc1749e18a43c55b182b96aada8ab",
+        "depth_high-counterfactual-90.png": "21b49dd6eaa6f285cb5926ced4e859aa694dac71a324cffb25c284aa9c7d88ff"
+      },
+      "metrics": {
+        "true-35": 0.03695113570601852,
+        "true-90": 0.03695113570601852,
+        "counterfactual-35": 0.03241871021412037,
+        "counterfactual-90": 0.03468153211805555
+      },
+      "changed_pixels": {
+        "true-35": 2358,
+        "true-90": 2358,
+        "counterfactual-35": 2209,
+        "counterfactual-90": 2251
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "appearance_low-true-35.png": "7d0bb59bba731a4ec8ae4daa3ded71d203cf4a1d5eb389c68c7519c9a9caff6e",
+        "appearance_low-true-90.png": "81c965c4c078eee707ff26a3e48570a94079ecd9a4498e8c3c56a72f011b80a7",
+        "appearance_low-counterfactual-35.png": "9611e4383cd17e13f0f62e613a71e6c4871ef2ef936d1eaf0592ff77954d1e0a",
+        "appearance_low-counterfactual-90.png": "4acebfd42ff6bf1ced8a7f9961f48933e0c1b41375311ee09105a9f79e4ac1d8"
+      },
+      "metrics": {
+        "true-35": 3.005178380895544,
+        "true-90": 3.005178380895544,
+        "counterfactual-35": 2.9965809009693287,
+        "counterfactual-90": 3.0000452112268516
+      },
+      "changed_pixels": {
+        "true-35": 221722,
+        "true-90": 221722,
+        "counterfactual-35": 221053,
+        "counterfactual-90": 221272
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 32.8
+      },
+      "images": {
+        "appearance_high-true-35.png": "25b1de7b8ffaa95a435cf1b5af3d03204c9377f4c64444a82c00dbd491264a0b",
+        "appearance_high-true-90.png": "a7f62b294d6f8a902c989c3c6c17d1e473b4db8b0f824fdf574813f10df40615",
+        "appearance_high-counterfactual-35.png": "c9b47b68e94f522e0a677ea184aa94bf125776cfbc434d3632c537ece54fb30f",
+        "appearance_high-counterfactual-90.png": "1601627604358de9243695f54127a529dcd4e184884df356333199c54a3bfeae"
+      },
+      "metrics": {
+        "true-35": 4.054950855396412,
+        "true-90": 4.054950855396412,
+        "counterfactual-35": 4.043436686197917,
+        "counterfactual-90": 4.048074792932581
+      },
+      "changed_pixels": {
+        "true-35": 221745,
+        "true-90": 221745,
+        "counterfactual-35": 221075,
+        "counterfactual-90": 221296
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 28.0
+      },
+      "images": {
+        "view_low-true-35.png": "0cdec1abbf6c7f07ffaad3730bef5f2e12bbc4251054abc2b99ddb459bee2301",
+        "view_low-true-90.png": "6e97f24bd1b71b76d2b2477d4f286e290898bf06cc32214873c87e6adee9bb0d",
+        "view_low-counterfactual-35.png": "68a177505e3204803a4d98f7f54557bf750f9123ae60096e197f35f723d06c5d",
+        "view_low-counterfactual-90.png": "2826cfed7067690700b4127f64ac51357eee9e2479a363327ec5b0cb7c0df26f"
+      },
+      "metrics": {
+        "true-35": 3.6578889069733798,
+        "true-90": 3.6578889069733798,
+        "counterfactual-35": 3.518294157805266,
+        "counterfactual-90": 3.4831995081018516
+      },
+      "changed_pixels": {
+        "true-35": 311148,
+        "true-90": 311148,
+        "counterfactual-35": 310732,
+        "counterfactual-90": 310737
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "bob_radius": 0.1339,
+        "bob_mass": 0.07843771670724634,
+        "theta_equilibrium": 0.3094,
+        "magnetic_gap_m": 0.1792,
+        "dipole_moment_Am2": 711.8144068388385,
+        "magnet_side": 0.892871425655829,
+        "damping_rate": 6.5,
+        "scene_unit_m": 0.1,
+        "model": "calibrated axial induced-dipole sphere force and damped pendulum; copper static susceptibility neglected",
+        "time_scale": 1.0,
+        "bob_anchor": [
+          0.0,
+          0.0,
+          2.6
+        ],
+        "magnet_x": 2.181743592224311,
+        "magnet_z": 1.3807789649452034,
+        "screen_x": 1.1577435922243113,
+        "screen_height": 1.024,
+        "screen_end_z": 1.5007789649452032,
+        "screen_stop_frame": 17,
+        "camera_azimuth_degrees": 38.8
+      },
+      "images": {
+        "view_high-true-35.png": "32f11a747596bdb8d1df0a63184b9378c0c863cd6c6123c98f5b26b2e46faea8",
+        "view_high-true-90.png": "32f11a747596bdb8d1df0a63184b9378c0c863cd6c6123c98f5b26b2e46faea8",
+        "view_high-counterfactual-35.png": "755f72ace007133da75e58fb0478bcaf45ae673a0e4ae20a591d79cc333f614c",
+        "view_high-counterfactual-90.png": "a1437c762665f70d8fc0814614fdbc716a1006a7ae897fb0d060a6bb88eea960"
+      },
+      "metrics": {
+        "true-35": 3.7176445855034723,
+        "true-90": 3.7176445855034723,
+        "counterfactual-35": 3.7061089409722223,
+        "counterfactual-90": 3.671558521412037
+      },
+      "changed_pixels": {
+        "true-35": 292986,
+        "true-90": 292986,
+        "counterfactual-35": 291465,
+        "counterfactual-90": 291714
+      }
+    }
+  }
+}

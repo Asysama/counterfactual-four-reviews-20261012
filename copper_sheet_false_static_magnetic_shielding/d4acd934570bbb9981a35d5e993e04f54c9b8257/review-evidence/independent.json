@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "status": "PASS",
+      "head_sha": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+      "case_id": "copper_sheet_false_static_magnetic_shielding_00000042",
+      "first_changed_frame": 24,
+      "minimum_target_border_px": 545,
+      "minimum_mask_pixels": 9876,
+      "physical_witnesses": {
+        "force_to_weight": 0.3196660662984664,
+        "equilibrium_tangent": 0.3196660662984662,
+        "cf_final_angle": 5.736752047657807e-07,
+        "independent_ode_error": 1.9482512825241827e-11,
+        "evidence_frame": 28
+      },
+      "decoded_frames_each_stream": 120,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    },
+    {
+      "status": "PASS",
+      "head_sha": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+      "case_id": "copper_sheet_false_static_magnetic_shielding_00000098",
+      "first_changed_frame": 28,
+      "minimum_target_border_px": 563,
+      "minimum_mask_pixels": 5123,
+      "physical_witnesses": {
+        "force_to_weight": 0.400340642567628,
+        "equilibrium_tangent": 0.400340642567628,
+        "cf_final_angle": -1.5466431245870666e-06,
+        "independent_ode_error": 3.7628136717593463e-11,
+        "evidence_frame": 31
+      },
+      "decoded_frames_each_stream": 120,
+      "visual_inspection": "PENDING",
+      "browser_playback": "PENDING"
+    }
+  ],
+  "formal_streams": 8,
+  "visual_and_browser_pending": true
+}

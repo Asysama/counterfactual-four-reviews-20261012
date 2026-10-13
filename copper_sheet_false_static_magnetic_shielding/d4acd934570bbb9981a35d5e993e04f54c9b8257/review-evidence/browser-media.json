@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "head_sha": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+  "decoder": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "cases": [
+    {
+      "case_id": "copper_sheet_false_static_magnetic_shielding_00000042",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 2288451,
+          "sha256": "93bbc57c36b41f6854ca6311f06649f95f113b9946fd7d43c44b8cc3c88c1955"
+        },
+        {
+          "path": "counterfactual_false_copper_static_field_attenuation/video_browser.mp4",
+          "bytes": 2215633,
+          "sha256": "fd78542d3cb36cdb1638b2dff65664e52be4b4606257d728db2040b733c61c6f"
+        },
+        {
+          "path": "counterfactual_false_copper_static_field_attenuation/mask_browser.mp4",
+          "bytes": 57460,
+          "sha256": "0ccef4f27a98efadc2f0c4c83d75c9930bc3f91199757bd2875abd32ecd0634f"
+        },
+        {
+          "path": "counterfactual_false_copper_static_field_attenuation/mask_overlay_browser.mp4",
+          "bytes": 2248888,
+          "sha256": "b59fe998217f68544d378215dc98a38297b214c2e83ac0b92626d98554f81609"
+        }
+      ]
+    },
+    {
+      "case_id": "copper_sheet_false_static_magnetic_shielding_00000098",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 1980196,
+          "sha256": "f3f291ac2526b136e95aaf624abdeb738bb6333b2c72d3828514820ad5eb57cc"
+        },
+        {
+          "path": "counterfactual_false_copper_static_field_attenuation/video_browser.mp4",
+          "bytes": 1945810,
+          "sha256": "ad8054a90d20d1a49b2560b61f1902a2e6ecc5a3b41e789fc7e54b4297a7d4a5"
+        },
+        {
+          "path": "counterfactual_false_copper_static_field_attenuation/mask_browser.mp4",
+          "bytes": 51981,
+          "sha256": "aa70806281ce85231858dcebc81ab384da379cc913d7f636ea147127d62788c2"
+        },
+        {
+          "path": "counterfactual_false_copper_static_field_attenuation/mask_overlay_browser.mp4",
+          "bytes": 1972392,
+          "sha256": "21d2cb40df908c231e96203c5ec4b9d30bc39ac7aea657c569df76fd7e65b9fe"
+        }
+      ]
+    }
+  ]
+}
