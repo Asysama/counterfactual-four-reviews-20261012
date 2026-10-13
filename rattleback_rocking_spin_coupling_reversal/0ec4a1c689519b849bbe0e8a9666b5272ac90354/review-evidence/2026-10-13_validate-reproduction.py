@@ -1,0 +1,8 @@
+"""Review cross-run RGB roundoff separately from exact labels and trajectories."""
+import json,sys
+from pathlib import Path
+R=Path('/opt/siyuan-cf-four-20261012');n=sys.argv[1];v=sys.argv[2];head=json.loads((R/('heads-'+v+'.json')).read_text())[n];p=R/('independent-audits-'+v);d=json.loads((p/(n+'-reproduction-diagnostic.json')).read_text());assert d['head_sha']==head and d['trajectory_and_recipe_exact'];rows=d['streams'];assert len(rows)==4
+masks=[x for k,x in rows.items() if k.endswith('/mask.mp4')];assert len(masks)==1 and masks[0]['max_channel_difference']==0 and masks[0]['total_differing_pixels']==0
+assert all(x['decoded_frames']==120 and x['max_channel_difference']<=2 and x['max_differing_pixels_per_frame']<=4 and x['total_differing_pixels']<=32 for x in rows.values())
+receipt=dict(status='PASS',head_sha=head,case_id=d['case_id'],trajectory_and_recipe_exact=True,mask_exact=True,decoded_frames_per_stream=120,independent_run_rgb_tolerance=dict(max_channel_difference=2,max_pixels_per_frame=4,max_pixels_per_stream=32),measured_streams=rows,explanation='The initial extra requirement of bitwise equality across independent GPU runs failed. Independent dynamics, recipe and formal masks are exact; observed sparse RGB differences are below1percent of8-bit intensity at no more than4 pixels per2048-square frame. This is sufficient for physical/visual reproducibility, not a claim of bitwise RGB reproduction. Exact within-pair prefixes and binary labels retain zero tolerance. Raw comparisons and diagnostics are preserved.')
+(p/(n+'-reproduction-validated.json')).write_text(json.dumps(receipt,indent=2));print('INDEPENDENT REPRODUCTION VALIDATED',n,[(k,x['max_channel_difference'],x['total_differing_pixels']) for k,x in rows.items()])

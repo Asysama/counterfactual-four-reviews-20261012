@@ -1,0 +1,22 @@
+{
+  "true/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 1.324547661675347e-09,
+    "max_frame_mean": 1.5894571940104166e-07
+  },
+  "counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 1.986821492513021e-09,
+    "max_frame_mean": 1.5894571940104166e-07
+  },
+  "counterfactual_contact_charge_transfer_disabled/mask.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 0.0,
+    "max_frame_mean": 0.0
+  },
+  "counterfactual_contact_charge_transfer_disabled/video.mp4": {
+    "frames": 120,
+    "mean_absolute_difference": 4.635916815863715e-09,
+    "max_frame_mean": 3.178914388020833e-07
+  }
+}

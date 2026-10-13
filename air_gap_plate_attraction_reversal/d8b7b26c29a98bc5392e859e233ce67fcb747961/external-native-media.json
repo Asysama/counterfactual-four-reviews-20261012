@@ -1,0 +1,61 @@
+{
+  "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "files": {
+    "air_gap_plate_attraction_reversal_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-true.mp4",
+      "bytes": 30358975,
+      "sha256": "b21d9f0f2f4d5ec0ea58fa81a9445d8f69b577d33b9d457045b091a1d9dbe069",
+      "github_asset_id": 636616469,
+      "server_digest": "sha256:b21d9f0f2f4d5ec0ea58fa81a9445d8f69b577d33b9d457045b091a1d9dbe069"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-counterfactual.mp4",
+      "bytes": 29893926,
+      "sha256": "40c82433b9de67d43fbb11dde39b81f1067bfb0b2d466712182cd51196d83be6",
+      "github_asset_id": 636616462,
+      "server_digest": "sha256:40c82433b9de67d43fbb11dde39b81f1067bfb0b2d466712182cd51196d83be6"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-mask.mp4",
+      "bytes": 2873610,
+      "sha256": "85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542",
+      "github_asset_id": 636616464,
+      "server_digest": "sha256:85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-overlay.mp4",
+      "bytes": 27902668,
+      "sha256": "669116fdbeb4fb626a7764b27473afbd69e0851c09f13f9df9669fb40ba033e7",
+      "github_asset_id": 636616472,
+      "server_digest": "sha256:669116fdbeb4fb626a7764b27473afbd69e0851c09f13f9df9669fb40ba033e7"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-true.mp4",
+      "bytes": 30011749,
+      "sha256": "3249389b2b59cdae705ffae7252fbe92c775587f993707a0f273bf5974fdb6c3",
+      "github_asset_id": 636616470,
+      "server_digest": "sha256:3249389b2b59cdae705ffae7252fbe92c775587f993707a0f273bf5974fdb6c3"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-counterfactual.mp4",
+      "bytes": 29641370,
+      "sha256": "560e22eb1eb4199c61453f3e6d1dda49b7cd9943eae118ac9665fc9c7b6f795b",
+      "github_asset_id": 636616783,
+      "server_digest": "sha256:560e22eb1eb4199c61453f3e6d1dda49b7cd9943eae118ac9665fc9c7b6f795b"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-mask.mp4",
+      "bytes": 2704397,
+      "sha256": "3435ced591f3f2e1b5fd60884f326404bf268ef148401b4a16f85f4943da950a",
+      "github_asset_id": 636618283,
+      "server_digest": "sha256:3435ced591f3f2e1b5fd60884f326404bf268ef148401b4a16f85f4943da950a"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-overlay.mp4",
+      "bytes": 27975999,
+      "sha256": "717227fcc36a67d8c37e937a8f56555dacfd54c4cae46f11a34cce0eaaafcfec",
+      "github_asset_id": 636618488,
+      "server_digest": "sha256:717227fcc36a67d8c37e937a8f56555dacfd54c4cae46f11a34cce0eaaafcfec"
+    }
+  }
+}

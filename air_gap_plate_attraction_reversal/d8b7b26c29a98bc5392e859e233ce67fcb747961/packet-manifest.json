@@ -1,0 +1,852 @@
+{
+  "generator_name": "air_gap_plate_attraction_reversal",
+  "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "files": {
+    "accepted.jsonl": {
+      "bytes": 314,
+      "sha256": "810d82604f14e1b59cc563e11c793ca2ce0c87e60ed4ae1b056343e38e287335"
+    },
+    "air_gap_plate_attraction_reversal_00000042/browser-derivatives.json": {
+      "bytes": 790,
+      "sha256": "79da69f402c7171696e03702432c6b80c598b6ddf35c0ebdbcade84b46c7a9e8"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual-000.png": {
+      "bytes": 220655,
+      "sha256": "e37803d8e5c6464a7c3fafc1968cd25be47ebda953edf28c2f360ef3bee27c38"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual-024.png": {
+      "bytes": 219232,
+      "sha256": "60299b88c2f2d72fc1571bb74969feb11744f71ec23a701fdb3b644c20389eb6"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual-026.png": {
+      "bytes": 223315,
+      "sha256": "f1ce70d77fe98cc40d33fd77527d547b17f2c73a5e6948fdd9feb4edc5bf9feb"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual-090.png": {
+      "bytes": 231620,
+      "sha256": "dfc689cf286ff6330899cf565ad108bb302944c32b7a5961184482252e62fa30"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual-119.png": {
+      "bytes": 231980,
+      "sha256": "3fd1ac08ea9a83b0a7e0f44ff224c296d8695bab96f0416f258cf75d679d3da8"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/mask_browser.mp4": {
+      "bytes": 139738,
+      "sha256": "3bff9a2388dd22f37bfcbdf8909934f9547ee78d1e28023fb15cba5f814ca1a0"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/mask_overlay_browser.mp4": {
+      "bytes": 2386151,
+      "sha256": "e796bed02dc3d0b80a90a74fff9497722c30de7141580ccd47c5d9a01945e4e7"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/prompt.txt": {
+      "bytes": 303,
+      "sha256": "29a1a67fd1feed23ae0d44ffdf6c9d135672c57f6618a5dc6f023b7ce526849f"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/trajectory.npz": {
+      "bytes": 3559,
+      "sha256": "127d21949d5f016c1bbe34a33fdfbf73514a053008135d4d5529db60a779dff6"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/video_browser.mp4": {
+      "bytes": 2249829,
+      "sha256": "e5dc946180330d6369e42b68642ad9b1aaadff2ec8320f2eb1f0760a6e52d39c"
+    },
+    "air_gap_plate_attraction_reversal_00000042/decoded-audit.json": {
+      "bytes": 985,
+      "sha256": "b6c4c772458fe056a9b5ae1f88d805c70066ead4ab1eeff627f93d71c4d83ca0"
+    },
+    "air_gap_plate_attraction_reversal_00000042/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "fdbf1945d6d382a28264a1998eaff2251dc2ed560cc34f10579fcafe031e814c"
+    },
+    "air_gap_plate_attraction_reversal_00000042/manifest.json": {
+      "bytes": 5248,
+      "sha256": "8f153e31e33524e6ae091dfaff6bd9939e56a2264e6cb6d64f163c75c9843bc4"
+    },
+    "air_gap_plate_attraction_reversal_00000042/mask-000.png": {
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    "air_gap_plate_attraction_reversal_00000042/mask-024.png": {
+      "bytes": 15509,
+      "sha256": "88ea96826c19cc02ab4875a9bb0423c99900cecfa240a71362670413f883017e"
+    },
+    "air_gap_plate_attraction_reversal_00000042/mask-026.png": {
+      "bytes": 15647,
+      "sha256": "120f74c8dc609efecc799fafdf0d6a67b3ce28a96866740b68bea00710051d23"
+    },
+    "air_gap_plate_attraction_reversal_00000042/mask-090.png": {
+      "bytes": 16037,
+      "sha256": "282001c8c37319b3bafea5e42c99973f5f75910178d562fe41d81d9086d64729"
+    },
+    "air_gap_plate_attraction_reversal_00000042/mask-119.png": {
+      "bytes": 16047,
+      "sha256": "e96b5d7c9986988752eebaf93dfb2afd584da15f9e3403982ad84f07eafea590"
+    },
+    "air_gap_plate_attraction_reversal_00000042/metadata.json": {
+      "bytes": 7255,
+      "sha256": "a85248a04ec83cd70ad3864fd8f77b5376f1da7cd2a449b0770652cc0d069614"
+    },
+    "air_gap_plate_attraction_reversal_00000042/overlay-000.png": {
+      "bytes": 220655,
+      "sha256": "e37803d8e5c6464a7c3fafc1968cd25be47ebda953edf28c2f360ef3bee27c38"
+    },
+    "air_gap_plate_attraction_reversal_00000042/overlay-024.png": {
+      "bytes": 201961,
+      "sha256": "597e2e95ab3237525240a33e59e4fdc1ae11f2d3af96b365db4c3df0f375af8e"
+    },
+    "air_gap_plate_attraction_reversal_00000042/overlay-026.png": {
+      "bytes": 202837,
+      "sha256": "28c08fc83fb0c0cc5805e63a46ac0e6f7ab4b6dba67c2bcf2b3184c7e55451c7"
+    },
+    "air_gap_plate_attraction_reversal_00000042/overlay-090.png": {
+      "bytes": 207548,
+      "sha256": "ea8b69ff7f01284b142d8f0c96506f3557d0274962fd58e00772bd850b42565d"
+    },
+    "air_gap_plate_attraction_reversal_00000042/overlay-119.png": {
+      "bytes": 207949,
+      "sha256": "062dfab06d64f68cc3cb997a6598be4fe5dd43aa529f13c88a270b6197c8d6de"
+    },
+    "air_gap_plate_attraction_reversal_00000042/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true/prompt.txt": {
+      "bytes": 261,
+      "sha256": "289abd745db504d3aa77fc431205939b522df9ea702e8439f687dec2ef5a6d79"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true/trajectory.npz": {
+      "bytes": 3577,
+      "sha256": "5570572f717baeceb0b01a8f074f13e737ef91440e05fa2ac9518fa33d5c1838"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true/video_browser.mp4": {
+      "bytes": 2269784,
+      "sha256": "62fa8ca63e3eb49f0664fc4192a3e6b7cbf9af022a72e2b1dbe2d8a063617c7f"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true-000.png": {
+      "bytes": 220655,
+      "sha256": "e37803d8e5c6464a7c3fafc1968cd25be47ebda953edf28c2f360ef3bee27c38"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true-024.png": {
+      "bytes": 223678,
+      "sha256": "091353518cce3df34348fc44ed53a51b32d5b49f22b53cc77954825ff7bd131b"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true-026.png": {
+      "bytes": 231726,
+      "sha256": "8c3f376b20b08ad3bd74abb62a2b12bfa2129b1537a47f21f5ea20a855f45ca5"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true-090.png": {
+      "bytes": 236102,
+      "sha256": "662b3d724624aa0c871cea5d1bb0479021850516bff168e6ee766f551adc8c19"
+    },
+    "air_gap_plate_attraction_reversal_00000042/true-119.png": {
+      "bytes": 236007,
+      "sha256": "06e4602e5ef32eb7917d01eb62468cbd493ec8b7de6678407f88d7aff35dca0e"
+    },
+    "air_gap_plate_attraction_reversal_00000098/browser-derivatives.json": {
+      "bytes": 790,
+      "sha256": "23fa2fd85161c10c9f5f3de98c2ac0b16fe617281dd84a61866eb3ee25c32b92"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual-000.png": {
+      "bytes": 222951,
+      "sha256": "ff92e7667cad9d48e39513268e8efb720cd3125ae074cc10197ff2fb51fb312b"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual-028.png": {
+      "bytes": 220560,
+      "sha256": "dc5df8618c146123ed47d84e6b70f0a20a7deaa26a996e71cdbad7e4de12677d"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual-029.png": {
+      "bytes": 225426,
+      "sha256": "8aae30cd8c66c776811e4434eb9f64dcc4f34678d4dae6c8d7ac6100537785cd"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual-090.png": {
+      "bytes": 230812,
+      "sha256": "111fe9cfc49d130e33eec316d9023077847fd88ece882bf49f17aebe21d3d840"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual-119.png": {
+      "bytes": 230878,
+      "sha256": "72d52e784e49129545be5aef9de01b1cf2ac810bfe8bb13aa76309486310d6e8"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/mask_browser.mp4": {
+      "bytes": 122519,
+      "sha256": "aea763d61514fd207103f0d450791a89c2a467dc7a6b820f8252f65bb5105339"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/mask_overlay_browser.mp4": {
+      "bytes": 2215490,
+      "sha256": "9bfff93eb8195e95deb54f92894d1b51e01825918592ae795e5b5bd54f024964"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/prompt.txt": {
+      "bytes": 303,
+      "sha256": "29a1a67fd1feed23ae0d44ffdf6c9d135672c57f6618a5dc6f023b7ce526849f"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/trajectory.npz": {
+      "bytes": 3471,
+      "sha256": "b19d92da969a035c87a932a57cf2ef552327ba1594880d835dfdc0e5c6672279"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/video_browser.mp4": {
+      "bytes": 2124447,
+      "sha256": "502a13d1dbecd1d4ccc650392c8d468251084beae759981e0b16b8ae01f7f1fc"
+    },
+    "air_gap_plate_attraction_reversal_00000098/decoded-audit.json": {
+      "bytes": 985,
+      "sha256": "e055610c68738ffceb6e789e8c5853b8cc8184167f01dccc0e1a6b5a4a44d9ed"
+    },
+    "air_gap_plate_attraction_reversal_00000098/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "c85eb43be091e03dba1f1f9f2a11c3fe3a00280ae6fab2d44069a00bf6d3c870"
+    },
+    "air_gap_plate_attraction_reversal_00000098/manifest.json": {
+      "bytes": 5248,
+      "sha256": "061672a7cac4e2ca3f12a5985bca1f5cc4a8d38d33bb26fcdce11deb2a5ae971"
+    },
+    "air_gap_plate_attraction_reversal_00000098/mask-000.png": {
+      "bytes": 12286,
+      "sha256": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e"
+    },
+    "air_gap_plate_attraction_reversal_00000098/mask-028.png": {
+      "bytes": 14644,
+      "sha256": "b7027549920bf347a80506b4ffcc30e5201ef4ab9774ed259ec89569e5bc882d"
+    },
+    "air_gap_plate_attraction_reversal_00000098/mask-029.png": {
+      "bytes": 14880,
+      "sha256": "36ce728897b82cdb0a64a407d98f7e3de8b20599086e2737b903a2d8d4e31e78"
+    },
+    "air_gap_plate_attraction_reversal_00000098/mask-090.png": {
+      "bytes": 15406,
+      "sha256": "75c6b5872d3c9d83978154a4a2db90d135925c96e9ea61e4b80756868cecd40a"
+    },
+    "air_gap_plate_attraction_reversal_00000098/mask-119.png": {
+      "bytes": 15429,
+      "sha256": "9fb374027bef767e1523ac39e7aee1dfd8ac42c75607f0d4a1f07d3c56b85b82"
+    },
+    "air_gap_plate_attraction_reversal_00000098/metadata.json": {
+      "bytes": 7242,
+      "sha256": "e35606d7e614ff9b13b274a602b90813600c426c65964c205a47f67dafca37f9"
+    },
+    "air_gap_plate_attraction_reversal_00000098/overlay-000.png": {
+      "bytes": 222951,
+      "sha256": "ff92e7667cad9d48e39513268e8efb720cd3125ae074cc10197ff2fb51fb312b"
+    },
+    "air_gap_plate_attraction_reversal_00000098/overlay-028.png": {
+      "bytes": 207923,
+      "sha256": "c0da93931d4f148ce26d5b512d703cacf72b5dd293924e2faaf43b891d98ce2f"
+    },
+    "air_gap_plate_attraction_reversal_00000098/overlay-029.png": {
+      "bytes": 209428,
+      "sha256": "b8c180d3d5cb5e2b3fe03995ab881b2ccdbcf92d16f3d03bafda93ecc01c6a13"
+    },
+    "air_gap_plate_attraction_reversal_00000098/overlay-090.png": {
+      "bytes": 211494,
+      "sha256": "bdebd4a7a4683fceb9775311cd70b632e4085af7a90ce5f2e8508023d79ae76d"
+    },
+    "air_gap_plate_attraction_reversal_00000098/overlay-119.png": {
+      "bytes": 211089,
+      "sha256": "ef89e439632730c3c11910e478b28df01e98954094274272e121425ddb3d2b03"
+    },
+    "air_gap_plate_attraction_reversal_00000098/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true/prompt.txt": {
+      "bytes": 261,
+      "sha256": "289abd745db504d3aa77fc431205939b522df9ea702e8439f687dec2ef5a6d79"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true/trajectory.npz": {
+      "bytes": 3489,
+      "sha256": "11813e41496fb13f84bcc826b661abfe7ef1a31db06a349fc41e1bc98a006e2b"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true/video_browser.mp4": {
+      "bytes": 2150266,
+      "sha256": "64de5aa6ccfa7b76caf73efd042f9b525798e6ea8eb79616f67d1cc181d2708e"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true-000.png": {
+      "bytes": 222951,
+      "sha256": "ff92e7667cad9d48e39513268e8efb720cd3125ae074cc10197ff2fb51fb312b"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true-028.png": {
+      "bytes": 226265,
+      "sha256": "d2fe5bafc70808ba3fa4c2211d69c4aeb3fcc105e45c8053b012e570f6546b6e"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true-029.png": {
+      "bytes": 230704,
+      "sha256": "d1cb4814a2b2212a98254c83899568e9f22585e45f87bdbd921428cb11ccd7e7"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true-090.png": {
+      "bytes": 234365,
+      "sha256": "1be5d22060bf787da9ff5dd82a4ec57b24287038ee596e9517258c21921581e0"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true-119.png": {
+      "bytes": 233931,
+      "sha256": "ddb9a987a14f715737c4477b472350c7b68cca4b077f6790ce49fd2ca565ae79"
+    },
+    "application.json": {
+      "bytes": 519,
+      "sha256": "ea2e51124b848a93868057da13b7416a48485c511da2d360aef38633fa606887"
+    },
+    "expected-case-ids.json": {
+      "bytes": 99,
+      "sha256": "6f269882d47bc8fa9caaaca3b843e9af9758cbdfa20827a67c47eac77e5912be"
+    },
+    "external-native-media.json": {
+      "bytes": 4665,
+      "sha256": "4c034b80276ce6d91737618cb5b7143010bedc98ba9928ebd1ce5deb15eee0ef"
+    },
+    "index.html": {
+      "bytes": 14488,
+      "sha256": "580fd99cb34e038e4a3fd33217205d86f549c73ee6c89df6c37f35fb7fc18896"
+    },
+    "production-header.json": {
+      "bytes": 2324,
+      "sha256": "5fb0a6802f9e0af27d21a6fd469966ada5e5b7f000bcdbff7323fa42bdae91df"
+    },
+    "review-evidence/2026-10-13_air-hose-independent.py": {
+      "bytes": 1733,
+      "sha256": "28d0f67e96efde2644bc6c11e90edf317d14233b37fff0ce9332040fe597dc9a"
+    },
+    "review-evidence/2026-10-13_browser-media-audit.py": {
+      "bytes": 2813,
+      "sha256": "50bb90ae8264b91d97cdf296e8fe4585981804c9efacac779a6b098475d53a33"
+    },
+    "review-evidence/2026-10-13_geometry-audit.py": {
+      "bytes": 3205,
+      "sha256": "e19773f6ccc7a28e7f20b2ae85168f62bf263216189fb72a23c21e363e536987"
+    },
+    "review-evidence/2026-10-13_independent-all-v6.py": {
+      "bytes": 9447,
+      "sha256": "dd7f03e47c64f3cb2715a3e5dccffdb51f368eac1975e12d37f6f5dc9b0a3285"
+    },
+    "review-evidence/2026-10-13_inspection-artifacts.py": {
+      "bytes": 2090,
+      "sha256": "a29460ec6a350a3e7c36522b2312086ecf717bf6a240a7274549ceb70cf7af74"
+    },
+    "review-evidence/2026-10-13_probe-inspection.py": {
+      "bytes": 2004,
+      "sha256": "8efaba4cdaef29ccda5629831b871cf8fecc399ac690faa03ee85519b0f08c48"
+    },
+    "review-evidence/2026-10-13_reproduction-audit-final.py": {
+      "bytes": 3807,
+      "sha256": "66b73cbfc4e018cabefdeb70413726dd04c3b31406d41323ce936cb4d5a3af04"
+    },
+    "review-evidence/2026-10-13_validate-reproduction.py": {
+      "bytes": 1754,
+      "sha256": "e6e1f35c1f47721d68ff3b48d668107e876105e5721e45eaa20985ad9556b44e"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_high-counterfactual-35.png": {
+      "bytes": 79431,
+      "sha256": "2710cec983d632aefd3f4de521958fb0a25c5566ca352f47c3025d0895b7176d"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_high-counterfactual-90.png": {
+      "bytes": 79506,
+      "sha256": "44b270211d007eebc5bf98a1129950ed9305e7b593fafcd700b52e456f66e6ac"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_high-true-35.png": {
+      "bytes": 80704,
+      "sha256": "cb3e46c8389d3c056a5649e3b6f7370581ee338d3ba3d2e6d8143e27b9b4467e"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_high-true-90.png": {
+      "bytes": 80366,
+      "sha256": "b02ea9cc4b37ebb2a38f44d228c382ecf9fecc100bb3583ff10419f3a3b22eaf"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_low-counterfactual-35.png": {
+      "bytes": 79372,
+      "sha256": "0eddab410cc4885cec450714f8d2298e4478e2e2a1b4d9e31d5a31c2eaa0b8e9"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_low-counterfactual-90.png": {
+      "bytes": 79447,
+      "sha256": "18eeeaf5db3f52116b02dbfec815b750f1135ac3ef48b2bc69fb4d9006c7f36b"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_low-true-35.png": {
+      "bytes": 80611,
+      "sha256": "77983c2c28eefc080755e16c95a151b75d606f7260b5e47900bb9df33848702e"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_low-true-90.png": {
+      "bytes": 80363,
+      "sha256": "1f662226b134bebbc37c1dcee563f1be0b0ee65b42161b80592b8e3df05cc7a1"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/axis-probes.json": {
+      "bytes": 23000,
+      "sha256": "8d7257f9e49977692caa798872dd84355eca7b6f1c461e7fd73fc061f7571856"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/baseline-counterfactual-35.png": {
+      "bytes": 78933,
+      "sha256": "37caefb12b80ec8a1f09b5b671d1e3bf95f322266f5b519354a9fb1c45b9b87c"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/baseline-counterfactual-90.png": {
+      "bytes": 79013,
+      "sha256": "db45aedf9b34a8879bbb5ae45f0d035f628e114c4a671f2bb129b1b08e712389"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/baseline-true-35.png": {
+      "bytes": 80258,
+      "sha256": "e942a95358e2f42e19357e0b2ceb3527ae9cb193fb2ec76b4581109a9fb22b8c"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/baseline-true-90.png": {
+      "bytes": 79899,
+      "sha256": "280221fa9ef203c86ee0d9549a5f94cc6e78b802ff882c318bcd6e8a4f6d2f6d"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_high-counterfactual-35.png": {
+      "bytes": 78915,
+      "sha256": "a9827548c402ed9f10fff839c2818ff129c02246fadb49e4891883a8fa36a66a"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_high-counterfactual-90.png": {
+      "bytes": 79113,
+      "sha256": "e6ddcce6dc82476e4eb45a60c553b0b284110ec475dedbd477a6c0883f5e2ff9"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_high-true-35.png": {
+      "bytes": 79979,
+      "sha256": "c6c8c567c7eb81085becdfd804aa9357aebc970cf6c12febcb22c1d740563ace"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_high-true-90.png": {
+      "bytes": 79997,
+      "sha256": "c94c2ef74df4a5ca731bcda95647b8d081314ec24d95819804e4d7f065c5e266"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_low-counterfactual-35.png": {
+      "bytes": 79202,
+      "sha256": "66c4c3c0be2595edd35c6dce0463f82404325415d6d9b74c8a98802bf68c7e59"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_low-counterfactual-90.png": {
+      "bytes": 79196,
+      "sha256": "b180e32deaf3bcb21a83571b2fe44f4723a2038400792e74bf27aaf63d1574e0"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_low-true-35.png": {
+      "bytes": 80960,
+      "sha256": "0b19a5ad7c644790d60f42918c906049ef958b85dd3f1a150cc7ed74cfe913d1"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/depth_low-true-90.png": {
+      "bytes": 80664,
+      "sha256": "5f9c4c26e3ac69de951ba554e09f2cc3dd2b5bb53d4b7b1106a95379d2b34667"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_high-counterfactual-35.png": {
+      "bytes": 79408,
+      "sha256": "da3494c8868e84570f5e7eedb6bb90185a6b74e888498a8e4f6fdcf0805cc7c3"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_high-counterfactual-90.png": {
+      "bytes": 79448,
+      "sha256": "e7d89ec33d6fbb18a948f56fa5ba054538d80f2760df8c69fafa0c7432f4b026"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_high-true-35.png": {
+      "bytes": 80276,
+      "sha256": "61c3f4af8642cc07a20e98f6787802974bd064d535cfa9863557b336eb4c00b4"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_high-true-90.png": {
+      "bytes": 80478,
+      "sha256": "9222dcc43730d330271d3be56280c6d4b9e9f784bc7dfc9b70be947de0184c57"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_low-counterfactual-35.png": {
+      "bytes": 81713,
+      "sha256": "fc50aefed9cd4b393d0100e42f79c422f7ee994bb167e8c42b4681d86b06cf2f"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_low-counterfactual-90.png": {
+      "bytes": 82041,
+      "sha256": "04295c102a6ee0f442b9b8333744b65297f26771cf7f741973adeb1b0b79855d"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_low-true-35.png": {
+      "bytes": 82503,
+      "sha256": "a03f9fbeb87001d6ab95cdaa161436166f5ab2f8f40dda6fa15f8d89c40dff3f"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/length_low-true-90.png": {
+      "bytes": 83026,
+      "sha256": "75d082c3e9e9af5f5bf7b2b2df6a78f73afd6bca4468a8aba633c5f3c272d363"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_high-counterfactual-35.png": {
+      "bytes": 79899,
+      "sha256": "7e59d2ef0779e1d59cf17e8dbd186419dbcff76120fde7103720a03677217186"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_high-counterfactual-90.png": {
+      "bytes": 79048,
+      "sha256": "1a4bed1ae1d71c552b0fb3a2f3227bc0c9643667debb8f0ab045a88b325b01ad"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_high-true-35.png": {
+      "bytes": 80698,
+      "sha256": "cef746775c45ef1ec7a50a59cc138cf8c9035db21477422576ba5acf3b7a4a34"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_high-true-90.png": {
+      "bytes": 79855,
+      "sha256": "1a3ed9e87f1a3220aadf1a9849fa5a1730e98360e3be2f2db7e8c70deae751eb"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_low-counterfactual-35.png": {
+      "bytes": 78141,
+      "sha256": "e4e44cd0305b888fd257f4a115a1cab774fc098e307945da7e29219a56f4c461"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_low-counterfactual-90.png": {
+      "bytes": 79012,
+      "sha256": "f785d52d0bb75c8e04315c01f81bb294c053f595c1d89c4450a374fce66d3c74"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_low-true-35.png": {
+      "bytes": 79707,
+      "sha256": "b1fa9cc293b22461015544656bde21c898330b3420862111b2c268bc77a1623e"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/onset_low-true-90.png": {
+      "bytes": 79867,
+      "sha256": "b511dc7f27970d47ab54aa38b6cf86714efd1508b230df744a05a64133a23252"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_high-counterfactual-35.png": {
+      "bytes": 79778,
+      "sha256": "a10403adc69b2d49148191d82b9dadb20eb01fb6748d3c9dc38ff948f5a12b68"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_high-counterfactual-90.png": {
+      "bytes": 79864,
+      "sha256": "08b0dc37fda59e64535b858ea2f69430d8da4da95b57049d46da352059fea18d"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_high-true-35.png": {
+      "bytes": 80877,
+      "sha256": "69cfa7c5accbdc148fe07934913a390f97c16630b59e336af5d99f9e706be7b0"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_high-true-90.png": {
+      "bytes": 81151,
+      "sha256": "3074d0f378f44e028dbcf43acd4f3aeaf16c4bfd65df722ec123d1c3cdba3654"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_low-counterfactual-35.png": {
+      "bytes": 78282,
+      "sha256": "7730a08f73ab49d4562f943f666dd2c0c926d2c18b1f4d3223adf464b8e39513"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_low-counterfactual-90.png": {
+      "bytes": 78520,
+      "sha256": "d405ebfd4769bb0cb99b1b2ffe28a3c9f41f7866f587c4fd5e0578dc408a91c4"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_low-true-35.png": {
+      "bytes": 79698,
+      "sha256": "948aef762fdde4aff7671d21812bcb215410edb08b213c305e355feadbc231f4"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/response_low-true-90.png": {
+      "bytes": 79354,
+      "sha256": "26c4dd455c2caf7f2d2d70529addd11bd7cee9e38f2b99d4ab66a58848ad3635"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_high-counterfactual-35.png": {
+      "bytes": 76206,
+      "sha256": "4cc2e1612cc842d2e374232a7a657c249ccf911ede8f062499a211d05a6f3343"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_high-counterfactual-90.png": {
+      "bytes": 76744,
+      "sha256": "150f80bd02771331546ea2c8aa080d6c2d01b41248083243620f544072a94c91"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_high-true-35.png": {
+      "bytes": 77068,
+      "sha256": "0a225ffbcf02f901de42c4d249b5c4ce819cc3403d56dae054acc4f799d380a2"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_high-true-90.png": {
+      "bytes": 76554,
+      "sha256": "25da1c00f7e2f1bf3779cc23ba12d05d0f3e909832662131a1fd8773bf6b123e"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_low-counterfactual-35.png": {
+      "bytes": 83207,
+      "sha256": "dfaa421f480c292cacb3df3d3618ee7b7e55be80a3b4b6e08cbc6606cf81e010"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_low-counterfactual-90.png": {
+      "bytes": 83509,
+      "sha256": "04cde00a75dc41ede44e7c1703de83798d38d397bd3563b815526c3ab7053137"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_low-true-35.png": {
+      "bytes": 84341,
+      "sha256": "d7927d859eecd1d5bb3f3c3ff33299ad49fb0f35f5d4f6a119e2229ec2e2c5dd"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes/view_low-true-90.png": {
+      "bytes": 84669,
+      "sha256": "a57a96e09ceff6f142bcf5a61d9774fb34e80df4b9f46d60cbe6c8926ec6d5d7"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-axis-probes.log": {
+      "bytes": 8196,
+      "sha256": "ce5ee731602159506c22cab04d233d55ebf720988c01d9a1af18cc94d3cbfdb6"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-bounded-resources.json": {
+      "bytes": 902,
+      "sha256": "f40b09db6ab4d0fc83549f859e24aa9e6d653ea371b844e8fc83496a4c2e2a63"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-bounded-resources.log": {
+      "bytes": 56,
+      "sha256": "4509d95e1548786ee62df069c32fb70d70dbfe4f761dae7dfb1a86b46904da08"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-browser-media.json": {
+      "bytes": 2340,
+      "sha256": "00e40610cd554aafc37826e55bfe7f0cf27e1c9d057ecb2100b3efc689035c0b"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-geometry.json": {
+      "bytes": 1450,
+      "sha256": "f8b9eb95a0f48931f9a6ece0bf809955b7ecb265ea80b296b9338b45939be3b4"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-geometry.log": {
+      "bytes": 114,
+      "sha256": "c1b239fde27b2037fd9c12e0700756ebe6409ecf09fdf4cb0a93a431e39572a0"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-head.json": {
+      "bytes": 80,
+      "sha256": "04ea20288bde29ad1fdd2c450e8a840281d26c3c5f7a22d794cf855b798f72b7"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-help.log": {
+      "bytes": 408,
+      "sha256": "dcc788fb18ad4a0c2c330386bb19d7e773ed995c866aed883f9d0741273a873d"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-hose-bvh.json": {
+      "bytes": 486,
+      "sha256": "007ea8f2a28965d3516f7bbc4ae6882b5664852ab2fe3283156c7b90a795c82a"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-hose-bvh.log": {
+      "bytes": 252,
+      "sha256": "5837a53c25adff2a30ea3c55ac511270fe5448728c4587c52729ebfc7e8945a4"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-independent.json": {
+      "bytes": 1699,
+      "sha256": "7180f8b465c5f02ea651071c8f3b4cc33219dc43f1edd48efce112420f655e21"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-independent.log": {
+      "bytes": 120,
+      "sha256": "3b519558bdaf8dafa5849eb995f02c5330bfbea59d22df148c23070bcbe6b9ff"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-inspection.log": {
+      "bytes": 140,
+      "sha256": "d6c8a0373398393170d5d264c23c5357f77ce1448696b52666d22530b4a320de"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-render.log": {
+      "bytes": 124360,
+      "sha256": "fbb2ef68d485b8148ad667ed11eac78e1758272fc0f3cd4affabb29d2dfdc4c7"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-reproduce-compare.json": {
+      "bytes": 589,
+      "sha256": "ca16904526b31886158323dcf328bcb43fb6a52e6b15a9b91a25d899c59ef380"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-reproduce-runtime.json": {
+      "bytes": 297,
+      "sha256": "ab841982b79775edae3403cc9fd9ddbd4db4137a388b630d6f1b9b6ad58d7af3"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-reproduce.log": {
+      "bytes": 67400,
+      "sha256": "1b79bbfe318619661991dc204764e7a340885d359a93eea656cd006b92dcdbb0"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-reproduction-diagnostic.json": {
+      "bytes": 1867,
+      "sha256": "45ba7e45647409eabacf8dde200c1eff9e3fdcbccfb95f2111a390932d4c3587"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-reproduction-diagnostic.log": {
+      "bytes": 1621,
+      "sha256": "7ec768a9147d75e75f7b978a1abecda1c33990541b4920f9e77cb32f3dc09332"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-reproduction-validated.json": {
+      "bytes": 2581,
+      "sha256": "1ce01d1586b03b43ea759d6b7122e88277fc65a898c5f7bef95bf76fb21a9be3"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-resume.log": {
+      "bytes": 622,
+      "sha256": "c806bd6abd9fbc6ae0075ad158d4f35f1afeaa39572f613929381291b3dbae08"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-runtime-index.log": {
+      "bytes": 1180,
+      "sha256": "898b88d39999c986d4f001a95a85feaca3a23c3c2e5d47df5274e1d010469609"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-runtime.json": {
+      "bytes": 288,
+      "sha256": "1dd6f08483083b860dee63b96b5c7ad8283c454bb40119f3b714af13830e9426"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-scale.json": {
+      "bytes": 762,
+      "sha256": "0daa11ea7f301484b8b3d617422d5130f6abc20c1f104ecd2d96d9a6454fc0a9"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-scale.log": {
+      "bytes": 762,
+      "sha256": "0daa11ea7f301484b8b3d617422d5130f6abc20c1f104ecd2d96d9a6454fc0a9"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-six-axis-independent.json": {
+      "bytes": 2446,
+      "sha256": "3b9b193970a8e576cca9475f604dad13e5137277e86aa1ca1d0ae97f915c2e60"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-six-axis-inspection.jpg": {
+      "bytes": 78241,
+      "sha256": "1edb148ed0b5f59fa3a741b2c9ed9a990e3722cdb9f1e4d8941ae209abee261f"
+    },
+    "review-evidence/air_gap_plate_attraction_reversal-tests.log": {
+      "bytes": 99,
+      "sha256": "49abd204d5b2583756e25e9ea7b8bf8f7d1a6754d9290781d0d6856a085cef29"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/full-scenes-display.jpg": {
+      "bytes": 66865,
+      "sha256": "e70641d44cbbf2163978aba5cc16bbdf5ef137263f89b883563072869847f211"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/full-scenes.jpg": {
+      "bytes": 183899,
+      "sha256": "09edf5ec3241b3f67d3f53e53d9b43620aac482665d729402d8b1e78f573a6e9"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-cf-025.png": {
+      "bytes": 71550,
+      "sha256": "0d6e4ee558de6ce7276faa4b743514877b96944282252236f79d3f243f9aa08f"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-cf-026.png": {
+      "bytes": 78642,
+      "sha256": "6381862712369f6dc57b3ee60825f912332d2eb3a1929f8994c0634c75786800"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-cf-027.png": {
+      "bytes": 80714,
+      "sha256": "a9c8c3f15c1452d36d45887b6dced72023904864f4dc578eac29ccf339494c18"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-cf-028.png": {
+      "bytes": 82726,
+      "sha256": "737a93f21de0b70f6a92a54f8383f50047416e511cd661769c6e5cfab9db6f19"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-mask-025.png": {
+      "bytes": 4680,
+      "sha256": "40cb597944f6240ac419ba654f06e8a374426588caf107d2437f558b01dd9f36"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-mask-026.png": {
+      "bytes": 4883,
+      "sha256": "c13826c3aebb48a6b6aaf94546d588f85b42e86b6f7674e1a1364053723d428d"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-mask-027.png": {
+      "bytes": 5174,
+      "sha256": "06410bf2cc2e5fddb762d6d5e3a55f489f4ca161369f16cd17b0b401592a3740"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-mask-028.png": {
+      "bytes": 5339,
+      "sha256": "559f1bce992557f4dd13d6c0a5fa8907081011fb5b34db0d794a69ea69db33e1"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-overlay-025.png": {
+      "bytes": 57374,
+      "sha256": "4b8aad007ca336eec3d57cd1ecbfa01a5d7a9549f41d4cfdf6c2f91ead9ae388"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-overlay-026.png": {
+      "bytes": 59529,
+      "sha256": "ac5ae96bc47db5066b925a21291773a2d68953435dba417dd1a1c7af4c8e19ca"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-overlay-027.png": {
+      "bytes": 61050,
+      "sha256": "cde8d9c638fd9c9fb0b385c07f71e223bc797d25c28491d91437d7eb3dbd82bf"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-overlay-028.png": {
+      "bytes": 62067,
+      "sha256": "d0431cc32777e09ba839c16f176852d54c2d80cdc7c8701cd5c7c2a182e3a750"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000042/native-temporal-display.png": {
+      "bytes": 410981,
+      "sha256": "48abc8d49fefb04d91dd6e959a1d8c15ec8ec07a854a6bd7d21a806954765674"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/full-scenes-display.jpg": {
+      "bytes": 64111,
+      "sha256": "aa04165ad72c2fc443f2bbee64bc68053c8bb5912b639ad9d9a4fb454c73087e"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/full-scenes.jpg": {
+      "bytes": 178245,
+      "sha256": "1f03df67f41a6813fe1a7a90d2e5a834f5737f882233e0c04e8f30a12a3e9d1e"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-cf-028.png": {
+      "bytes": 55515,
+      "sha256": "186618f41889b555b096b37a786a2a6801a2702c8fe65a96773f26919ec92f58"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-cf-029.png": {
+      "bytes": 60107,
+      "sha256": "9841f710bb4b5b979323c4551e15ee12a0d4ca046555dace92ad47bd403fb7d0"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-cf-030.png": {
+      "bytes": 62675,
+      "sha256": "906a808f23402df7c607696f40fa803e833bbe614116dc8a6b43d4b14c2f3f78"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-cf-031.png": {
+      "bytes": 61736,
+      "sha256": "4b7dc181f5daff15b1d1209c38ab95971e99255951b422d1a89e2e470fc7dba0"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-mask-028.png": {
+      "bytes": 3242,
+      "sha256": "b48d283984cfc2076f98d43f57309192a1c163f798c9877f96c9ebc6d5f9f2ec"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-mask-029.png": {
+      "bytes": 3476,
+      "sha256": "771a6449b43a4e4666d436bd859a5a0a4797ab47360b794fb0dfc63da6cb755b"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-mask-030.png": {
+      "bytes": 3838,
+      "sha256": "76ed9195b5c906aa811cfe89aabd7133c77e87ac81fad728a6c8a68f68c13679"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-mask-031.png": {
+      "bytes": 4062,
+      "sha256": "fe07c5c8d8353e46d62bb7a31776efdab9b21f1da2d9fd5be270377c8bce4097"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-overlay-028.png": {
+      "bytes": 44819,
+      "sha256": "dfe97b03c77a0ee56a73df8726f0ed712a917ddafb808faff42df54d64c65ac8"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-overlay-029.png": {
+      "bytes": 46116,
+      "sha256": "adeaa997448ab4b0d800a3211ad29aee5f9d4f7d2223fa0c5dc5c4fed103a335"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-overlay-030.png": {
+      "bytes": 46588,
+      "sha256": "0ee6f0300362d3230a938b843429436e5cf28f16fbb563df3479ef93f5158cb0"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-overlay-031.png": {
+      "bytes": 46636,
+      "sha256": "152d4fef093574b8122c926a6c38cba3469a72e1c54b656679483ed2987d9ec8"
+    },
+    "review-evidence/native-inspection/air_gap_plate_attraction_reversal_00000098/native-temporal-display.png": {
+      "bytes": 334802,
+      "sha256": "83b8bf91c6678ecd7684c09dda18a747bc9b3cd8cc8f4fb4bdeb5ada7289c28b"
+    },
+    "review-evidence/native-inspection/manifest.json": {
+      "bytes": 3434,
+      "sha256": "049b456c9943ccd3a04142d88052123023796fead464e04fb6aab7e2c0227bb8"
+    },
+    "review.json": {
+      "bytes": 542,
+      "sha256": "6050a5d869bb9ef01f0d87a6df2f9d0d1be35166728c3aa32acb8c26356e1d1c"
+    },
+    "runtime-witness-index.json": {
+      "bytes": 1180,
+      "sha256": "898b88d39999c986d4f001a95a85feaca3a23c3c2e5d47df5274e1d010469609"
+    },
+    "runtime-witness.json": {
+      "bytes": 16739,
+      "sha256": "4e5a9c49be46bffa3863ebdc9db98b5789a0d22d24a28f180ef18cc7ac072123"
+    }
+  },
+  "external_files": {
+    "air_gap_plate_attraction_reversal_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-true.mp4",
+      "bytes": 30358975,
+      "sha256": "b21d9f0f2f4d5ec0ea58fa81a9445d8f69b577d33b9d457045b091a1d9dbe069",
+      "github_asset_id": 636616469,
+      "server_digest": "sha256:b21d9f0f2f4d5ec0ea58fa81a9445d8f69b577d33b9d457045b091a1d9dbe069"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-counterfactual.mp4",
+      "bytes": 29893926,
+      "sha256": "40c82433b9de67d43fbb11dde39b81f1067bfb0b2d466712182cd51196d83be6",
+      "github_asset_id": 636616462,
+      "server_digest": "sha256:40c82433b9de67d43fbb11dde39b81f1067bfb0b2d466712182cd51196d83be6"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-mask.mp4",
+      "bytes": 2873610,
+      "sha256": "85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542",
+      "github_asset_id": 636616464,
+      "server_digest": "sha256:85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542"
+    },
+    "air_gap_plate_attraction_reversal_00000042/counterfactual_gap_pressure_difference_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-42-overlay.mp4",
+      "bytes": 27902668,
+      "sha256": "669116fdbeb4fb626a7764b27473afbd69e0851c09f13f9df9669fb40ba033e7",
+      "github_asset_id": 636616472,
+      "server_digest": "sha256:669116fdbeb4fb626a7764b27473afbd69e0851c09f13f9df9669fb40ba033e7"
+    },
+    "air_gap_plate_attraction_reversal_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-true.mp4",
+      "bytes": 30011749,
+      "sha256": "3249389b2b59cdae705ffae7252fbe92c775587f993707a0f273bf5974fdb6c3",
+      "github_asset_id": 636616470,
+      "server_digest": "sha256:3249389b2b59cdae705ffae7252fbe92c775587f993707a0f273bf5974fdb6c3"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-counterfactual.mp4",
+      "bytes": 29641370,
+      "sha256": "560e22eb1eb4199c61453f3e6d1dda49b7cd9943eae118ac9665fc9c7b6f795b",
+      "github_asset_id": 636616783,
+      "server_digest": "sha256:560e22eb1eb4199c61453f3e6d1dda49b7cd9943eae118ac9665fc9c7b6f795b"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-mask.mp4",
+      "bytes": 2704397,
+      "sha256": "3435ced591f3f2e1b5fd60884f326404bf268ef148401b4a16f85f4943da950a",
+      "github_asset_id": 636618283,
+      "server_digest": "sha256:3435ced591f3f2e1b5fd60884f326404bf268ef148401b4a16f85f4943da950a"
+    },
+    "air_gap_plate_attraction_reversal_00000098/counterfactual_gap_pressure_difference_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-four-generators/air_gap_plate_attraction_reversal-d8b7b26c29a98bc5392e859e233ce67fcb747961-98-overlay.mp4",
+      "bytes": 27975999,
+      "sha256": "717227fcc36a67d8c37e937a8f56555dacfd54c4cae46f11a34cce0eaaafcfec",
+      "github_asset_id": 636618488,
+      "server_digest": "sha256:717227fcc36a67d8c37e937a8f56555dacfd54c4cae46f11a34cce0eaaafcfec"
+    }
+  }
+}

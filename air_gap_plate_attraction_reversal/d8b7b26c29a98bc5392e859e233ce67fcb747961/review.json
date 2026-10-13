@@ -1,0 +1,17 @@
+{
+  "decision": "NOT VERIFIED",
+  "generator_correctness": "NOT VERIFIED",
+  "scale_readiness": "NOT VERIFIED",
+  "runtime_provenance": "PASS",
+  "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "accepted_cases": 2,
+  "static_audited": 100000,
+  "rendered_primary_axes": [
+    "length",
+    "response",
+    "onset",
+    "depth"
+  ],
+  "self_check_complete": false,
+  "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/air_gap_plate_attraction_reversal/d8b7b26c29a98bc5392e859e233ce67fcb747961/index.html"
+}

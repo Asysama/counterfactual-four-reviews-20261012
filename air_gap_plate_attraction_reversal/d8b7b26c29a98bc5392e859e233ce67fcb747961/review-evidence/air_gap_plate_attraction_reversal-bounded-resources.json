@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "official_bpy": "4.5.3 LTS",
+  "checks": "three fresh scene setups, both branches and four phases each; all unused geometry counts remain bounded",
+  "cases": [
+    {
+      "seed": 42,
+      "counts": {
+        "objects": 28,
+        "meshes": 27,
+        "curves": 0,
+        "materials": 0,
+        "cameras": 1,
+        "lights": 0
+      },
+      "max_rss_kb": 256532
+    },
+    {
+      "seed": 98,
+      "counts": {
+        "objects": 28,
+        "meshes": 27,
+        "curves": 0,
+        "materials": 0,
+        "cameras": 1,
+        "lights": 0
+      },
+      "max_rss_kb": 256788
+    },
+    {
+      "seed": 999999,
+      "counts": {
+        "objects": 28,
+        "meshes": 27,
+        "curves": 0,
+        "materials": 0,
+        "cameras": 1,
+        "lights": 0
+      },
+      "max_rss_kb": 256788
+    }
+  ]
+}

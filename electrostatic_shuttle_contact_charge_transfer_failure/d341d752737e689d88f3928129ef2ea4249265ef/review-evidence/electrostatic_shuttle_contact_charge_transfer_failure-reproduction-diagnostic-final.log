@@ -1,0 +1,214 @@
+{
+  "true/video.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 1,
+    "total_differing_pixels": 2,
+    "max_differing_pixels_per_frame": 2,
+    "differences": [
+      {
+        "frame": 23,
+        "pixel_count": 2,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 1023,
+            "y": 1266,
+            "original": [
+              75,
+              85,
+              75
+            ],
+            "reproduced": [
+              75,
+              85,
+              74
+            ]
+          },
+          {
+            "x": 1024,
+            "y": 1266,
+            "original": [
+              75,
+              85,
+              75
+            ],
+            "reproduced": [
+              75,
+              85,
+              74
+            ]
+          }
+        ]
+      }
+    ],
+    "original_sha256": "7ac94c67565f6f90bdb7ec5fd6366c0a1b4aaa60d0684359e82fa7741b3aadd1",
+    "reproduced_sha256": "5629d9e11eef816e83973f97dc0fa0e4e3b86806d7c885a459a7c5c0aad49e08"
+  },
+  "counterfactual_contact_charge_transfer_disabled/video.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 2,
+    "total_differing_pixels": 4,
+    "max_differing_pixels_per_frame": 2,
+    "differences": [
+      {
+        "frame": 23,
+        "pixel_count": 2,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 1023,
+            "y": 1266,
+            "original": [
+              75,
+              85,
+              75
+            ],
+            "reproduced": [
+              75,
+              85,
+              74
+            ]
+          },
+          {
+            "x": 1024,
+            "y": 1266,
+            "original": [
+              75,
+              85,
+              75
+            ],
+            "reproduced": [
+              75,
+              85,
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 69,
+        "pixel_count": 1,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 1268,
+            "y": 1214,
+            "original": [
+              81,
+              93,
+              81
+            ],
+            "reproduced": [
+              82,
+              93,
+              81
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 86,
+        "pixel_count": 1,
+        "maximum_channel_difference": 2,
+        "samples": [
+          {
+            "x": 1302,
+            "y": 1217,
+            "original": [
+              53,
+              57,
+              54
+            ],
+            "reproduced": [
+              52,
+              56,
+              52
+            ]
+          }
+        ]
+      }
+    ],
+    "original_sha256": "54daabb6f956e19906493afb622e76909ea982d03f84aaff42c817f87e060fca",
+    "reproduced_sha256": "bc5c1fd0447b1d94c1e820309b89702e6310f1cdf4ee270b8562e564c507fdba"
+  },
+  "counterfactual_contact_charge_transfer_disabled/mask.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 0,
+    "total_differing_pixels": 0,
+    "max_differing_pixels_per_frame": 0,
+    "differences": [],
+    "original_sha256": "a5d408bb54d9d605871f4a99d659cd4f16c45bd20cc004f36f8338b707172165",
+    "reproduced_sha256": "a5d408bb54d9d605871f4a99d659cd4f16c45bd20cc004f36f8338b707172165"
+  },
+  "counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 1,
+    "total_differing_pixels": 3,
+    "max_differing_pixels_per_frame": 2,
+    "differences": [
+      {
+        "frame": 23,
+        "pixel_count": 2,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 1023,
+            "y": 1266,
+            "original": [
+              75,
+              85,
+              75
+            ],
+            "reproduced": [
+              75,
+              85,
+              74
+            ]
+          },
+          {
+            "x": 1024,
+            "y": 1266,
+            "original": [
+              75,
+              85,
+              75
+            ],
+            "reproduced": [
+              75,
+              85,
+              74
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 69,
+        "pixel_count": 1,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 1268,
+            "y": 1214,
+            "original": [
+              81,
+              93,
+              81
+            ],
+            "reproduced": [
+              82,
+              93,
+              81
+            ]
+          }
+        ]
+      }
+    ],
+    "original_sha256": "be4c15a0f7d4471dc04fb437ae426b2f6675846dc32f57984811e6631de216a9",
+    "reproduced_sha256": "e81d3b0b177f255a476d5cb13e06c59267115ba5cdbc8d9ac0e29fa21a5b8627"
+  }
+}
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-four-20261012/reproduction-audit-final.py", line 40, in <module>
+    assert all(x['max_channel_difference']<=1 and x['max_differing_pixels_per_frame']<=4 and x['total_differing_pixels']<=32 for x in results.values())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

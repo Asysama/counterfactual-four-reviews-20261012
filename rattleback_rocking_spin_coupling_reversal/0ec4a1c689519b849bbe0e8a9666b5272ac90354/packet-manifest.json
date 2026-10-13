@@ -298,6 +298,14 @@
       "bytes": 173586,
       "sha256": "6a25bf9b6cfab7d69e550bbbd7db73186a4c2737ad503cef1537b0fde1fcbe13"
     },
+    "review-evidence/2026-10-13_air-hose-independent.py": {
+      "bytes": 1733,
+      "sha256": "28d0f67e96efde2644bc6c11e90edf317d14233b37fff0ce9332040fe597dc9a"
+    },
+    "review-evidence/2026-10-13_browser-media-audit.py": {
+      "bytes": 2813,
+      "sha256": "50bb90ae8264b91d97cdf296e8fe4585981804c9efacac779a6b098475d53a33"
+    },
     "review-evidence/2026-10-13_geometry-audit.py": {
       "bytes": 3205,
       "sha256": "e19773f6ccc7a28e7f20b2ae85168f62bf263216189fb72a23c21e363e536987"
@@ -309,6 +317,18 @@
     "review-evidence/2026-10-13_inspection-artifacts.py": {
       "bytes": 2090,
       "sha256": "a29460ec6a350a3e7c36522b2312086ecf717bf6a240a7274549ceb70cf7af74"
+    },
+    "review-evidence/2026-10-13_probe-inspection.py": {
+      "bytes": 2004,
+      "sha256": "8efaba4cdaef29ccda5629831b871cf8fecc399ac690faa03ee85519b0f08c48"
+    },
+    "review-evidence/2026-10-13_reproduction-audit-final.py": {
+      "bytes": 3807,
+      "sha256": "66b73cbfc4e018cabefdeb70413726dd04c3b31406d41323ce936cb4d5a3af04"
+    },
+    "review-evidence/2026-10-13_validate-reproduction.py": {
+      "bytes": 1754,
+      "sha256": "e6e1f35c1f47721d68ff3b48d668107e876105e5721e45eaa20985ad9556b44e"
     },
     "review-evidence/native-inspection/manifest.json": {
       "bytes": 3452,
@@ -694,9 +714,29 @@
       "bytes": 134496,
       "sha256": "ade2e89ea9d3f17b01e1208acdf5c2f7e7d3a859cd4dde727617bf6e7dad3584"
     },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduce-compare.json": {
+      "bytes": 676,
+      "sha256": "da4ab2333635bc4d873b9ddd83324bfc9f84c371a7c27720106b4ebab132bccf"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduce-runtime.json": {
+      "bytes": 305,
+      "sha256": "71a6a2e1121b43992745ac9428862cca577bed3e5ec52008ea2e358cf756496f"
+    },
     "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduce.log": {
-      "bytes": 57977,
-      "sha256": "b9ca5961766a47fc5c794b7dacc023425d384509fd5beaf10da70e65e0765d9f"
+      "bytes": 72608,
+      "sha256": "81a966b334bec428f5e50fdcc4d27c75f0af517025e995d3f61373cb1bc7e604"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduction-diagnostic-final.log": {
+      "bytes": 2442,
+      "sha256": "2331046263b04230526416a04e9f325b6c1551ee309094b6a7ece9e007e76d44"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduction-diagnostic.json": {
+      "bytes": 2784,
+      "sha256": "5e127bb1bc9e3e82428436efa32072d4e1d5fc3b3cf435669e43da548be14318"
+    },
+    "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduction-validated.json": {
+      "bytes": 3498,
+      "sha256": "221ee5d301f2b759b8dd74f469b8c2c20fa56de2a55af1d66a0e0e56e6539254"
     },
     "review-evidence/rattleback_rocking_spin_coupling_reversal-resume.log": {
       "bytes": 654,

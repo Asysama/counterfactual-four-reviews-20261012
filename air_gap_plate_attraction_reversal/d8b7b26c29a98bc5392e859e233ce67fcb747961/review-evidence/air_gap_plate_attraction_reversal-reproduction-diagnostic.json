@@ -1,0 +1,43 @@
+{
+  "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "case_id": "air_gap_plate_attraction_reversal_00000042",
+  "trajectory_and_recipe_exact": true,
+  "streams": {
+    "true/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "b21d9f0f2f4d5ec0ea58fa81a9445d8f69b577d33b9d457045b091a1d9dbe069",
+      "reproduced_sha256": "b21d9f0f2f4d5ec0ea58fa81a9445d8f69b577d33b9d457045b091a1d9dbe069"
+    },
+    "counterfactual_gap_pressure_difference_sign_reversal/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "40c82433b9de67d43fbb11dde39b81f1067bfb0b2d466712182cd51196d83be6",
+      "reproduced_sha256": "40c82433b9de67d43fbb11dde39b81f1067bfb0b2d466712182cd51196d83be6"
+    },
+    "counterfactual_gap_pressure_difference_sign_reversal/mask.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542",
+      "reproduced_sha256": "85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542"
+    },
+    "counterfactual_gap_pressure_difference_sign_reversal/mask_overlay.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "669116fdbeb4fb626a7764b27473afbd69e0851c09f13f9df9669fb40ba033e7",
+      "reproduced_sha256": "669116fdbeb4fb626a7764b27473afbd69e0851c09f13f9df9669fb40ba033e7"
+    }
+  }
+}

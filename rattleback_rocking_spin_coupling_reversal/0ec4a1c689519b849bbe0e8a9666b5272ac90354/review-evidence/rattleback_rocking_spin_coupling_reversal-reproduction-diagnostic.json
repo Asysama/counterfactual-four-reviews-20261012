@@ -1,0 +1,87 @@
+{
+  "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+  "case_id": "rattleback_rocking_spin_coupling_reversal_00000042",
+  "trajectory_and_recipe_exact": true,
+  "streams": {
+    "true/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "44cb87f9b4cef42ba16e6bbf96ee40c7ef6330935a718526bc3eb6e77265fff6",
+      "reproduced_sha256": "44cb87f9b4cef42ba16e6bbf96ee40c7ef6330935a718526bc3eb6e77265fff6"
+    },
+    "counterfactual_rocking_spin_chiral_coupling_sign_reversal/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 1,
+      "total_differing_pixels": 1,
+      "max_differing_pixels_per_frame": 1,
+      "differences": [
+        {
+          "frame": 41,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 665,
+              "y": 954,
+              "original": [
+                137,
+                143,
+                148
+              ],
+              "reproduced": [
+                137,
+                142,
+                148
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "51e34b711e1ebb7f0a144016e153a63079a02f1e5463773a7f216a646be43af7",
+      "reproduced_sha256": "91019c186ed6f10be9c2b9d27788254c842fb533b86cdb8a0c89025bedef4355"
+    },
+    "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "48359195a65e8f26a116143d01c802f16aa760575a4970e6e1cd4ee410cc79f6",
+      "reproduced_sha256": "48359195a65e8f26a116143d01c802f16aa760575a4970e6e1cd4ee410cc79f6"
+    },
+    "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 1,
+      "total_differing_pixels": 1,
+      "max_differing_pixels_per_frame": 1,
+      "differences": [
+        {
+          "frame": 41,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 665,
+              "y": 954,
+              "original": [
+                137,
+                143,
+                148
+              ],
+              "reproduced": [
+                137,
+                142,
+                148
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "0ce05e8268685c360df7b4eea8fcca6a3df00af2b4baed9b806a005c6e175ef1",
+      "reproduced_sha256": "37a0d9ae9bc7530f3cd977b33b18ffe86fb1283b8babee654abe90c3fb805915"
+    }
+  }
+}

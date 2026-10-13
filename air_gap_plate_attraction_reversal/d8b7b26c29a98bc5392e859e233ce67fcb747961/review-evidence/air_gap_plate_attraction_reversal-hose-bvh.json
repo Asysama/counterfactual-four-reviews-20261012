@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "method": "Actual evaluated world-space hose and card triangle BVH intersection;0.0001 tolerance",
+  "cases": [
+    {
+      "case_id": "air_gap_plate_attraction_reversal_00000098",
+      "evaluated_card_mesh_checks": 480,
+      "collision_pairs": 0
+    },
+    {
+      "case_id": "air_gap_plate_attraction_reversal_00000042",
+      "evaluated_card_mesh_checks": 480,
+      "collision_pairs": 0
+    }
+  ]
+}

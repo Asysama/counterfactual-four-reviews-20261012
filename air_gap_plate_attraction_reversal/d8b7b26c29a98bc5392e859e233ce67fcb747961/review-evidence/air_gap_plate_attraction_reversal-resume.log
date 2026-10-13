@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-four-20261012/verified-v7/air_gap_plate_attraction_reversal/generators/air_gap_plate_attraction_reversal/examples/generate.py", line 5, in <module>
+    if __name__=='__main__':cli()
+                            ^^^^^
+  File "/opt/siyuan-cf-four-20261012/verified-v7/air_gap_plate_attraction_reversal/generators/air_gap_plate_attraction_reversal/engine/run.py", line 93, in cli
+    assert a.resume and json.loads(hf.read_text())==header,'incompatible resume'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: incompatible resume
+RESUME_PASS

@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "case_id": "air_gap_plate_attraction_reversal_00000042",
+      "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.27561432123184204,
+      "target_z_bounds": [
+        1.027999997138977,
+        2.385999917984009
+      ],
+      "target_objects": [
+        "card_hinge_collar_-1",
+        "card_hinge_collar_1",
+        "card_integral_hinge_tab_-1",
+        "card_integral_hinge_tab_1",
+        "hinged_hard_card_-1",
+        "hinged_hard_card_1"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    },
+    {
+      "case_id": "air_gap_plate_attraction_reversal_00000098",
+      "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+      "status": "PASS",
+      "tested_frames_per_branch": 120,
+      "minimum_target_camera_margin": 0.29584968090057373,
+      "target_z_bounds": [
+        1.2679998874664307,
+        2.385999917984009
+      ],
+      "target_objects": [
+        "card_hinge_collar_-1",
+        "card_hinge_collar_1",
+        "card_integral_hinge_tab_-1",
+        "card_integral_hinge_tab_1",
+        "hinged_hard_card_-1",
+        "hinged_hard_card_1"
+      ],
+      "support_checks": "evaluated vertices / analytic support dimensions, followed by separate decoded visual inspection"
+    }
+  ]
+}

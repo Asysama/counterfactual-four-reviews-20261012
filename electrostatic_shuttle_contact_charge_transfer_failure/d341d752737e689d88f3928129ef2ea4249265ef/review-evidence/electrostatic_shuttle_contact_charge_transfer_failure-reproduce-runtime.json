@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "electrostatic_shuttle_contact_charge_transfer_failure",
+  "case_set": "reproduction-seed42",
+  "commit": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

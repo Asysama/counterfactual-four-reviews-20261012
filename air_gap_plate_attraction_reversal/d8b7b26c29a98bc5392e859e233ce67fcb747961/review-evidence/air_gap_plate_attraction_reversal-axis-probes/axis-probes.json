@@ -1,0 +1,616 @@
+{
+  "generator": "air_gap_plate_attraction_reversal",
+  "commit": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "baseline-true-35.png": "e942a95358e2f42e19357e0b2ceb3527ae9cb193fb2ec76b4581109a9fb22b8c",
+        "baseline-true-90.png": "280221fa9ef203c86ee0d9549a5f94cc6e78b802ff882c318bcd6e8a4f6d2f6d",
+        "baseline-counterfactual-35.png": "37caefb12b80ec8a1f09b5b671d1e3bf95f322266f5b519354a9fb1c45b9b87c",
+        "baseline-counterfactual-90.png": "db45aedf9b34a8879bbb5ae45f0d035f628e114c4a671f2bb129b1b08e712389"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.1,
+        "card_length": 1.0,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.02575000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.006695000000000001,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 9.710256333333338e-05,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.51,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 1.108,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "length_low-true-35.png": "a03f9fbeb87001d6ab95cdaa161436166f5ab2f8f40dda6fa15f8d89c40dff3f",
+        "length_low-true-90.png": "75d082c3e9e9af5f5bf7b2b2df6a78f73afd6bca4468a8aba633c5f3c272d363",
+        "length_low-counterfactual-35.png": "fc50aefed9cd4b393d0100e42f79c422f7ee994bb167e8c42b4681d86b06cf2f",
+        "length_low-counterfactual-90.png": "04295c102a6ee0f442b9b8333744b65297f26771cf7f741973adeb1b0b79855d"
+      },
+      "metrics": {
+        "true-35": 1.4602700692635995,
+        "true-90": 1.4718616626880787,
+        "counterfactual-35": 1.5191627785011574,
+        "counterfactual-90": 1.4542598017939814
+      },
+      "changed_pixels": {
+        "true-35": 59717,
+        "true-90": 54116,
+        "counterfactual-35": 59784,
+        "counterfactual-90": 54401
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.136,
+        "card_length": 1.36,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03502000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.009105200000000003,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00023653115013333342,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.654,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.748,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "length_high-true-35.png": "61c3f4af8642cc07a20e98f6787802974bd064d535cfa9863557b336eb4c00b4",
+        "length_high-true-90.png": "9222dcc43730d330271d3be56280c6d4b9e9f784bc7dfc9b70be947de0184c57",
+        "length_high-counterfactual-35.png": "da3494c8868e84570f5e7eedb6bb90185a6b74e888498a8e4f6fdcf0805cc7c3",
+        "length_high-counterfactual-90.png": "e7d89ec33d6fbb18a948f56fa5ba054538d80f2760df8c69fafa0c7432f4b026"
+      },
+      "metrics": {
+        "true-35": 0.6244795057508681,
+        "true-90": 0.6385661937572338,
+        "counterfactual-35": 0.6452433268229166,
+        "counterfactual-90": 0.6180691189236112
+      },
+      "changed_pixels": {
+        "true-35": 44659,
+        "true-90": 37182,
+        "counterfactual-35": 46635,
+        "counterfactual-90": 36537
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.145,
+        "pressure_drop": 3.85749975,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "response_low-true-35.png": "948aef762fdde4aff7671d21812bcb215410edb08b213c305e355feadbc231f4",
+        "response_low-true-90.png": "26c4dd455c2caf7f2d2d70529addd11bd7cee9e38f2b99d4ab66a58848ad3635",
+        "response_low-counterfactual-35.png": "7730a08f73ab49d4562f943f666dd2c0c926d2c18b1f4d3223adf464b8e39513",
+        "response_low-counterfactual-90.png": "d405ebfd4769bb0cb99b1b2ffe28a3c9f41f7866f587c4fd5e0578dc408a91c4"
+      },
+      "metrics": {
+        "true-35": 0.13106508608217593,
+        "true-90": 0.13667127821180555,
+        "counterfactual-35": 0.1248615406177662,
+        "counterfactual-90": 0.13651586461950233
+      },
+      "changed_pixels": {
+        "true-35": 15458,
+        "true-90": 15946,
+        "counterfactual-35": 17040,
+        "counterfactual-90": 18262
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 4.144000000000001,
+        "pressure_drop": 6.697367040000004,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "response_high-true-35.png": "69cfa7c5accbdc148fe07934913a390f97c16630b59e336af5d99f9e706be7b0",
+        "response_high-true-90.png": "3074d0f378f44e028dbcf43acd4f3aeaf16c4bfd65df722ec123d1c3cdba3654",
+        "response_high-counterfactual-35.png": "a10403adc69b2d49148191d82b9dadb20eb01fb6748d3c9dc38ff948f5a12b68",
+        "response_high-counterfactual-90.png": "08b0dc37fda59e64535b858ea2f69430d8da4da95b57049d46da352059fea18d"
+      },
+      "metrics": {
+        "true-35": 0.3688032362196181,
+        "true-90": 0.3857693142361111,
+        "counterfactual-35": 0.3519134521484375,
+        "counterfactual-90": 0.3666856553819444
+      },
+      "changed_pixels": {
+        "true-35": 20935,
+        "true-90": 21066,
+        "counterfactual-35": 21219,
+        "counterfactual-90": 21369
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "onset_low-true-35.png": "b1fa9cc293b22461015544656bde21c898330b3420862111b2c268bc77a1623e",
+        "onset_low-true-90.png": "b511dc7f27970d47ab54aa38b6cf86714efd1508b230df744a05a64133a23252",
+        "onset_low-counterfactual-35.png": "e4e44cd0305b888fd257f4a115a1cab774fc098e307945da7e29219a56f4c461",
+        "onset_low-counterfactual-90.png": "f785d52d0bb75c8e04315c01f81bb294c053f595c1d89c4450a374fce66d3c74"
+      },
+      "metrics": {
+        "true-35": 0.1680275245949074,
+        "true-90": 0.0011155870225694445,
+        "counterfactual-35": 0.1619500054253472,
+        "counterfactual-90": 0.0010042543764467592
+      },
+      "changed_pixels": {
+        "true-35": 16185,
+        "true-90": 1378,
+        "counterfactual-35": 17751,
+        "counterfactual-90": 1207
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "onset_high-true-35.png": "cef746775c45ef1ec7a50a59cc138cf8c9035db21477422576ba5acf3b7a4a34",
+        "onset_high-true-90.png": "1a3ed9e87f1a3220aadf1a9849fa5a1730e98360e3be2f2db7e8c70deae751eb",
+        "onset_high-counterfactual-35.png": "7e59d2ef0779e1d59cf17e8dbd186419dbcff76120fde7103720a03677217186",
+        "onset_high-counterfactual-90.png": "1a4bed1ae1d71c552b0fb3a2f3227bc0c9643667debb8f0ab045a88b325b01ad"
+      },
+      "metrics": {
+        "true-35": 0.35132966218171297,
+        "true-90": 0.0028076171875,
+        "counterfactual-35": 0.33715876826533564,
+        "counterfactual-90": 0.0025889078776041665
+      },
+      "changed_pixels": {
+        "true-35": 20804,
+        "true-90": 2647,
+        "counterfactual-35": 21078,
+        "counterfactual-90": 2401
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.4875,
+        "card_mass": 0.024000000000000004,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.006240000000000001,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00014439776,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "depth_low-true-35.png": "0b19a5ad7c644790d60f42918c906049ef958b85dd3f1a150cc7ed74cfe913d1",
+        "depth_low-true-90.png": "5f9c4c26e3ac69de951ba554e09f2cc3dd2b5bb53d4b7b1106a95379d2b34667",
+        "depth_low-counterfactual-35.png": "66c4c3c0be2595edd35c6dce0463f82404325415d6d9b74c8a98802bf68c7e59",
+        "depth_low-counterfactual-90.png": "b180e32deaf3bcb21a83571b2fe44f4723a2038400792e74bf27aaf63d1574e0"
+      },
+      "metrics": {
+        "true-35": 0.37747757523148145,
+        "true-90": 0.3742568404586227,
+        "counterfactual-35": 0.4133312084056713,
+        "counterfactual-90": 0.40924693919994215
+      },
+      "changed_pixels": {
+        "true-35": 9227,
+        "true-90": 9741,
+        "counterfactual-35": 9298,
+        "counterfactual-90": 9845
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.7215,
+        "card_mass": 0.03552000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.0092352,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00021370868480000003,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "depth_high-true-35.png": "c6c8c567c7eb81085becdfd804aa9357aebc970cf6c12febcb22c1d740563ace",
+        "depth_high-true-90.png": "c94c2ef74df4a5ca731bcda95647b8d081314ec24d95819804e4d7f065c5e266",
+        "depth_high-counterfactual-35.png": "a9827548c402ed9f10fff839c2818ff129c02246fadb49e4891883a8fa36a66a",
+        "depth_high-counterfactual-90.png": "e6ddcce6dc82476e4eb45a60c553b0b284110ec475dedbd477a6c0883f5e2ff9"
+      },
+      "metrics": {
+        "true-35": 0.17066220883969907,
+        "true-90": 0.17016771104600695,
+        "counterfactual-35": 0.1743808322482639,
+        "counterfactual-90": 0.173797607421875
+      },
+      "changed_pixels": {
+        "true-35": 5408,
+        "true-90": 5714,
+        "counterfactual-35": 5403,
+        "counterfactual-90": 5764
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "appearance_low-true-35.png": "77983c2c28eefc080755e16c95a151b75d606f7260b5e47900bb9df33848702e",
+        "appearance_low-true-90.png": "1f662226b134bebbc37c1dcee563f1be0b0ee65b42161b80592b8e3df05cc7a1",
+        "appearance_low-counterfactual-35.png": "0eddab410cc4885cec450714f8d2298e4478e2e2a1b4d9e31d5a31c2eaa0b8e9",
+        "appearance_low-counterfactual-90.png": "18eeeaf5db3f52116b02dbfec815b750f1135ac3ef48b2bc69fb4d9006c7f36b"
+      },
+      "metrics": {
+        "true-35": 3.483992399992766,
+        "true-90": 3.4841506392867476,
+        "counterfactual-35": 3.488560994466146,
+        "counterfactual-90": 3.4885841652199074
+      },
+      "changed_pixels": {
+        "true-35": 260484,
+        "true-90": 260484,
+        "counterfactual-35": 260798,
+        "counterfactual-90": 260797
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 41.0
+      },
+      "images": {
+        "appearance_high-true-35.png": "cb3e46c8389d3c056a5649e3b6f7370581ee338d3ba3d2e6d8143e27b9b4467e",
+        "appearance_high-true-90.png": "b02ea9cc4b37ebb2a38f44d228c382ecf9fecc100bb3583ff10419f3a3b22eaf",
+        "appearance_high-counterfactual-35.png": "2710cec983d632aefd3f4de521958fb0a25c5566ca352f47c3025d0895b7176d",
+        "appearance_high-counterfactual-90.png": "44b270211d007eebc5bf98a1129950ed9305e7b593fafcd700b52e456f66e6ac"
+      },
+      "metrics": {
+        "true-35": 4.71318280255353,
+        "true-90": 4.713393034758391,
+        "counterfactual-35": 4.719359221281828,
+        "counterfactual-90": 4.71939143428096
+      },
+      "changed_pixels": {
+        "true-35": 260506,
+        "true-90": 260510,
+        "counterfactual-35": 260826,
+        "counterfactual-90": 260822
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 35.0
+      },
+      "images": {
+        "view_low-true-35.png": "d7927d859eecd1d5bb3f3c3ff33299ad49fb0f35f5d4f6a119e2229ec2e2c5dd",
+        "view_low-true-90.png": "a57a96e09ceff6f142bcf5a61d9774fb34e80df4b9f46d60cbe6c8926ec6d5d7",
+        "view_low-counterfactual-35.png": "dfaa421f480c292cacb3df3d3618ee7b7e55be80a3b4b6e08cbc6606cf81e010",
+        "view_low-counterfactual-90.png": "04cde00a75dc41ede44e7c1703de83798d38d397bd3563b815526c3ab7053137"
+      },
+      "metrics": {
+        "true-35": 2.5438560203269676,
+        "true-90": 2.5382859971788196,
+        "counterfactual-35": 2.4755017315899885,
+        "counterfactual-90": 2.471539532696759
+      },
+      "changed_pixels": {
+        "true-35": 310799,
+        "true-90": 310823,
+        "counterfactual-35": 310235,
+        "counterfactual-90": 310210
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "physical_length": 0.128,
+        "card_length": 1.28,
+        "card_width": 0.6695000000000001,
+        "card_mass": 0.03296000000000001,
+        "air_speed": 3.367,
+        "pressure_drop": 4.421308710000001,
+        "card_area": 0.008569600000000002,
+        "card_hinge_offset": 0.042,
+        "hinge_inertia": 0.00019830625706666668,
+        "damping_rate": 5.0,
+        "hinge_half_gap": 0.622,
+        "card_thickness": 0.025,
+        "scene_unit_m": 0.1,
+        "model": "parameterized symmetric-gap reduced pressure coefficient and damped rigid-card hinge integration",
+        "time_scale": 1.0,
+        "hinge_z": 2.35,
+        "nozzle_top_z": 0.8280000000000001,
+        "camera_azimuth_degrees": 48.5
+      },
+      "images": {
+        "view_high-true-35.png": "0a225ffbcf02f901de42c4d249b5c4ce819cc3403d56dae054acc4f799d380a2",
+        "view_high-true-90.png": "25da1c00f7e2f1bf3779cc23ba12d05d0f3e909832662131a1fd8773bf6b123e",
+        "view_high-counterfactual-35.png": "4cc2e1612cc842d2e374232a7a657c249ccf911ede8f062499a211d05a6f3343",
+        "view_high-counterfactual-90.png": "150f80bd02771331546ea2c8aa080d6c2d01b41248083243620f544072a94c91"
+      },
+      "metrics": {
+        "true-35": 2.5834260163483798,
+        "true-90": 2.5775655110677085,
+        "counterfactual-35": 2.5331172236689814,
+        "counterfactual-90": 2.5208463315610534
+      },
+      "changed_pixels": {
+        "true-35": 316853,
+        "true-90": 316864,
+        "counterfactual-35": 316663,
+        "counterfactual-90": 316679
+      }
+    }
+  }
+}

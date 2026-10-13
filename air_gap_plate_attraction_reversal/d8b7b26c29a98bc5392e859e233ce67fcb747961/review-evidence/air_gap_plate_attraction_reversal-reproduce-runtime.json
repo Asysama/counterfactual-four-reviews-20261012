@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "air_gap_plate_attraction_reversal",
+  "case_set": "reproduction-seed42",
+  "commit": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

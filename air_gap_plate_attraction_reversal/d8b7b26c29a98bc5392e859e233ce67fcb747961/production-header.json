@@ -1,0 +1,40 @@
+{
+  "attempt_budget": 2,
+  "commit": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "contract": "CGC-v1",
+  "dependencies": "d9aaa1cba6a1ff46e5fd000dae22d44d19be86f19befe96fd4c18ae82a9ab5ae",
+  "generator": "air_gap_plate_attraction_reversal",
+  "num_shards": 1,
+  "profile_version": "six-physical-and-nuisance-axes-v1",
+  "quota": 2,
+  "render": [
+    2048,
+    24,
+    120
+  ],
+  "seed": 42,
+  "seeds": "42,98",
+  "shard_id": 0,
+  "source": {
+    "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "engine/geometry.py": "824c26235c2cb97d5e77dc803c8af2b4e1f9de6a7747c3b02f3b85b0dfa50f06",
+    "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+    "engine/operators.py": "cdbb5fed987c0771c98e4d851de017d4b56e39b0563695740c54eec651bdd02d",
+    "engine/run.py": "110daed05be5ca59a8e02ad145d8aee8e8d4a3116fe66d4b139e5398385c85c5",
+    "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+    "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+    "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+    "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+    "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+    "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+    "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+    "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+    "src/phenomenon.py": "0bc247f2393f20b76ec5d82f11c8d78c9a7fdd75b01f3c67d4fa9c29f97c8c5d",
+    "src/scaling.py": "7469d12eea433d028c84866f45d5891b4b55273092f23c8bc7c5d9c942fdfa43",
+    "src/violation.py": "52fd411f358416140a037f57a28b4d760c4a057097c55fa6695b072684429a99",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tests/test_physics.py": "ec41adbf4f9726da49b0e23015875d63f10e767cdd4e2bdefb746e55d268245e"
+  }
+}

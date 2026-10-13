@@ -298,6 +298,14 @@
       "bytes": 2335,
       "sha256": "b19a6da15c3c8b7bae22b5f622b572006dd236a74446fc324ac78609aa45f00d"
     },
+    "review-evidence/2026-10-13_air-hose-independent.py": {
+      "bytes": 1733,
+      "sha256": "28d0f67e96efde2644bc6c11e90edf317d14233b37fff0ce9332040fe597dc9a"
+    },
+    "review-evidence/2026-10-13_browser-media-audit.py": {
+      "bytes": 2813,
+      "sha256": "50bb90ae8264b91d97cdf296e8fe4585981804c9efacac779a6b098475d53a33"
+    },
     "review-evidence/2026-10-13_geometry-audit.py": {
       "bytes": 3205,
       "sha256": "e19773f6ccc7a28e7f20b2ae85168f62bf263216189fb72a23c21e363e536987"
@@ -309,6 +317,18 @@
     "review-evidence/2026-10-13_inspection-artifacts.py": {
       "bytes": 2090,
       "sha256": "a29460ec6a350a3e7c36522b2312086ecf717bf6a240a7274549ceb70cf7af74"
+    },
+    "review-evidence/2026-10-13_probe-inspection.py": {
+      "bytes": 2004,
+      "sha256": "8efaba4cdaef29ccda5629831b871cf8fecc399ac690faa03ee85519b0f08c48"
+    },
+    "review-evidence/2026-10-13_reproduction-audit-final.py": {
+      "bytes": 3807,
+      "sha256": "66b73cbfc4e018cabefdeb70413726dd04c3b31406d41323ce936cb4d5a3af04"
+    },
+    "review-evidence/2026-10-13_validate-reproduction.py": {
+      "bytes": 1754,
+      "sha256": "e6e1f35c1f47721d68ff3b48d668107e876105e5721e45eaa20985ad9556b44e"
     },
     "review-evidence/copper_sheet_false_static_magnetic_shielding-axis-probes/appearance_high-counterfactual-35.png": {
       "bytes": 75716,
@@ -582,9 +602,17 @@
       "bytes": 74561,
       "sha256": "481138bf24327def529a3a7322c38a8b886c76cf59af9f387a3403d113e5eb65"
     },
+    "review-evidence/copper_sheet_false_static_magnetic_shielding-reproduction-diagnostic-final.log": {
+      "bytes": 3863,
+      "sha256": "4697be24392717f03580c46bc4f497283cfa19bd2c96f11585eb6c9b74dee451"
+    },
     "review-evidence/copper_sheet_false_static_magnetic_shielding-reproduction-diagnostic.json": {
       "bytes": 4364,
       "sha256": "3b446fb1e9844b164523f6b505239adfb43da8e556ea47f91e8107a349cd12a5"
+    },
+    "review-evidence/copper_sheet_false_static_magnetic_shielding-reproduction-validated.json": {
+      "bytes": 5078,
+      "sha256": "dacbdd7cfcce6401beef5ddd7f9c81dd5383c7bf0877770adb13f8a786a0b9d7"
     },
     "review-evidence/copper_sheet_false_static_magnetic_shielding-resume.log": {
       "bytes": 666,
