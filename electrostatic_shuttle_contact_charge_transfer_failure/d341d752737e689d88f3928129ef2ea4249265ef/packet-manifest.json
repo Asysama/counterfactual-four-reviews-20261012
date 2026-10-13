@@ -7,8 +7,8 @@
       "sha256": "6d85c80d66aa396bbf6fcadcd9a8000b1d0c2d9301bc32a669ea3c19079337da"
     },
     "application.json": {
-      "bytes": 559,
-      "sha256": "10267e4320537407dd100e44c9b96a902dda5f1635e5570b0afa1ab2b04fa8ce"
+      "bytes": 766,
+      "sha256": "ddec90ed8566e50d6f80c0324414c0cb5d84832a2a9e1e122ee1bf34116c7cb2"
     },
     "electrostatic_shuttle_contact_charge_transfer_failure_00000042/browser-derivatives.json": {
       "bytes": 775,
@@ -291,8 +291,8 @@
       "sha256": "a479df631781dfc1491f72ea7a9aca1612a0fb5c2a405768285c781e49853f87"
     },
     "index.html": {
-      "bytes": 16907,
-      "sha256": "b28aefa82f3cec141d985a6b777d0d20efd1558ea3db413bae4a6d6b6b7fd8ac"
+      "bytes": 17384,
+      "sha256": "e2f02f7599fa9ae6bcc2aeb5b6f1591fb10107492d5acb6687159e6cfac7dad6"
     },
     "production-header.json": {
       "bytes": 2344,
@@ -329,6 +329,10 @@
     "review-evidence/2026-10-13_validate-reproduction.py": {
       "bytes": 1754,
       "sha256": "e6e1f35c1f47721d68ff3b48d668107e876105e5721e45eaa20985ad9556b44e"
+    },
+    "review-evidence/actual-browser-playback.json": {
+      "bytes": 5681,
+      "sha256": "bd922335d58e5310c737dbf24d4471dbc8f53f38898c6097fd45da02cc4aef6e"
     },
     "review-evidence/electrostatic_shuttle_contact_charge_transfer_failure-axis-probes/appearance_high-counterfactual-35.png": {
       "bytes": 88799,
@@ -770,9 +774,41 @@
       "bytes": 3477,
       "sha256": "4513496c6b700e3767418af14a180e8193448ebe678014a286514ad05791e688"
     },
+    "review-evidence/reproduction-provenance/electrostatic_shuttle_contact_charge_transfer_failure_00000042/decoded-audit.json": {
+      "bytes": 970,
+      "sha256": "b2b81a7e8f7e717bb6a81fc6fd5dbabc799ca8466de2d004cc0ad3f33a4365f8"
+    },
+    "review-evidence/reproduction-provenance/electrostatic_shuttle_contact_charge_transfer_failure_00000042/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "b540c456c9019b38d164c689302a72eae06f66de4b51b792c37b616cf6794b90"
+    },
+    "review-evidence/reproduction-provenance/electrostatic_shuttle_contact_charge_transfer_failure_00000042/manifest.json": {
+      "bytes": 5207,
+      "sha256": "d1e893cac3d82052bcf3356355116aeee1e2e4801532f282103145304bd28f41"
+    },
+    "review-evidence/reproduction-provenance/electrostatic_shuttle_contact_charge_transfer_failure_00000042/metadata.json": {
+      "bytes": 7188,
+      "sha256": "8840510fc13b7383e64e69f0222dc5e0cf2dd4314c32025bec9c624140fb9285"
+    },
+    "review-evidence/reproduction-provenance/electrostatic_shuttle_contact_charge_transfer_failure_00000042/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "review-evidence/reproduction-provenance/runtime-witness.json": {
+      "bytes": 11884,
+      "sha256": "90490b1639cca3684116f8ec2e61fb4e0ac7fc3c90b64c4b57dfc43e8c1536cf"
+    },
+    "review-evidence/visual-inspection.json": {
+      "bytes": 936,
+      "sha256": "0753501cd798af17e4147664aa3f5cee79e4c679d3278e9ca880e525b461c692"
+    },
     "review.json": {
-      "bytes": 562,
-      "sha256": "981069d46363689f70169044a200f6077ca18a85f96dc298fcd4a8070c41302c"
+      "bytes": 537,
+      "sha256": "7ac6bc22fc08b9f2356f47779c90de23d63bb95b6b818defee8b5ad948fdd945"
+    },
+    "review.md": {
+      "bytes": 16366,
+      "sha256": "a7f67caf146bb0c88e31a65cac9550dfcb548ff347ce2a94802f724dbb40be39"
     },
     "runtime-witness-index.json": {
       "bytes": 1280,

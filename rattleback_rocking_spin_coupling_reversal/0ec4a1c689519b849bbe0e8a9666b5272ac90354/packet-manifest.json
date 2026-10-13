@@ -7,8 +7,8 @@
       "sha256": "bd2faa7efbc3930f58a89c3970c9c57997c7a94e74122d26179732edde8040d0"
     },
     "application.json": {
-      "bytes": 535,
-      "sha256": "e236b9b83957b322a20c0aee2f06dae3472f83f5d0bd98a7140335c3b0fb90e5"
+      "bytes": 742,
+      "sha256": "caf52fa09e1d627caf3ee1beedf31a845460484f7bb40a76221ef793b89f286d"
     },
     "expected-case-ids.json": {
       "bytes": 115,
@@ -19,8 +19,8 @@
       "sha256": "fa91c7729ede6a9c214684a70be505c46676b5f0088a78f371ce49ee288056af"
     },
     "index.html": {
-      "bytes": 15022,
-      "sha256": "f0fc935092ed407f7b737a6660b92846dd09dbdf2867a7b39136536682b83263"
+      "bytes": 15499,
+      "sha256": "e667441b709562e393153526aebde6760415c688f9766bd9385e6f22bed55e1f"
     },
     "production-header.json": {
       "bytes": 2332,
@@ -329,6 +329,10 @@
     "review-evidence/2026-10-13_validate-reproduction.py": {
       "bytes": 1754,
       "sha256": "e6e1f35c1f47721d68ff3b48d668107e876105e5721e45eaa20985ad9556b44e"
+    },
+    "review-evidence/actual-browser-playback.json": {
+      "bytes": 5521,
+      "sha256": "6dfa161abec86f5536e8a15364759aedbcc13997aabf013fe3865b7cd3eb56a7"
     },
     "review-evidence/native-inspection/manifest.json": {
       "bytes": 3452,
@@ -770,9 +774,41 @@
       "bytes": 99,
       "sha256": "6ef9ef1c91710f19f70ebedce0c4729dd55a71e2315415100e72e714b27a82c3"
     },
+    "review-evidence/reproduction-provenance/rattleback_rocking_spin_coupling_reversal_00000042/decoded-audit.json": {
+      "bytes": 1000,
+      "sha256": "570a7fc11b2e2bd589546c7a0f4dd5b2f8234c7ba892b10794c74753974f0e31"
+    },
+    "review-evidence/reproduction-provenance/rattleback_rocking_spin_coupling_reversal_00000042/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "1f5d31570695aa7cc67c772404a3a0c237e3cb04df9cebb05f6cf8ad4a91be37"
+    },
+    "review-evidence/reproduction-provenance/rattleback_rocking_spin_coupling_reversal_00000042/manifest.json": {
+      "bytes": 5285,
+      "sha256": "b2f391d4054b4bbaf93ff029328e610f5cd7657a87e7c85ed9af7eead1890192"
+    },
+    "review-evidence/reproduction-provenance/rattleback_rocking_spin_coupling_reversal_00000042/metadata.json": {
+      "bytes": 7256,
+      "sha256": "9a59e0b0f6b430c04d87d34e1970e09f54129abf70e13e3b876f4824015b77ae"
+    },
+    "review-evidence/reproduction-provenance/rattleback_rocking_spin_coupling_reversal_00000042/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "review-evidence/reproduction-provenance/runtime-witness.json": {
+      "bytes": 11304,
+      "sha256": "6ac33a8d9c05ecfc579fa65d8850a38f383f31c72c11153d7d47d0b5fa660032"
+    },
+    "review-evidence/visual-inspection.json": {
+      "bytes": 936,
+      "sha256": "6f8738b04c4624ce531e70619da990e70861bce94ba3f16e728569f98c0e3550"
+    },
     "review.json": {
-      "bytes": 550,
-      "sha256": "f5a15c03581ca273cc82bf257d133442e58e6dacffe52e3dc9033bbfe9375782"
+      "bytes": 525,
+      "sha256": "f8bfb5711440fc0a181a90a38a968fdd2f3b4d3305f86948fe1bf80e49000336"
+    },
+    "review.md": {
+      "bytes": 14688,
+      "sha256": "3b2556e713f644f8407e3a9292f9136d23961f3c3f7d8a4a09883b1e7b37cfd6"
     },
     "runtime-witness-index.json": {
       "bytes": 1220,

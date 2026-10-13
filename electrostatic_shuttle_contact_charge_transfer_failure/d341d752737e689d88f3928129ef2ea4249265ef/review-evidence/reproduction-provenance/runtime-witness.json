@@ -1,0 +1,126 @@
+{
+  "schema_version": "counterfactual-runtime-witness-v1",
+  "status": "success",
+  "invalid_reasons": [],
+  "started_at_utc": "2026-10-13T09:29:13.617661+00:00",
+  "finished_at_utc": "2026-10-13T09:34:50.165014+00:00",
+  "generator": "electrostatic_shuttle_contact_charge_transfer_failure",
+  "case_set": "reproduction-seed42",
+  "accepted_cases": [
+    {
+      "case_id": "electrostatic_shuttle_contact_charge_transfer_failure_00000042",
+      "metadata_path": "electrostatic_shuttle_contact_charge_transfer_failure_00000042/metadata.json",
+      "metadata_sha256": "8840510fc13b7383e64e69f0222dc5e0cf2dd4314c32025bec9c624140fb9285",
+      "seed": 42
+    }
+  ],
+  "command_argv": [
+    "/opt/siyuan-cf-four-20261012/runtime/bin/python",
+    "generators/electrostatic_shuttle_contact_charge_transfer_failure/examples/reproduce.py",
+    "--case",
+    "/opt/siyuan-cf-four-20261012/formal-v6/electrostatic_shuttle_contact_charge_transfer_failure/electrostatic_shuttle_contact_charge_transfer_failure_00000042",
+    "--output",
+    "/opt/siyuan-cf-four-20261012/reproduction-v6/electrostatic_shuttle_contact_charge_transfer_failure"
+  ],
+  "command_shell_escaped": "/opt/siyuan-cf-four-20261012/runtime/bin/python generators/electrostatic_shuttle_contact_charge_transfer_failure/examples/reproduce.py --case /opt/siyuan-cf-four-20261012/formal-v6/electrostatic_shuttle_contact_charge_transfer_failure/electrostatic_shuttle_contact_charge_transfer_failure_00000042 --output /opt/siyuan-cf-four-20261012/reproduction-v6/electrostatic_shuttle_contact_charge_transfer_failure",
+  "working_directory": "/opt/siyuan-cf-four-20261012/verified-v6/electrostatic_shuttle_contact_charge_transfer_failure",
+  "exit_code": 0,
+  "repository_before": {
+    "root": "/opt/siyuan-cf-four-20261012/verified-v6/electrostatic_shuttle_contact_charge_transfer_failure",
+    "commit": "d341d752737e689d88f3928129ef2ea4249265ef",
+    "worktree_status": null
+  },
+  "repository_after": {
+    "root": "/opt/siyuan-cf-four-20261012/verified-v6/electrostatic_shuttle_contact_charge_transfer_failure",
+    "commit": "d341d752737e689d88f3928129ef2ea4249265ef",
+    "worktree_status": null
+  },
+  "dirty_state_reason": null,
+  "runtime": {
+    "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+    "python_executable": "/opt/siyuan-cf-four-20261012/runtime/bin/python",
+    "operating_system": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "1.26.4",
+      "imageio-ffmpeg": "0.6.0"
+    },
+    "pip_freeze": [
+      "bpy==4.5.3",
+      "certifi==2026.7.22",
+      "charset-normalizer==3.5.2",
+      "Cython==3.3.0",
+      "idna==3.20",
+      "imageio-ffmpeg==0.6.0",
+      "iniconfig==2.3.1",
+      "numpy==1.26.4",
+      "packaging==26.3",
+      "pillow==11.3.0",
+      "pluggy==1.6.0",
+      "Pygments==2.21.0",
+      "pytest==8.4.2",
+      "requests==2.34.2",
+      "scipy==1.16.2",
+      "urllib3==2.8.0",
+      "zstandard==0.25.0"
+    ],
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers\nbuilt with gcc 13 (Ubuntu 13.2.0-23ubuntu3)\nconfiguration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared\nlibavutil      58. 29.100 / 58. 29.100\nlibavcodec     60. 31.102 / 60. 31.102\nlibavformat    60. 16.100 / 60. 16.100\nlibavdevice    60.  3.100 / 60.  3.100\nlibavfilter     9. 12.100 /  9. 12.100\nlibswscale      7.  5.100 /  7.  5.100\nlibswresample   4. 12.100 /  4. 12.100\nlibpostproc    57.  3.100 / 57.  3.100",
+    "nvidia_smi": "Tesla T4, 595.91.07",
+    "macos_displays": null,
+    "container_image": null,
+    "container_environment": {},
+    "declared_components": {
+      "bpy": "4.5.3",
+      "purpose": "independent_reproduction"
+    },
+    "nested_component_witnesses": []
+  },
+  "dependency_locks": [
+    {
+      "path": "/opt/siyuan-cf-four-20261012/verified-v6/electrostatic_shuttle_contact_charge_transfer_failure/generators/electrostatic_shuttle_contact_charge_transfer_failure/requirements.txt",
+      "sha256": "d9aaa1cba6a1ff46e5fd000dae22d44d19be86f19befe96fd4c18ae82a9ab5ae"
+    }
+  ],
+  "artifact_root": "/opt/siyuan-cf-four-20261012/reproduction-v6/electrostatic_shuttle_contact_charge_transfer_failure",
+  "artifact_sha256_before": {},
+  "artifact_sha256": {
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/browser-derivatives.json": "e791a1fb40ab4823ff79c538f939af837e64b40cd7adfa4b8d300899c47b88f6",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-000.png": "97d7486fc62f7620fcbdd66cfa4a76744e2b8e65198a0fef92d5e2db4b34c37c",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-034.png": "60cd4783fcc29233f724e8067ae00ebec8eabe23b962d75d94e1ce97ffb1f81d",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-035.png": "bb35f756381e5385219b4e0b5426ad1eaa9adc54184df289986a26ed124eb049",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-090.png": "a7a5b823eb45cc12fc4073644094e05d69a3d2db1a989c5242a22da6ba9a6f50",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual-119.png": "5fc7cbc94d3ba92c548d09d1ac97d40181d0b972427efa87315557b1a51fb917",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask.mp4": "a5d408bb54d9d605871f4a99d659cd4f16c45bd20cc004f36f8338b707172165",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4": "30ce688340c56ab99a1573057a63e108aa774d4dd838ccb5325ea723a4e16582",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay.mp4": "e81d3b0b177f255a476d5cb13e06c59267115ba5cdbc8d9ac0e29fa21a5b8627",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4": "bfea7a11d260b671eef37f91dd0ef7b67a7f1d583b21ef21a78f2a5c981f76a3",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/prompt.txt": "077c5f0a5c4cc342ced7a9869ff960224d92c00eb6ad305eb5d739bba1ab788b",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/trajectory.npz": "37f6df5bce1ad467b67b37848df51f7ed8df822715cb2319f2832e613798aadb",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video.mp4": "bc5c1fd0447b1d94c1e820309b89702e6310f1cdf4ee270b8562e564c507fdba",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video_browser.mp4": "20c5a3386a35bd1241628d3730bd65e19aa0113563f0f41afea44e99f7eaed56",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/decoded-audit.json": "b2b81a7e8f7e717bb6a81fc6fd5dbabc799ca8466de2d004cc0ad3f33a4365f8",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/frame-hashes.json": "b540c456c9019b38d164c689302a72eae06f66de4b51b792c37b616cf6794b90",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/manifest.json": "d1e893cac3d82052bcf3356355116aeee1e2e4801532f282103145304bd28f41",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-000.png": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-034.png": "0c9b6e1801f3114409f3468f4fa23afe831faf69b15122643df157e213d93a6b",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-035.png": "c52defc22e000111155ca9992c23bc2beb835e51c6c089fae452aaf22b2e80f5",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-090.png": "f433f906ebd8dcfab0dea1c7eab98615b1a8f987ca0b0eb07115e9684a3007a8",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/mask-119.png": "fd0aab502631699550cde0c86fbd75a5cde36e36f4f8e2c6dd6c3bf13f41a6c1",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/metadata.json": "8840510fc13b7383e64e69f0222dc5e0cf2dd4314c32025bec9c624140fb9285",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-000.png": "97d7486fc62f7620fcbdd66cfa4a76744e2b8e65198a0fef92d5e2db4b34c37c",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-034.png": "3abee5a09ba20c1473f3d19846276cc880279411ed1a6cd3f11815d5c32627d1",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-035.png": "b9172dabb8d96848a88c67f8548226ddec442a2a89d3f1d0edde4912f54e3a8a",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-090.png": "ed9d680333fb1e8f925b371560b3bb4cba3f9e1f622653269f3e7b3451318732",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/overlay-119.png": "6620b90aa9c4ea23fc4369da30e2c15a4c95da1131c9f877e80726ef3f2fdfb2",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/renderer-runtime.json": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/prompt.txt": "932d444d07041c8dd42f44d9db09904315c3dc3e78a856c47d56070966ae60cf",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/trajectory.npz": "06df9c88993c231463de1221a7ca5a7793c35b5bb411dbab8baec9473e4be6fa",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video.mp4": "5629d9e11eef816e83973f97dc0fa0e4e3b86806d7c885a459a7c5c0aad49e08",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video_browser.mp4": "cbb4dc1234d740060b4ec1ac7e40d88823a7933bc655c19bac7c34a2266dad8f",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-000.png": "97d7486fc62f7620fcbdd66cfa4a76744e2b8e65198a0fef92d5e2db4b34c37c",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-034.png": "d7e5191edab9e9bbb533c45564d313b9260767efbb7185d3885ac7e7096932bd",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-035.png": "d9558c7c29b27d2cf01cff17c36b4615b5d6d1aacd2c134bb2157a154c72c2d2",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-090.png": "4a826a9c0a8ca248c4ec624b1116ec3e1df821ef15c6c6cff88b097c68de0318",
+    "electrostatic_shuttle_contact_charge_transfer_failure_00000042/true-119.png": "f270e2eaaefd2fd83038f38dcfb43ccbbc722c3d6b8572c5379207a4c35e408a"
+  }
+}

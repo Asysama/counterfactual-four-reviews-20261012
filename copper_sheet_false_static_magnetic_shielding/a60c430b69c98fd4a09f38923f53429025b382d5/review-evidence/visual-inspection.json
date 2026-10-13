@@ -1,0 +1,12 @@
+{
+  "head_sha": "a60c430b69c98fd4a09f38923f53429025b382d5",
+  "native_inspection": {
+    "head_sha": "a60c430b69c98fd4a09f38923f53429025b382d5",
+    "pass_native_stills": true,
+    "pass_six_axis_stills": true,
+    "whole_clip_browser_pending": false,
+    "notes": "Seeds42/98 full native decoded start/intervention/evidence/frame70/final sheets inspected. Copper plate comes to rest before force intervention; True remains deflected, CF relaxes. Both consecutive CF/mask/overlay crops show smooth sphere/cord junction, object-only mask, red sphere only. Six-axis montage confirms length/magnet geometry, force response, onset, sphere diameter, floor appearance and view differences."
+  },
+  "browser_observation": "All8 streams played to5s. Seed42 paired RGB and mask/overlay screenshots; seed98 paired RGB screenshot. Start/evidence/final seeks succeeded. Scene and label appearance agree with native inspections.",
+  "pass": true
+}

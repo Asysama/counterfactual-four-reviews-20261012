@@ -1,0 +1,145 @@
+{
+  "camera": {
+    "lens_mm": 48,
+    "lookat": [
+      0.0,
+      0.6499999761581421,
+      0.949999988079071
+    ],
+    "pos": [
+      -0.3213427662849426,
+      -5.489999771118164,
+      3.2832000255584717
+    ],
+    "projection": "perspective"
+  },
+  "category": "rattleback_chiral_coupling",
+  "descriptions": {
+    "counterfactual": "A boat-shaped rattleback with fixed diagonal brass weights rests on a solid table, initially tilted on a retractable support. The support withdraws. With unchanged shape, weights and initial rocking, its rocking-to-spin coupling is wrongly reversed and it develops rotation in the opposite direction.",
+    "true": "A boat-shaped rattleback with fixed diagonal brass weights rests on a solid table, initially tilted on a retractable support. The support withdraws. Its initial rocking energy gradually becomes rotation in the preferred direction set by its asymmetric inertia and curved base."
+  },
+  "evidence_frame": 38,
+  "first_changed_frame": 24,
+  "generation": {
+    "bpy_version": "4.5.3 LTS",
+    "engine": "Blender Workbench analytical replay",
+    "git": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+    "source_hashes": {
+      "engine/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "engine/geometry.py": "824c26235c2cb97d5e77dc803c8af2b4e1f9de6a7747c3b02f3b85b0dfa50f06",
+      "engine/media.py": "eb65201aeb09d2dacb9be7f19e5cab5b382a3968d40f00d72a4ef4be9de99114",
+      "engine/operators.py": "cdbb5fed987c0771c98e4d851de017d4b56e39b0563695740c54eec651bdd02d",
+      "engine/run.py": "110daed05be5ca59a8e02ad145d8aee8e8d4a3116fe66d4b139e5398385c85c5",
+      "engine/spec.py": "3198156d0ec427bbeadd417666af1f887b06de76ad25df985ecc6d172708c931",
+      "examples/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "examples/audit.py": "f4ae973cfd680d8ffb7d0a5b6f35850936311f39f66782044937b081c7295dd1",
+      "examples/audit_scaling.py": "db2d7ea12040139f9e683e08f04bf050e2e668e66270fb9a428e0d9c3cee8764",
+      "examples/compare.py": "48aaf22fee1a2349eb3ee8d389ab8a087905de3ab2381a30b0f5dd4617f2faab",
+      "examples/generate.py": "54bdd46c694897f0f16024b199be8f2218dd2792b8e2fa8154def9ac2e49e66a",
+      "examples/probe_axes.py": "fd02116272efe5dd42e1a5478a8ce28965d1d056443677c1b25c60ba45536992",
+      "examples/reproduce.py": "fd8e158ec5093b718b3a9552d4c01b88d62ab38634df6f1af341673f909f2f69",
+      "src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "src/helpers.py": "dfdce3102c1c57463c2abfdfaec88af5d391ab192fa1517db22bd6222bd4b11b",
+      "src/phenomenon.py": "f1bfd32ef56c89c5ab53d08c703ddefd6cb77947d7f8f18803cfa8bd63fa51af",
+      "src/scaling.py": "7469d12eea433d028c84866f45d5891b4b55273092f23c8bc7c5d9c942fdfa43",
+      "src/violation.py": "ac3217c6d8ef527b2755d6407171dd8da0567fafb66210dc6925d2c2149e9154",
+      "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "tests/test_physics.py": "1397f5f661f12f9aa0fd8f3e8ae729bd1e09b1825768f2fd636ba4e14b92081b"
+    }
+  },
+  "intervention_frame": 24,
+  "mask_end_frame": 120,
+  "mask_spec": {
+    "encoding": "h264-libx264rgb-crf0-rgb24-decoded-verified",
+    "include_target_shadow": false,
+    "source": "Blender depth-occluded flat object identity pass",
+    "target_entities": [
+      "continuous_convex_rattleback",
+      "rigidly_attached_brass_mass_-1",
+      "rigidly_attached_brass_mass_1",
+      "attached_top_direction_strip"
+    ],
+    "temporal_rule": "from_first_changed_frame"
+  },
+  "mask_start_frame": 24,
+  "onset_frame": 24,
+  "paths": {
+    "counterfactual": {
+      "mask": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask.mp4",
+      "mask_overlay": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay.mp4",
+      "prompt": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/prompt.txt",
+      "trajectory": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/trajectory.npz",
+      "video": "counterfactual_rocking_spin_chiral_coupling_sign_reversal/video.mp4"
+    },
+    "true": {
+      "prompt": "true/prompt.txt",
+      "trajectory": "true/trajectory.npz",
+      "video": "true/video.mp4"
+    }
+  },
+  "phenomenon": "rattleback_rocking_spin_coupling_reversal",
+  "phenomenon_data": {
+    "scene_params": {
+      "appearance": 3,
+      "body_axes": [
+        1.344,
+        0.3502,
+        0.22
+      ],
+      "coupling_rate": 0.7907155632724051,
+      "depth": 1.03,
+      "gravity": 9.81,
+      "initial_mode_amplitude": 1.35,
+      "length": 1.28,
+      "mode_damping": 0.08,
+      "mode_to_tilt": 0.08873883289811554,
+      "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+      "onset": 23,
+      "physical_rocking_frequency": 43.23523456229393,
+      "response": 0.9099999999999999,
+      "rocking_frequency": 10.808808640573483,
+      "scene_unit_m": 0.1,
+      "skew_angle": -0.2851478593639961,
+      "spin_damping": 0.03,
+      "time_scale": 0.25,
+      "view": 4
+    },
+    "scoring_contract": {
+      "binary_questions": [
+        "A boat-shaped rattleback with fixed diagonal brass weights rests on a solid table, initially tilted on a retractable support. The support withdraws. Its initial rocking energy gradually becomes rotation in the preferred direction set by its asymmetric inertia and curved base.",
+        "A boat-shaped rattleback with fixed diagonal brass weights rests on a solid table, initially tilted on a retractable support. The support withdraws. With unchanged shape, weights and initial rocking, its rocking-to-spin coupling is wrongly reversed and it develops rotation in the opposite direction."
+      ],
+      "correct_if_true": [
+        "A boat-shaped rattleback with fixed diagonal brass weights rests on a solid table, initially tilted on a retractable support. The support withdraws. Its initial rocking energy gradually becomes rotation in the preferred direction set by its asymmetric inertia and curved base."
+      ],
+      "violation_if_true": [
+        "A boat-shaped rattleback with fixed diagonal brass weights rests on a solid table, initially tilted on a retractable support. The support withdraws. With unchanged shape, weights and initial rocking, its rocking-to-spin coupling is wrongly reversed and it develops rotation in the opposite direction."
+      ],
+      "violation_types": [
+        "rattleback_rocking_spin_coupling_reversal"
+      ]
+    }
+  },
+  "render": {
+    "antialiasing": "Workbench32_RGB_OFF_mask",
+    "duration": 5,
+    "fps": 24,
+    "n_frames": 120,
+    "native": true,
+    "res": [
+      2048,
+      2048
+    ]
+  },
+  "seed": 42,
+  "task_id": "rattleback_rocking_spin_coupling_reversal_00000042",
+  "timebase": {
+    "internal_substeps": null,
+    "outer_steps_per_recorded_frame": 40,
+    "physical_dt": 0.00026041666666666666,
+    "physical_seconds_per_video_second": 0.25,
+    "solver": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+    "source_dt": 0.010416666666666666
+  },
+  "violation_type": "rocking_spin_chiral_coupling_sign_reversal"
+}

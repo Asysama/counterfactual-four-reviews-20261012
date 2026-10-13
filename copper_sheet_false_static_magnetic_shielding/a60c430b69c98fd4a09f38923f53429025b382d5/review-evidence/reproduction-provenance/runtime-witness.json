@@ -1,0 +1,126 @@
+{
+  "schema_version": "counterfactual-runtime-witness-v1",
+  "status": "success",
+  "invalid_reasons": [],
+  "started_at_utc": "2026-10-13T09:06:12.028327+00:00",
+  "finished_at_utc": "2026-10-13T09:12:10.524982+00:00",
+  "generator": "copper_sheet_false_static_magnetic_shielding",
+  "case_set": "reproduction-seed42",
+  "accepted_cases": [
+    {
+      "case_id": "copper_sheet_false_static_magnetic_shielding_00000042",
+      "metadata_path": "copper_sheet_false_static_magnetic_shielding_00000042/metadata.json",
+      "metadata_sha256": "102ad3239e9c7483128ba5c5f4fc1f9a24751c64adb34dbf58e5b16eb8670734",
+      "seed": 42
+    }
+  ],
+  "command_argv": [
+    "/opt/siyuan-cf-four-20261012/runtime/bin/python",
+    "generators/copper_sheet_false_static_magnetic_shielding/examples/reproduce.py",
+    "--case",
+    "/opt/siyuan-cf-four-20261012/formal-v6/copper_sheet_false_static_magnetic_shielding/copper_sheet_false_static_magnetic_shielding_00000042",
+    "--output",
+    "/opt/siyuan-cf-four-20261012/reproduction-v6/copper_sheet_false_static_magnetic_shielding"
+  ],
+  "command_shell_escaped": "/opt/siyuan-cf-four-20261012/runtime/bin/python generators/copper_sheet_false_static_magnetic_shielding/examples/reproduce.py --case /opt/siyuan-cf-four-20261012/formal-v6/copper_sheet_false_static_magnetic_shielding/copper_sheet_false_static_magnetic_shielding_00000042 --output /opt/siyuan-cf-four-20261012/reproduction-v6/copper_sheet_false_static_magnetic_shielding",
+  "working_directory": "/opt/siyuan-cf-four-20261012/verified-v6/copper_sheet_false_static_magnetic_shielding",
+  "exit_code": 0,
+  "repository_before": {
+    "root": "/opt/siyuan-cf-four-20261012/verified-v6/copper_sheet_false_static_magnetic_shielding",
+    "commit": "a60c430b69c98fd4a09f38923f53429025b382d5",
+    "worktree_status": null
+  },
+  "repository_after": {
+    "root": "/opt/siyuan-cf-four-20261012/verified-v6/copper_sheet_false_static_magnetic_shielding",
+    "commit": "a60c430b69c98fd4a09f38923f53429025b382d5",
+    "worktree_status": null
+  },
+  "dirty_state_reason": null,
+  "runtime": {
+    "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+    "python_executable": "/opt/siyuan-cf-four-20261012/runtime/bin/python",
+    "operating_system": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "packages": {
+      "numpy": "1.26.4",
+      "imageio-ffmpeg": "0.6.0"
+    },
+    "pip_freeze": [
+      "bpy==4.5.3",
+      "certifi==2026.7.22",
+      "charset-normalizer==3.5.2",
+      "Cython==3.3.0",
+      "idna==3.20",
+      "imageio-ffmpeg==0.6.0",
+      "iniconfig==2.3.1",
+      "numpy==1.26.4",
+      "packaging==26.3",
+      "pillow==11.3.0",
+      "pluggy==1.6.0",
+      "Pygments==2.21.0",
+      "pytest==8.4.2",
+      "requests==2.34.2",
+      "scipy==1.16.2",
+      "urllib3==2.8.0",
+      "zstandard==0.25.0"
+    ],
+    "ffmpeg": "ffmpeg version 6.1.1-3ubuntu5 Copyright (c) 2000-2023 the FFmpeg developers\nbuilt with gcc 13 (Ubuntu 13.2.0-23ubuntu3)\nconfiguration: --prefix=/usr --extra-version=3ubuntu5 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --disable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared\nlibavutil      58. 29.100 / 58. 29.100\nlibavcodec     60. 31.102 / 60. 31.102\nlibavformat    60. 16.100 / 60. 16.100\nlibavdevice    60.  3.100 / 60.  3.100\nlibavfilter     9. 12.100 /  9. 12.100\nlibswscale      7.  5.100 /  7.  5.100\nlibswresample   4. 12.100 /  4. 12.100\nlibpostproc    57.  3.100 / 57.  3.100",
+    "nvidia_smi": "Tesla T4, 595.91.07",
+    "macos_displays": null,
+    "container_image": null,
+    "container_environment": {},
+    "declared_components": {
+      "bpy": "4.5.3",
+      "purpose": "independent_reproduction"
+    },
+    "nested_component_witnesses": []
+  },
+  "dependency_locks": [
+    {
+      "path": "/opt/siyuan-cf-four-20261012/verified-v6/copper_sheet_false_static_magnetic_shielding/generators/copper_sheet_false_static_magnetic_shielding/requirements.txt",
+      "sha256": "d9aaa1cba6a1ff46e5fd000dae22d44d19be86f19befe96fd4c18ae82a9ab5ae"
+    }
+  ],
+  "artifact_root": "/opt/siyuan-cf-four-20261012/reproduction-v6/copper_sheet_false_static_magnetic_shielding",
+  "artifact_sha256_before": {},
+  "artifact_sha256": {
+    "copper_sheet_false_static_magnetic_shielding_00000042/browser-derivatives.json": "c5592b6ee8276873a23498306f11a2dd2a8461ee99c219e8c5eb7194955b8432",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual-000.png": "f8438161c4e66e9dd8996921b42a77212dbbe32c25e46d122abcc2a8f058b210",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual-024.png": "a4988f82959af66f2db5175f9c29def63d529e923b79cc2d6e9434f0a8462fcd",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual-028.png": "cb98a7cf0ca39b67c37ccea9c477f51a08c1f365d3af8c5561fa299c56076e6d",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual-090.png": "abd5118f6c9d62600603026c02e938a44e71fbe1c61fe14a4c7e277b0d3029e3",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual-119.png": "f12ab03c6fa8b5b995395666176825613e988c3a54577b67d1948f2f789f92ec",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/mask.mp4": "9f2850fb0e5fcaefc27a8bec228f9b9c045206d2e07d1fd3d3781cab3814c69f",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/mask_browser.mp4": "a969b9acc31b8551d8876622eb1921846b65243038fefd70206096aa5e75038a",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4": "5d551d43f52971b50dedf437d932fe153fc884572730eacbaa12c89dc1a6c6e3",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/mask_overlay_browser.mp4": "309dc25f274b8018b6d262f7b608c53195ec54e6090f02511a9a9fec62a84d4a",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/prompt.txt": "e3a047df1bdd1b9df992aa2ca77e14c6be199d8995c2eee68875e33b5ef866d1",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/trajectory.npz": "427fd1c9cb6254481df4378d7e760e63313e3e589f0be56e158b2327636d9ef9",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/video.mp4": "aa21eaa6c036ccadd03a80e1c1377a5bb0d1e9a5427a8fd1590d0178d0a2bb25",
+    "copper_sheet_false_static_magnetic_shielding_00000042/counterfactual_false_copper_static_field_attenuation/video_browser.mp4": "75b0cc4641f9fb17acd0905bdb8f4ad4c6d4eb3d5b6cd91cd2294b826b592890",
+    "copper_sheet_false_static_magnetic_shielding_00000042/decoded-audit.json": "cac3785946de6cadd6229ab4e4dd1e3ece04d796465e2921887bb805768523e7",
+    "copper_sheet_false_static_magnetic_shielding_00000042/frame-hashes.json": "4c007db6b30f83f81d39bf6aff6dc52b8760feccd02de8f208778616d5de1e00",
+    "copper_sheet_false_static_magnetic_shielding_00000042/manifest.json": "18d2d95c840e1c57a5b10e21c42ecf8015e3ca74fd02d7bad4e98bc6dd58c8b3",
+    "copper_sheet_false_static_magnetic_shielding_00000042/mask-000.png": "f57ca1fb2a21ab3c7da1b0ac1ed3859b816a4ed6eb7b09700419e86f0b0e1c8e",
+    "copper_sheet_false_static_magnetic_shielding_00000042/mask-024.png": "bd67c9290eb124b8e4de1cf96dbff9250f617b70588939a6367fdeade9620a5e",
+    "copper_sheet_false_static_magnetic_shielding_00000042/mask-028.png": "7e3bba824aa739bf96cfd7d994b28197ad44e8008263337eafb0a82396872a1b",
+    "copper_sheet_false_static_magnetic_shielding_00000042/mask-090.png": "7ee910d95529dfbac568745f8c4fcfa7663f0384a6892a63627bb31c3e6b1566",
+    "copper_sheet_false_static_magnetic_shielding_00000042/mask-119.png": "b3a1cbcd521b3bdc37f6cf94a1df7a4d98bbbe3906c28a2a6a7cfd879219fa24",
+    "copper_sheet_false_static_magnetic_shielding_00000042/metadata.json": "102ad3239e9c7483128ba5c5f4fc1f9a24751c64adb34dbf58e5b16eb8670734",
+    "copper_sheet_false_static_magnetic_shielding_00000042/overlay-000.png": "f8438161c4e66e9dd8996921b42a77212dbbe32c25e46d122abcc2a8f058b210",
+    "copper_sheet_false_static_magnetic_shielding_00000042/overlay-024.png": "58ec5cd63e6647f2806940cd9b2f4fcba5df25f2ccf4d66ed0fd49f9317fa02c",
+    "copper_sheet_false_static_magnetic_shielding_00000042/overlay-028.png": "bfcda054b699932966fbec6f23648b7c75397861ce1a71c16111e55e97cce99e",
+    "copper_sheet_false_static_magnetic_shielding_00000042/overlay-090.png": "119a706610918983f60e505df116e37d3ac5c375f43ea10c9c948b8cd883aa66",
+    "copper_sheet_false_static_magnetic_shielding_00000042/overlay-119.png": "7ade766babf6c3271df16b7a8b6711cb9be3aa648e4b840050f894020822e34f",
+    "copper_sheet_false_static_magnetic_shielding_00000042/renderer-runtime.json": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true/prompt.txt": "49cd63e6cbe8ac393b62a1de2e1ed43dc240113b02546dcf519e2706a4421d04",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true/trajectory.npz": "0f77b782c6eec27249a0e0544cdcfd71d51e77010b2f94f9e072e98435d6bd11",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true/video.mp4": "e1069111974a3ba04d1f876ce722c0a1a5749a827374c7793a5b0506348f15f9",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true/video_browser.mp4": "31d70769d43a1d6175da653876f5c29aa40936184fa208376d3fafbcc259f045",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true-000.png": "f8438161c4e66e9dd8996921b42a77212dbbe32c25e46d122abcc2a8f058b210",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true-024.png": "fa07f02089f7daf095c40c295c6b7837ae322f12add6fc0f10c204d1c1695928",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true-028.png": "c24b3a0b88fcd9d0d77bd38db2e9f6fc3405d3cc7c1fee5da4fe2ab01c126ddf",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true-090.png": "ee6785e484ea46611c8a1deca20da576ba05aa04c24f7217e5a347d1a6e56a9a",
+    "copper_sheet_false_static_magnetic_shielding_00000042/true-119.png": "1275fdb14b8728d32b942a47223a96afdfe835fd76bd75304188ab2eaf4ce797"
+  }
+}

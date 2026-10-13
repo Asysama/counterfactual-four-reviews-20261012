@@ -1,0 +1,12 @@
+{
+  "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+  "native_inspection": {
+    "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
+    "pass_native_stills": true,
+    "pass_six_axis_stills": true,
+    "whole_clip_browser_pending": false,
+    "notes": "Seeds42/98 native full scene sheets, four consecutive CF/mask/overlay crops and native1289-wide seed42 frame38 crop inspected. Smooth hull, attached masses/strip, whole moving assembly mask, consistent red overlay, retracting cradle clears body. Table contact checked separately by evaluated geometry. True/CF turn in opposite senses. Six-axis montage shows actual hull size, response, timing and cross-section changes."
+  },
+  "browser_observation": "All8 streams played to5s. Seed42 paired RGB and mask/overlay screenshots; seed98 paired RGB screenshot. Start/evidence/final seeks succeeded. Scene and label appearance agree with native inspections.",
+  "pass": true
+}

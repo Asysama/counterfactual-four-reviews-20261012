@@ -279,8 +279,8 @@
       "sha256": "ddb9a987a14f715737c4477b472350c7b68cca4b077f6790ce49fd2ca565ae79"
     },
     "application.json": {
-      "bytes": 519,
-      "sha256": "ea2e51124b848a93868057da13b7416a48485c511da2d360aef38633fa606887"
+      "bytes": 726,
+      "sha256": "d43941fdd3536dbfe4e05e2808477fde3fe6bb668d5ec8f15b8bc37598e4e840"
     },
     "expected-case-ids.json": {
       "bytes": 99,
@@ -291,8 +291,8 @@
       "sha256": "4c034b80276ce6d91737618cb5b7143010bedc98ba9928ebd1ce5deb15eee0ef"
     },
     "index.html": {
-      "bytes": 14488,
-      "sha256": "580fd99cb34e038e4a3fd33217205d86f549c73ee6c89df6c37f35fb7fc18896"
+      "bytes": 14965,
+      "sha256": "26e42dded34115825056e265f54306293615cf88bf51264f4636e3d6b0cca12f"
     },
     "production-header.json": {
       "bytes": 2324,
@@ -329,6 +329,10 @@
     "review-evidence/2026-10-13_validate-reproduction.py": {
       "bytes": 1754,
       "sha256": "e6e1f35c1f47721d68ff3b48d668107e876105e5721e45eaa20985ad9556b44e"
+    },
+    "review-evidence/actual-browser-playback.json": {
+      "bytes": 5371,
+      "sha256": "83a402d3e4c6ccae6a5dae5291d8df706838f399ff3144f9a7e0ebb454cffd21"
     },
     "review-evidence/air_gap_plate_attraction_reversal-axis-probes/appearance_high-counterfactual-35.png": {
       "bytes": 79431,
@@ -778,9 +782,41 @@
       "bytes": 3434,
       "sha256": "049b456c9943ccd3a04142d88052123023796fead464e04fb6aab7e2c0227bb8"
     },
+    "review-evidence/reproduction-provenance/air_gap_plate_attraction_reversal_00000042/decoded-audit.json": {
+      "bytes": 985,
+      "sha256": "b6c4c772458fe056a9b5ae1f88d805c70066ead4ab1eeff627f93d71c4d83ca0"
+    },
+    "review-evidence/reproduction-provenance/air_gap_plate_attraction_reversal_00000042/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "fdbf1945d6d382a28264a1998eaff2251dc2ed560cc34f10579fcafe031e814c"
+    },
+    "review-evidence/reproduction-provenance/air_gap_plate_attraction_reversal_00000042/manifest.json": {
+      "bytes": 5248,
+      "sha256": "8f153e31e33524e6ae091dfaff6bd9939e56a2264e6cb6d64f163c75c9843bc4"
+    },
+    "review-evidence/reproduction-provenance/air_gap_plate_attraction_reversal_00000042/metadata.json": {
+      "bytes": 7255,
+      "sha256": "a85248a04ec83cd70ad3864fd8f77b5376f1da7cd2a449b0770652cc0d069614"
+    },
+    "review-evidence/reproduction-provenance/air_gap_plate_attraction_reversal_00000042/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "review-evidence/reproduction-provenance/runtime-witness.json": {
+      "bytes": 10824,
+      "sha256": "730219501d2e8e6c94d9fe95ad1e61f9924702c16a3889c786c20022f1caefbf"
+    },
+    "review-evidence/visual-inspection.json": {
+      "bytes": 1158,
+      "sha256": "5ac1a33023f767479e64a4756c94096e18e1fc0687744b6cfd1c5d145f1a16a3"
+    },
     "review.json": {
-      "bytes": 542,
-      "sha256": "6050a5d869bb9ef01f0d87a6df2f9d0d1be35166728c3aa32acb8c26356e1d1c"
+      "bytes": 517,
+      "sha256": "4b3264d2697795511e07eeb651781a7475a2a286b0a1030369c5410a66ae2708"
+    },
+    "review.md": {
+      "bytes": 14833,
+      "sha256": "5c8992ab1633dc07abbef6f1ddf9f744e3c103107a14c08e5d174a628d15f50d"
     },
     "runtime-witness-index.json": {
       "bytes": 1180,

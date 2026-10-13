@@ -3,6 +3,6 @@
   "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/666",
   "head_sha": "a60c430b69c98fd4a09f38923f53429025b382d5",
   "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/copper_sheet_false_static_magnetic_shielding/a60c430b69c98fd4a09f38923f53429025b382d5/index.html",
-  "note": "Contributor self-check still pending. Two representative cases; owner review pending; no Sara application submitted.",
-  "self_check_complete": false
+  "note": "Two native cases (seeds42,98), four streams each. Independent native/browser decode, physical and geometry checks, actual runtime provenance,100k static recipes, all six rendered diversity axes, reproduction and actual browser playback verified. Declared reduced physics. Owner review pending; no Sara application submitted.",
+  "self_check_complete": true
 }

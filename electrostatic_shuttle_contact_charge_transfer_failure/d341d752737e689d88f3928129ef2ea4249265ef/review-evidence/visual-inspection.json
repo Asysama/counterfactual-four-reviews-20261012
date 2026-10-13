@@ -1,0 +1,12 @@
+{
+  "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "native_inspection": {
+    "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+    "pass_native_stills": true,
+    "pass_six_axis_stills": true,
+    "whole_clip_browser_pending": false,
+    "notes": "Seeds42/98 native scene sheets and four consecutive CF/mask/overlay contact crops inspected. Ball touches right electrode without penetrating; string attaches continuously; electrode mounts contact base. Mask correctly excludes string and occluded sphere pixels. True continues shuttling, CF remains on right after third contact. Six-axis montage shows physical size, response and timing changes plus nuisance controls."
+  },
+  "browser_observation": "All8 streams played to5s. Seed42 paired RGB and mask/overlay screenshots; seed98 paired RGB screenshot. Start/evidence/final seeks succeeded. Scene and label appearance agree with native inspections.",
+  "pass": true
+}

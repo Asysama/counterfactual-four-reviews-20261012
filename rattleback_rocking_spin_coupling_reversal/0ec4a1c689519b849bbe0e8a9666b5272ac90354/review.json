@@ -1,7 +1,7 @@
 {
-  "decision": "NOT VERIFIED",
-  "generator_correctness": "NOT VERIFIED",
-  "scale_readiness": "NOT VERIFIED",
+  "decision": "PASS",
+  "generator_correctness": "PASS",
+  "scale_readiness": "PASS",
   "runtime_provenance": "PASS",
   "head_sha": "0ec4a1c689519b849bbe0e8a9666b5272ac90354",
   "accepted_cases": 2,
@@ -12,6 +12,6 @@
     "onset",
     "depth"
   ],
-  "self_check_complete": false,
+  "self_check_complete": true,
   "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/rattleback_rocking_spin_coupling_reversal/0ec4a1c689519b849bbe0e8a9666b5272ac90354/index.html"
 }

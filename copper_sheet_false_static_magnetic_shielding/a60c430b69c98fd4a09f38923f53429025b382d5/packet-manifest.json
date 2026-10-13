@@ -7,8 +7,8 @@
       "sha256": "7eac3d938a19b97046f5ab7c35b0d85dc9214ef62abf22054d821d68e8f15a8c"
     },
     "application.json": {
-      "bytes": 541,
-      "sha256": "393dee9f1606ec8d6f6079a93f5fc26a05e67d80750ec4cf3ed610c0a0c2f16f"
+      "bytes": 748,
+      "sha256": "f1e0c2ca478968793fe6fa9ee7dd896e97fac940c47e77e81d45011adc5bf6bc"
     },
     "copper_sheet_false_static_magnetic_shielding_00000042/browser-derivatives.json": {
       "bytes": 790,
@@ -291,8 +291,8 @@
       "sha256": "2037239986409a5055ecc89da1778b3d763e9655241976f137979104f460e330"
     },
     "index.html": {
-      "bytes": 14697,
-      "sha256": "f40f234269067a1a9ca6a4e65c0cd121f388a6eebb6af0b35f688bc350b68b9d"
+      "bytes": 15174,
+      "sha256": "df109939e7412f1499bd44f6330fdbe75fbd14a3e9f16d7e23097b2bee461c22"
     },
     "production-header.json": {
       "bytes": 2335,
@@ -329,6 +329,10 @@
     "review-evidence/2026-10-13_validate-reproduction.py": {
       "bytes": 1754,
       "sha256": "e6e1f35c1f47721d68ff3b48d668107e876105e5721e45eaa20985ad9556b44e"
+    },
+    "review-evidence/actual-browser-playback.json": {
+      "bytes": 5558,
+      "sha256": "6a4d10fce92b9de8a69b81bacce5a2634ceb5eef028941bbc63a20051cd2392a"
     },
     "review-evidence/copper_sheet_false_static_magnetic_shielding-axis-probes/appearance_high-counterfactual-35.png": {
       "bytes": 75716,
@@ -770,9 +774,41 @@
       "bytes": 3456,
       "sha256": "1e331078ecf0dec79c6cc1a8c83653cf00e5e84bd369a2f3e269edd536dfcfc8"
     },
+    "review-evidence/reproduction-provenance/copper_sheet_false_static_magnetic_shielding_00000042/decoded-audit.json": {
+      "bytes": 985,
+      "sha256": "cac3785946de6cadd6229ab4e4dd1e3ece04d796465e2921887bb805768523e7"
+    },
+    "review-evidence/reproduction-provenance/copper_sheet_false_static_magnetic_shielding_00000042/frame-hashes.json": {
+      "bytes": 34640,
+      "sha256": "4c007db6b30f83f81d39bf6aff6dc52b8760feccd02de8f208778616d5de1e00"
+    },
+    "review-evidence/reproduction-provenance/copper_sheet_false_static_magnetic_shielding_00000042/manifest.json": {
+      "bytes": 5247,
+      "sha256": "18d2d95c840e1c57a5b10e21c42ecf8015e3ca74fd02d7bad4e98bc6dd58c8b3"
+    },
+    "review-evidence/reproduction-provenance/copper_sheet_false_static_magnetic_shielding_00000042/metadata.json": {
+      "bytes": 7295,
+      "sha256": "102ad3239e9c7483128ba5c5f4fc1f9a24751c64adb34dbf58e5b16eb8670734"
+    },
+    "review-evidence/reproduction-provenance/copper_sheet_false_static_magnetic_shielding_00000042/renderer-runtime.json": {
+      "bytes": 1003,
+      "sha256": "019e60b452016b3d2b3af5d71b14cd414386dba72cf3026c9ab16bd481fb2b4f"
+    },
+    "review-evidence/reproduction-provenance/runtime-witness.json": {
+      "bytes": 11429,
+      "sha256": "bddc6f022fc28d8b30d509d65f00b1cad834081355bc5e064727c1beed9b73a1"
+    },
+    "review-evidence/visual-inspection.json": {
+      "bytes": 934,
+      "sha256": "4a26f2830f55a006fca2e06e4eaffa0116f2b93c382de42105a39c56db7939af"
+    },
     "review.json": {
-      "bytes": 553,
-      "sha256": "86a7b5bda4bae56f9834ec3e431afbe636a77fdc311539ab066afc767eb6173f"
+      "bytes": 528,
+      "sha256": "1f3b502f0ca509e2246b175af42c5f14f3282dc0ad25b87b9db4d616ad94d623"
+    },
+    "review.md": {
+      "bytes": 14398,
+      "sha256": "8b49abd95c3df7ef5833ed55bf1dc423c0c6536d531cbad1e6448dc674264a6c"
     },
     "runtime-witness-index.json": {
       "bytes": 1235,

@@ -1,0 +1,12 @@
+{
+  "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+  "native_inspection": {
+    "head_sha": "d8b7b26c29a98bc5392e859e233ce67fcb747961",
+    "pass_native_stills": true,
+    "pass_six_axis_stills": true,
+    "whole_clip_browser_pending": false,
+    "notes": "Freshv7 seeds42/98 full native scene sheets, four consecutive CF/mask/overlay crops, and native seed42 frame27 inspected. The previously intersecting hose now visibly routes behind boards and below their bottoms; actual mesh BVH independently confirms960 card/hose checks without intersections. Hinge pin/collar/tab are continuous, card edges smooth, masks exclude fixed pins/mounts/hose/nozzle. True settles inward and CF outward with positive gap and both boards visible through final frame. All six low/high axis montages inspected; length, pressure response, event time, card width and nuisance controls materially reach rendered images."
+  },
+  "browser_observation": "All8 streams played to5s. Seed42 paired RGB and mask/overlay screenshots; seed98 paired RGB screenshot. Start/evidence/final seeks succeeded. Scene and label appearance agree with native inspections.",
+  "pass": true
+}

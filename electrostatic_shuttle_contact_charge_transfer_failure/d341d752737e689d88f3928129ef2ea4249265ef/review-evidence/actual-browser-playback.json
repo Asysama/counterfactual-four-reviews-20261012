@@ -1,0 +1,218 @@
+{
+  "head_sha": "d341d752737e689d88f3928129ef2ea4249265ef",
+  "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/index.html",
+  "method": "Actual Chrome UI play-all button, ended events, evidence/start/last controls; observed DOM video state and screenshots. Transcribed from CUA returned observations.",
+  "streams": [
+    {
+      "id": "seed42-0",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000042/true/video_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    },
+    {
+      "id": "seed42-1",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/video_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    },
+    {
+      "id": "seed42-2",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    },
+    {
+      "id": "seed42-3",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000042/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    },
+    {
+      "id": "seed98-0",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000098/true/video_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    },
+    {
+      "id": "seed98-1",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/video_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    },
+    {
+      "id": "seed98-2",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    },
+    {
+      "id": "seed98-3",
+      "url": "https://asysama.github.io/counterfactual-four-reviews-20261012/electrostatic_shuttle_contact_charge_transfer_failure/d341d752737e689d88f3928129ef2ea4249265ef/electrostatic_shuttle_contact_charge_transfer_failure_00000098/counterfactual_contact_charge_transfer_disabled/mask_overlay_browser.mp4",
+      "time": 5,
+      "duration": 5,
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "ended": true,
+      "error": null
+    }
+  ],
+  "seeks": {
+    "start": [
+      [
+        "seed42-0",
+        0
+      ],
+      [
+        "seed42-1",
+        0
+      ],
+      [
+        "seed42-2",
+        0
+      ],
+      [
+        "seed42-3",
+        0
+      ],
+      [
+        "seed98-0",
+        0
+      ],
+      [
+        "seed98-1",
+        0
+      ],
+      [
+        "seed98-2",
+        0
+      ],
+      [
+        "seed98-3",
+        0
+      ]
+    ],
+    "evidence": [
+      [
+        "seed42-0",
+        1.458333
+      ],
+      [
+        "seed42-1",
+        1.458333
+      ],
+      [
+        "seed42-2",
+        1.458333
+      ],
+      [
+        "seed42-3",
+        1.458333
+      ],
+      [
+        "seed98-0",
+        1.458333
+      ],
+      [
+        "seed98-1",
+        1.458333
+      ],
+      [
+        "seed98-2",
+        1.458333
+      ],
+      [
+        "seed98-3",
+        1.458333
+      ]
+    ],
+    "last": [
+      [
+        "seed42-0",
+        4.958333
+      ],
+      [
+        "seed42-1",
+        4.958333
+      ],
+      [
+        "seed42-2",
+        4.958333
+      ],
+      [
+        "seed42-3",
+        4.958333
+      ],
+      [
+        "seed98-0",
+        4.958333
+      ],
+      [
+        "seed98-1",
+        4.958333
+      ],
+      [
+        "seed98-2",
+        4.958333
+      ],
+      [
+        "seed98-3",
+        4.958333
+      ]
+    ]
+  },
+  "ended_event_ids": [
+    "seed42-2",
+    "seed98-2",
+    "seed98-0",
+    "seed42-0",
+    "seed42-3",
+    "seed98-1",
+    "seed42-1",
+    "seed98-3"
+  ],
+  "pass": true
+}
