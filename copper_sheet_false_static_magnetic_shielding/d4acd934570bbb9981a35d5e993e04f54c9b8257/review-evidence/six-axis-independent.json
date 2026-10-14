@@ -1,0 +1,85 @@
+{
+  "head_sha": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+  "status": "PASS",
+  "image_hashes_verified": true,
+  "probes": [
+    {
+      "axis": "length",
+      "low_high_changed_pixels": 127070,
+      "mean_absolute_rgb_difference": 8.150122183340567,
+      "actual_rendered": true,
+      "inspected_variant": "true-35",
+      "all_variants_changed_pixels": {
+        "true-35": 127070,
+        "true-90": 127070,
+        "counterfactual-35": 124568,
+        "counterfactual-90": 124629
+      }
+    },
+    {
+      "axis": "response",
+      "low_high_changed_pixels": 52749,
+      "mean_absolute_rgb_difference": 3.1753913031684027,
+      "actual_rendered": true,
+      "inspected_variant": "true-35",
+      "all_variants_changed_pixels": {
+        "true-35": 52749,
+        "true-90": 52749,
+        "counterfactual-35": 51311,
+        "counterfactual-90": 48628
+      }
+    },
+    {
+      "axis": "onset",
+      "low_high_changed_pixels": 2685,
+      "mean_absolute_rgb_difference": 0.04899879738136574,
+      "actual_rendered": true,
+      "inspected_variant": "counterfactual-35",
+      "all_variants_changed_pixels": {
+        "true-35": 0,
+        "true-90": 0,
+        "counterfactual-35": 2685,
+        "counterfactual-90": 208
+      }
+    },
+    {
+      "axis": "depth",
+      "low_high_changed_pixels": 2593,
+      "mean_absolute_rgb_difference": 0.09968114782262731,
+      "actual_rendered": true,
+      "inspected_variant": "true-35",
+      "all_variants_changed_pixels": {
+        "true-35": 2593,
+        "true-90": 2593,
+        "counterfactual-35": 2446,
+        "counterfactual-90": 2480
+      }
+    },
+    {
+      "axis": "appearance",
+      "low_high_changed_pixels": 221497,
+      "mean_absolute_rgb_difference": 1.049772474500868,
+      "actual_rendered": true,
+      "inspected_variant": "true-35",
+      "all_variants_changed_pixels": {
+        "true-35": 221497,
+        "true-90": 221497,
+        "counterfactual-35": 220820,
+        "counterfactual-90": 221051
+      }
+    },
+    {
+      "axis": "view",
+      "low_high_changed_pixels": 346321,
+      "mean_absolute_rgb_difference": 5.466840390805845,
+      "actual_rendered": true,
+      "inspected_variant": "counterfactual-35",
+      "all_variants_changed_pixels": {
+        "true-35": 345865,
+        "true-90": 345865,
+        "counterfactual-35": 346321,
+        "counterfactual-90": 346070
+      }
+    }
+  ]
+}

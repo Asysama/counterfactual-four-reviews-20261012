@@ -1,0 +1,20 @@
+# A rattleback converts rocking into the wrong spin direction
+
+Small-angle averaged rocking-spin model: P_dot=s*k*n*P-mu*P; n_dot=-s*k*P^2-nu*n; yaw_dot=n. True s=+1, CF s=-1; both terms of ONE exchange coupling flip together, so E=(P^2+n^2)/2 obeys E_dot=-mu*P^2-nu*n^2. No impulse, spontaneous energy source or altered body geometry. Visible diagonal masses encode negative geometric skew; k varies smoothly with their geometric skew and response axis. This is an explicit reduced modal benchmark, NOT a full rigid-body or simulator-native rattleback solve. Convex lower-hemisphere contact is reconstructed with ellipsoid support height. Rocking frequency is derived from an approximate homogeneous-ellipsoid curvature/inertia model. Intentional4x slow motion (physical seconds/video second=.25) applies identically to both twins and makes rocking readable. Modal energy is averaged normalized energy, not a claim of exact instantaneous mechanical energy of the rendered multipart body.
+
+Mask ontology: continuous_convex_rattleback, rigidly_attached_brass_mass_-1, rigidly_attached_brass_mass_1, attached_top_direction_strip. Suspension, source, fixtures, shadows and background are excluded unless explicitly part of the changed rigid card/boat assembly.
+
+All ordinary sampled conditions, geometry, time mapping and materials are identical within a pair.
+No branch-dependent colors, lights, camera or surface changes. Positive physical branch witnesses
+are mandatory; successful rendering is insufficient. Formal acceptance requires actual2048 decode,
+all-frame prefix/mask/overlay audits, independent dynamics checks and actual browser playback.
+
+Physical reference: https://wordpress.rose-hulman.edu/jones5/wp-content/uploads/sites/120/2019/08/Rattleback_article.pdf
+
+The posed center also integrates the rolling-contact reconstruction v_origin=-omega_cross_r_contact. Pitch phase includes the damping correction that makes initial released angular velocity zero. This is kinematic reconstruction coupled to the averaged modal model; it is not a full Newton/Euler field solve.
+
+Handedness check: the positive x/positive y mass diagonal in Jones & Hunt (2019), Figs.16–19, develops positive vertical spin after pitching. This scene mirrors that diagonal (positive x/negative y), so its preferred yaw is negative. The positive exchange magnitude is k=-0.90*response*sin(2*skew)/sin(34 degrees); the counterfactual reverses that one exchange.
+
+Owner visual revision: two translated identical assemblies release simultaneously. The left assembly always follows the normal stored trajectory; only the right assembly receives the counterfactual coupling reversal and mask. This gives a same-scene comparison without a teleporting reset. It does NOT independently validate the absolute preferred spin direction of the reduced model. The independent direction validation below supplies supporting evidence under explicitly declared material/contact assumptions; final production readiness still requires current-head decoded and visual audits.
+
+Independent direction check (`examples/validate_direction.py`): a separate no-slip Newton-Euler solver computes the mass, center of mass and inertia of the lower semi-ellipsoid (wood density600kg/m3), two brass cylinders (8500kg/m3) and thin wood top strip. It derives the contact point from the ellipsoid support function, integrates angular momentum with the no-slip constraint, and checks energy conservation, positive normal reaction and required friction below mu_s=0.60. Actual initial tilt and physical observation duration come from each recipe. Two representative recipes and four size-boundary probes turn clockwise; each mirrored mass layout turns counterclockwise. A halved timestep checks convergence. This verifies direction plausibility under these stated assumptions; it does not claim exact agreement of the full rigid-body transient with the rendered averaged modal model. Reference: Jones & Hunt (2019), linear/angular momentum and composite inertia, Eqs.50–54.

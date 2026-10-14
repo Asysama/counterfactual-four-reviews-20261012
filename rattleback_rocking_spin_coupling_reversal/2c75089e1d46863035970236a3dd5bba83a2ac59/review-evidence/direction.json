@@ -1,0 +1,270 @@
+{
+  "status": "PASS",
+  "scope": "Independent conservative no-slip Newton-Euler direction validation, NOT a fit of the rendered modal trajectory.",
+  "assumptions": {
+    "body_density_kg_m3": 600,
+    "brass_density_kg_m3": 8500,
+    "static_friction_coefficient": 0.6,
+    "contact": "continuous lower ellipsoid support; no rolling dissipation"
+  },
+  "cases": [
+    {
+      "length": 1.28,
+      "depth": 1.03,
+      "mirror": 1,
+      "body_density": 600.0,
+      "brass_density": 8500.0,
+      "mass_kg": 0.19546346560404265,
+      "center_of_mass_m": [
+        0.0,
+        0.0,
+        -0.003667229983172814
+      ],
+      "inertia_kg_m2": [
+        [
+          6.236817066332933e-05,
+          5.487291009942077e-05,
+          0.0
+        ],
+        [
+          5.487291009942077e-05,
+          0.0006721149648781307,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.000709323375987634
+        ]
+      ],
+      "initial_pitch": 0.11979742441245599,
+      "final_vertical_spin": -4.894944840383337,
+      "mean_late_vertical_spin": -4.903116493357785,
+      "energy_relative_drift": 8.627925373125857e-09,
+      "required_friction_max": 0.48526779061868386,
+      "minimum_normal_force": 0.743096650547517,
+      "mirror_spin": 4.903116493357785
+    },
+    {
+      "length": 1.04,
+      "depth": 0.75,
+      "mirror": 1,
+      "body_density": 600.0,
+      "brass_density": 8500.0,
+      "mass_kg": 0.1422179787689354,
+      "center_of_mass_m": [
+        0.0,
+        0.0,
+        -0.001958305838988707
+      ],
+      "inertia_kg_m2": [
+        [
+          2.9846137661102558e-05,
+          3.2464252030907306e-05,
+          0.0
+        ],
+        [
+          3.2464252030907306e-05,
+          0.0003187332962575304,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.00032954077945043775
+        ]
+      ],
+      "initial_pitch": 0.11989816370913897,
+      "final_vertical_spin": -5.401779326837024,
+      "mean_late_vertical_spin": -5.3438381175950385,
+      "energy_relative_drift": 2.14032207018392e-09,
+      "required_friction_max": 0.48851321119096985,
+      "minimum_normal_force": 0.6673931617301663,
+      "mirror_spin": 5.3438381175950385
+    },
+    {
+      "length": 1.0,
+      "depth": 1.03,
+      "mirror": 1,
+      "body_density": 600.0,
+      "brass_density": 8500.0,
+      "mass_kg": 0.1668741453902296,
+      "center_of_mass_m": [
+        0.0,
+        0.0,
+        -0.0028888938160835146
+      ],
+      "inertia_kg_m2": [
+        [
+          5.386674087331057e-05,
+          4.286946101517248e-05,
+          0.0
+        ],
+        [
+          4.286946101517248e-05,
+          0.0003514781733511935,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0003832239551955801
+        ]
+      ],
+      "initial_pitch": 0.12329275428373508,
+      "final_vertical_spin": -5.240658667671271,
+      "mean_late_vertical_spin": -5.241462331823088,
+      "energy_relative_drift": 1.2957469696204345e-09,
+      "required_friction_max": 0.47485962802872056,
+      "minimum_normal_force": 0.7948106112885068,
+      "mirror_spin": 5.241462331823088
+    },
+    {
+      "length": 1.36,
+      "depth": 1.03,
+      "mirror": 1,
+      "body_density": 600.0,
+      "brass_density": 8500.0,
+      "mass_kg": 0.20363184280798924,
+      "center_of_mass_m": [
+        0.0,
+        0.0,
+        -0.0038494694894143453
+      ],
+      "inertia_kg_m2": [
+        [
+          6.476150386440294e-05,
+          5.830246698063457e-05,
+          0.0
+        ],
+        [
+          5.830246698063457e-05,
+          0.0007905024458056557,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0008293072548726956
+        ]
+      ],
+      "initial_pitch": 0.11917459770095533,
+      "final_vertical_spin": -4.8115045925541,
+      "mean_late_vertical_spin": -4.7836322033583185,
+      "energy_relative_drift": 9.987079516165163e-09,
+      "required_friction_max": 0.485971710711795,
+      "minimum_normal_force": 0.7338801276370823,
+      "mirror_spin": 4.7836322033583185
+    },
+    {
+      "length": 1.28,
+      "depth": 0.75,
+      "mirror": 1,
+      "body_density": 600.0,
+      "brass_density": 8500.0,
+      "mass_kg": 0.16009072071386724,
+      "center_of_mass_m": [
+        0.0,
+        0.0,
+        -0.002654646905448364
+      ],
+      "inertia_kg_m2": [
+        [
+          3.32938337030223e-05,
+          3.9956002499578223e-05,
+          0.0
+        ],
+        [
+          3.9956002499578223e-05,
+          0.0005424012800150009,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0005543824738346972
+        ]
+      ],
+      "initial_pitch": 0.11799479540460608,
+      "final_vertical_spin": -5.3125248966087515,
+      "mean_late_vertical_spin": -5.2838565809409905,
+      "energy_relative_drift": 8.467727880108241e-09,
+      "required_friction_max": 0.5034080221591023,
+      "minimum_normal_force": 0.6149178771867372,
+      "mirror_spin": 5.2838565809409905
+    },
+    {
+      "length": 1.28,
+      "depth": 1.11,
+      "mirror": 1,
+      "body_density": 600.0,
+      "brass_density": 8500.0,
+      "mass_kg": 0.20556996414409276,
+      "center_of_mass_m": [
+        0.0,
+        0.0,
+        -0.003892534096433176
+      ],
+      "inertia_kg_m2": [
+        [
+          7.348547443365105e-05,
+          5.913488369937578e-05,
+          0.0
+        ],
+        [
+          5.913488369937578e-05,
+          0.0007091186840119991,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.000756459889211447
+        ]
+      ],
+      "initial_pitch": 0.12041039914803503,
+      "final_vertical_spin": -4.477812061670075,
+      "mean_late_vertical_spin": -4.648422216313167,
+      "energy_relative_drift": 8.746013252691405e-09,
+      "required_friction_max": 0.4812775887118471,
+      "minimum_normal_force": 0.7793797914818452,
+      "mirror_spin": 4.648422216313167
+    }
+  ],
+  "step_halving": {
+    "length": 1.28,
+    "depth": 1.03,
+    "mirror": 1,
+    "body_density": 600.0,
+    "brass_density": 8500.0,
+    "mass_kg": 0.19546346560404265,
+    "center_of_mass_m": [
+      0.0,
+      0.0,
+      -0.003667229983172814
+    ],
+    "inertia_kg_m2": [
+      [
+        6.236817066332933e-05,
+        5.487291009942077e-05,
+        0.0
+      ],
+      [
+        5.487291009942077e-05,
+        0.0006721149648781307,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.000709323375987634
+      ]
+    ],
+    "initial_pitch": 0.11979742441245599,
+    "final_vertical_spin": -4.8949448318206334,
+    "mean_late_vertical_spin": -4.925885246198319,
+    "energy_relative_drift": 5.291978334789386e-10,
+    "required_friction_max": 0.48526779061868386,
+    "minimum_normal_force": 0.743096650547517
+  }
+}

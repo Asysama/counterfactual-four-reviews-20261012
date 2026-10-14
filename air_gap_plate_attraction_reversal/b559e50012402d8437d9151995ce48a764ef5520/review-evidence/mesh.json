@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "selected actual-mesh swept intersections and target view/support; visual inspection separately required",
+  "cases": [
+    {
+      "seed": 42,
+      "checked_mesh_pairs": 1440,
+      "minimum_target_camera_margin": 0.2754831910133362
+    },
+    {
+      "seed": 98,
+      "checked_mesh_pairs": 1440,
+      "minimum_target_camera_margin": 0.29568248987197876
+    }
+  ]
+}

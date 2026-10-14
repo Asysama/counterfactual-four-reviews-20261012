@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "rattleback_rocking_spin_coupling_reversal",
+  "case_set": "owner-reproduction-seed42",
+  "commit": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

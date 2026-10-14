@@ -1,0 +1,44 @@
+{
+  "status": "PASS",
+  "head_sha": "b559e50012402d8437d9151995ce48a764ef5520",
+  "trajectory_and_recipe_exact": true,
+  "mask_exact": true,
+  "streams": {
+    "true/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "32f437a49b7874ed8f79d3bb7ea0eeed87eddaa674a91204719766cd7a5316aa",
+      "reproduced_sha256": "32f437a49b7874ed8f79d3bb7ea0eeed87eddaa674a91204719766cd7a5316aa"
+    },
+    "counterfactual_gap_pressure_difference_sign_reversal/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "42a976c1dcf9217a1fe69f1207e926045720e0ed7678bcccc0e9affa64a79da5",
+      "reproduced_sha256": "42a976c1dcf9217a1fe69f1207e926045720e0ed7678bcccc0e9affa64a79da5"
+    },
+    "counterfactual_gap_pressure_difference_sign_reversal/mask.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542",
+      "reproduced_sha256": "85bec3e71bd47cf752d09ea74a5c279e0f205e94386e9277ddcc9ce647f2c542"
+    },
+    "counterfactual_gap_pressure_difference_sign_reversal/mask_overlay.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "d2a8af230f149676c0d755ec4b29a7fe40f1ec5a35a3ac39f63b3d3de592c094",
+      "reproduced_sha256": "d2a8af230f149676c0d755ec4b29a7fe40f1ec5a35a3ac39f63b3d3de592c094"
+    }
+  }
+}

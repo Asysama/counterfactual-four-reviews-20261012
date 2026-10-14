@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "/opt/siyuan-cf-four-20261012/independent-four-v1.py", line 121, in <module>
+    n=json.loads(mf.read_text())['phenomenon'];rows.append(review(mf.parent,h[n]));print('INDEPENDENT PASS',mf.parent.name,flush=True)
+                                                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/siyuan-cf-four-20261012/independent-four-v1.py", line 114, in review
+    t=dict(np.load(case/m['paths']['true']['trajectory']));c=dict(np.load(case/m['paths']['counterfactual']['trajectory']));w=physical(m,t,c)
+                                                                                                                              ^^^^^^^^^^^^^^^
+  File "/opt/siyuan-cf-four-20261012/independent-four-v1.py", line 66, in physical
+    assert np.all(s['pressure_difference'][cut:]==sign*dp)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

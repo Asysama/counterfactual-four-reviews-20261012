@@ -1,0 +1,603 @@
+{
+  "generator": "rattleback_rocking_spin_coupling_reversal",
+  "commit": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+  "worktree": "",
+  "python": "3.11.17 (main, Oct  9 2026, 15:21:28) [Clang 22.1.3 ]",
+  "blender": "4.5.3 LTS",
+  "platform": "Linux-7.0.0-1014-aws-x86_64-with-glibc2.39",
+  "smoke_resolution": [
+    768,
+    768
+  ],
+  "formal_acceptance": false,
+  "probes": {
+    "baseline": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7907155632724051,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "baseline-true-35.png": "08ee80b198b68d0d68e72537d1f91dd0897b043a0109fbfcb125f26aa126061c",
+        "baseline-true-90.png": "dda52ef4357360edf88dc3ecbc8fd4f31a443ffe766628592cb2c0e53f4633f0",
+        "baseline-counterfactual-35.png": "f03731530e432b3f1779707333c76ec9772030b53852f89731c5af827e6782b5",
+        "baseline-counterfactual-90.png": "93de791a6d46197b31a59803a66060e8a9bc23fafdef9b30d9e4b4abce476456"
+      },
+      "metrics": {},
+      "changed_pixels": {}
+    },
+    "length_low": {
+      "recipe": {
+        "length": 1.0,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.05,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.3589585239616444,
+        "coupling_rate": 0.9634463145537958,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.269022645892559,
+        "mode_to_tilt": 0.09132796613610006,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 41.076090583570235
+      },
+      "images": {
+        "length_low-true-35.png": "53217654797b7e033d3b518278ec0d2105087f37ec5dcb232ed43754a976877c",
+        "length_low-true-90.png": "71a4d817bdb11714f23a70740fa1c1af50d89ec2726cb2078dd907cf1f335e78",
+        "length_low-counterfactual-35.png": "377ebad7f66321bdb9d54cdc297950d4960bbd3cc6e89e66bb3765927830541f",
+        "length_low-counterfactual-90.png": "c101b990e741730ac2ea26ba0edeb0deb97664154913de2dc06af4fe3e1f6497"
+      },
+      "metrics": {
+        "true-35": 0.9303413673683449,
+        "true-90": 1.1038439715350117,
+        "counterfactual-35": 0.9373830159505209,
+        "counterfactual-90": 1.077556468822338
+      },
+      "changed_pixels": {
+        "true-35": 37354,
+        "true-90": 37819,
+        "counterfactual-35": 37146,
+        "counterfactual-90": 37951
+      }
+    },
+    "length_high": {
+      "recipe": {
+        "length": 1.36,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.4280000000000002,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.269196103451749,
+        "coupling_rate": 0.7509884602982067,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.912419614451155,
+        "mode_to_tilt": 0.08827747977848542,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.64967845780462
+      },
+      "images": {
+        "length_high-true-35.png": "7991b8ebf9a30a7395bed0016f6471ede2117e6c5986976aa34de7a3a072ddcf",
+        "length_high-true-90.png": "996d4c393899e7d0729a6b64994edeffbc858c2d8766f3377e67f28f4d308147",
+        "length_high-counterfactual-35.png": "66c6232b8b056ee8b091f64d86f8a881cb489c70d9c5b6ced7182735e6bfcb97",
+        "length_high-counterfactual-90.png": "45fcddbc5c22bb678339ac24ac93bedcdbd165d7b3ad8f0671aa70eb0043aebf"
+      },
+      "metrics": {
+        "true-35": 0.38587386519820605,
+        "true-90": 0.5216968677662037,
+        "counterfactual-35": 0.38702675148292826,
+        "counterfactual-90": 0.5098707411024306
+      },
+      "changed_pixels": {
+        "true-35": 30176,
+        "true-90": 30487,
+        "counterfactual-35": 29752,
+        "counterfactual-90": 30621
+      }
+    },
+    "response_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.85,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7385804711885103,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "response_low-true-35.png": "380f93bbd2ffa42f4786024bef3d9f8e710704da191a98ce9e04e7da9b72d221",
+        "response_low-true-90.png": "3604851207947fcb03bb182680383016ff9112aeb1ad1831d07672d9648fe7a7",
+        "response_low-counterfactual-35.png": "78c177b9705ccda93d08f463a7981e582e8533a33c1abec245d4f10cf1d0f523",
+        "response_low-counterfactual-90.png": "3f1e79fb2c1db72b8c08778db9998e770c3c40f4bbb758e0d7899849343c0a57"
+      },
+      "metrics": {
+        "true-35": 0.06262150517216435,
+        "true-90": 0.29571250632957174,
+        "counterfactual-35": 0.0652759693287037,
+        "counterfactual-90": 0.31354550962094907
+      },
+      "changed_pixels": {
+        "true-35": 11546,
+        "true-90": 14551,
+        "counterfactual-35": 11442,
+        "counterfactual-90": 14913
+      }
+    },
+    "response_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 1.12,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.9731883855660374,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "response_high-true-35.png": "f815ab8ef64987946f5f868620306a72ab904d2170070707a9422d941862fe0f",
+        "response_high-true-90.png": "74a2e294380bd2fb665b54e85605e3392aaf5a1671a35c668d31a8f025ae8220",
+        "response_high-counterfactual-35.png": "9bf7d6c6090e5b7b89fe50539b055cb3af83cdfc14ca22804bb3da5f1b83ec86",
+        "response_high-counterfactual-90.png": "88c3f64534007d5328f4e6f2e4e8ac4304a5bc74f3c14c27ba33e73c1057ebd8"
+      },
+      "metrics": {
+        "true-35": 0.19092531557436343,
+        "true-90": 0.6207897044994213,
+        "counterfactual-35": 0.20058130334924767,
+        "counterfactual-90": 0.6366385000723379
+      },
+      "changed_pixels": {
+        "true-35": 14225,
+        "true-90": 16668,
+        "counterfactual-35": 14004,
+        "counterfactual-90": 16851
+      }
+    },
+    "onset_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 20,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7907155632724051,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "onset_low-true-35.png": "420f817127f785d12a6e26372cfbc3b2caf9caa0bce070960e18f2a2c3ac27cb",
+        "onset_low-true-90.png": "0ce302490cebb2a779b62909ddcb5e9acdc9feea6bd5a5fd1dcf63a94f198e1f",
+        "onset_low-counterfactual-35.png": "f65a363fb0bbbd173faef51ef7bc017eb030c013753c58bbab0dc38a2bbf4dfb",
+        "onset_low-counterfactual-90.png": "bb59c4856160ab56fa861f184eaa9ab5856bcbca3b36a322cf804f220a227fe5"
+      },
+      "metrics": {
+        "true-35": 0.5496775309244791,
+        "true-90": 0.5359847457320602,
+        "counterfactual-35": 0.46736540617766203,
+        "counterfactual-90": 0.5759017379195602
+      },
+      "changed_pixels": {
+        "true-35": 16297,
+        "true-90": 16183,
+        "counterfactual-35": 15536,
+        "counterfactual-90": 16470
+      }
+    },
+    "onset_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 29,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7907155632724051,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "onset_high-true-35.png": "7a918cb8ae3f721d5396c1a46936d2551e2a61ec71a8efa9620ea4376730c2ec",
+        "onset_high-true-90.png": "1cb10fbaec4fcf32f71a55f64529b63723ce451a66e6d0f70cd78a15b6e265d5",
+        "onset_high-counterfactual-35.png": "b6ce8354ca878b37350530fee27d53654491059705cb30bbf229606014869911",
+        "onset_high-counterfactual-90.png": "051220b3465c72a271bea39c3dd4f5cb128d54bde5bbdef2e272caf102a72377"
+      },
+      "metrics": {
+        "true-35": 0.9543112295645254,
+        "true-90": 0.7781377721715856,
+        "counterfactual-35": 0.6996691668475116,
+        "counterfactual-90": 0.82073974609375
+      },
+      "changed_pixels": {
+        "true-35": 18914,
+        "true-90": 17693,
+        "counterfactual-35": 17088,
+        "counterfactual-90": 18216
+      }
+    },
+    "depth_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 0.75,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.255,
+          0.22
+        ],
+        "skew_angle": -0.2102928912446997,
+        "coupling_rate": 0.5979936644885919,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08740355215156005,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "depth_low-true-35.png": "d6db787a7bff3bcc7ecfc7d286e3d17c6c7cdc56195a8b7dca2a5bb4db7b9397",
+        "depth_low-true-90.png": "9afac105405cb818f18d29ee8e0cd4ab0af04680303dd5c1c5d8cc54170511bc",
+        "depth_low-counterfactual-35.png": "c6e96c19221ec21c03f3a7327a4568071d65ae9a67df9c7631b1f6c5c6408d75",
+        "depth_low-counterfactual-90.png": "3ce1a59058be62dbed4f7fd495bafa44cc47f5ccdc3fd5c6885ef7b63a98ca65"
+      },
+      "metrics": {
+        "true-35": 0.5253742359302662,
+        "true-90": 0.8040890163845487,
+        "counterfactual-35": 0.5009827790436922,
+        "counterfactual-90": 0.8390446415653935
+      },
+      "changed_pixels": {
+        "true-35": 15745,
+        "true-90": 17716,
+        "counterfactual-35": 15361,
+        "counterfactual-90": 18078
+      }
+    },
+    "depth_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.11,
+        "appearance": 3,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.37740000000000007,
+          0.22
+        ],
+        "skew_angle": -0.3059830252744595,
+        "coupling_rate": 0.8413864567113095,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08919288825780372,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "depth_high-true-35.png": "4c18d1e4fb2ea7ec6fe1eb9b0918f4b701903c8f7e9d8ac872f600a1a4911574",
+        "depth_high-true-90.png": "c64c432f6749f4cdf03c7a05ca2fea46b3a586495934714c8b3f13eb904a835f",
+        "depth_high-counterfactual-35.png": "6fe9e032323d15f03113e9ca18e10992cfcce6f08e658b3ccf5bada14a962180",
+        "depth_high-counterfactual-90.png": "01d751d082be94f7b1faa2c53f044f1e71eb2d65759d9a9d4e54711b918ed9da"
+      },
+      "metrics": {
+        "true-35": 0.20651301631221064,
+        "true-90": 0.28116240324797453,
+        "counterfactual-35": 0.19035395869502314,
+        "counterfactual-90": 0.3010169135199653
+      },
+      "changed_pixels": {
+        "true-35": 14903,
+        "true-90": 15981,
+        "counterfactual-35": 14319,
+        "counterfactual-90": 16333
+      }
+    },
+    "appearance_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 0,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7907155632724051,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "appearance_low-true-35.png": "54c82d3ecc9a9be1141c6f01e630127b5acd8974818d9d2e74410d6ceac3ae44",
+        "appearance_low-true-90.png": "2cbf168adb57ffada1e36b01fc09d665f0a1b023f3fef74215e6fc6368546b2a",
+        "appearance_low-counterfactual-35.png": "25d96fcde70a027df6193582e8b1c541df1d37fd72f1b090d4cc3b718e90fe8d",
+        "appearance_low-counterfactual-90.png": "6d02d7ecfd01f3695546e2100de31b57718003bf9257657123fb17042099a890"
+      },
+      "metrics": {
+        "true-35": 4.658480043764468,
+        "true-90": 4.658480043764468,
+        "counterfactual-35": 4.658480043764468,
+        "counterfactual-90": 4.658480043764468
+      },
+      "changed_pixels": {
+        "true-35": 304594,
+        "true-90": 304594,
+        "counterfactual-35": 304594,
+        "counterfactual-90": 304594
+      }
+    },
+    "appearance_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 9,
+        "view": 4,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7907155632724051,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "appearance_high-true-35.png": "ce79b341fde074829b0837eac1806d6d5828fbd1e2603d5249fc7af58d1f4734",
+        "appearance_high-true-90.png": "3e3ec3ddb88eb06316eef93ce54ec3d85bb8f50d4cfa3111c4a3ca4122d2c0ec",
+        "appearance_high-counterfactual-35.png": "546cb5b05b4d1ea77d83522c40d394e2cbfc01c653281f695f9bad002bce6958",
+        "appearance_high-counterfactual-90.png": "a8c8fd29247cefeb1f858a9b65369ec651579ebf1cc8a65980545acb1252fe99"
+      },
+      "metrics": {
+        "true-35": 6.282225997359665,
+        "true-90": 6.282225997359665,
+        "counterfactual-35": 6.282225997359665,
+        "counterfactual-90": 6.282225997359665
+      },
+      "changed_pixels": {
+        "true-35": 304626,
+        "true-90": 304626,
+        "counterfactual-35": 304626,
+        "counterfactual-90": 304626
+      }
+    },
+    "view_low": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 0,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7907155632724051,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "view_low-true-35.png": "0bf09b3a485767e17b77bb21155f84f655f2d7746d71a990d9d1fb6ba7ab8b30",
+        "view_low-true-90.png": "a958334b51bfcd84c5f32aee78871110f93fc863596cdc072012f8aa472ea020",
+        "view_low-counterfactual-35.png": "6b53cb3a9d10287e93ce4ddc601696e9289ae5ad28652ddc7795137a3ac17023",
+        "view_low-counterfactual-90.png": "d14b93c9fe439443951785906ba1d416ac1dd515c5685feec2440af294f49db9"
+      },
+      "metrics": {
+        "true-35": 3.609196980794271,
+        "true-90": 3.4439149079499423,
+        "counterfactual-35": 3.5614041928891784,
+        "counterfactual-90": 3.560595477068866
+      },
+      "changed_pixels": {
+        "true-35": 295875,
+        "true-90": 292139,
+        "counterfactual-35": 294558,
+        "counterfactual-90": 294237
+      }
+    },
+    "view_high": {
+      "recipe": {
+        "length": 1.28,
+        "response": 0.9099999999999999,
+        "onset": 23,
+        "depth": 1.03,
+        "appearance": 3,
+        "view": 9,
+        "gravity": 9.81,
+        "camera_elevation_ratio": 0.85,
+        "body_axes": [
+          1.344,
+          0.3502,
+          0.22
+        ],
+        "skew_angle": -0.2851478593639961,
+        "coupling_rate": 0.7907155632724051,
+        "initial_mode_amplitude": 1.35,
+        "rocking_frequency": 10.808808640573483,
+        "mode_to_tilt": 0.08873883289811554,
+        "mode_damping": 0.08,
+        "spin_damping": 0.03,
+        "scene_unit_m": 0.1,
+        "model": "small-angle averaged rattleback rocking-spin modal exchange; rigid convex-body contact reconstruction; no simulator-native claim",
+        "time_scale": 0.25,
+        "physical_rocking_frequency": 43.23523456229393
+      },
+      "images": {
+        "view_high-true-35.png": "69d8568b58abd189d98f3abedc228b59abea8a664f712ebcb2649f7ed080d1b9",
+        "view_high-true-90.png": "c45bddd5d2ce27bcb073c9006745b648a1a0d669a0c114c9b88487cfe0e1c346",
+        "view_high-counterfactual-35.png": "5c7913187c6de4766e5f829e3a9adb50c46ea776f14b6a803bd18001bdd11ba3",
+        "view_high-counterfactual-90.png": "fe2df4e85f857cc49ce3c2876220958b452c7179e5191148b38c70ddae63a66f"
+      },
+      "metrics": {
+        "true-35": 4.032647592050058,
+        "true-90": 3.8110374168113426,
+        "counterfactual-35": 3.9817137541594327,
+        "counterfactual-90": 3.9750247531467013
+      },
+      "changed_pixels": {
+        "true-35": 197249,
+        "true-90": 192642,
+        "counterfactual-35": 197053,
+        "counterfactual-90": 193424
+      }
+    }
+  }
+}

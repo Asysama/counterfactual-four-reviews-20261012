@@ -1,0 +1,28 @@
+{
+  "schema_version": "counterfactual-runtime-witness-index-v1",
+  "pass": true,
+  "witness_count": 1,
+  "case_count": 2,
+  "witnesses": {
+    "512b5b927a53ba0a213f6416029b8f07d6a9387e3b7ef483f12fbab8cfa4c008": {
+      "path": "runtime-witness.json",
+      "sha256": "512b5b927a53ba0a213f6416029b8f07d6a9387e3b7ef483f12fbab8cfa4c008",
+      "generator": "air_gap_plate_attraction_reversal",
+      "case_set": "owner-revision-seeds42,98",
+      "source_commit": "b559e50012402d8437d9151995ce48a764ef5520"
+    }
+  },
+  "cases": {
+    "air_gap_plate_attraction_reversal_00000042": {
+      "witness_id": "512b5b927a53ba0a213f6416029b8f07d6a9387e3b7ef483f12fbab8cfa4c008",
+      "metadata_path": "air_gap_plate_attraction_reversal_00000042/metadata.json",
+      "metadata_sha256": "cc8473b1905c17627fb45c50bf2ee88b6ca44c8e2590f5063fe7b6b19a512470"
+    },
+    "air_gap_plate_attraction_reversal_00000098": {
+      "witness_id": "512b5b927a53ba0a213f6416029b8f07d6a9387e3b7ef483f12fbab8cfa4c008",
+      "metadata_path": "air_gap_plate_attraction_reversal_00000098/metadata.json",
+      "metadata_sha256": "077fcac7e8124cd8b620d7f9eb4ff9217c9d90de5e0d7bddd18b8a3b9b194dfe"
+    }
+  },
+  "failures": []
+}

@@ -1,0 +1,188 @@
+{
+  "true/video.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 1,
+    "total_differing_pixels": 2,
+    "max_differing_pixels_per_frame": 2,
+    "differences": [
+      {
+        "frame": 73,
+        "pixel_count": 2,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 717,
+            "y": 1092,
+            "original": [
+              151,
+              154,
+              151
+            ],
+            "reproduced": [
+              150,
+              153,
+              151
+            ]
+          },
+          {
+            "x": 718,
+            "y": 1092,
+            "original": [
+              124,
+              127,
+              128
+            ],
+            "reproduced": [
+              123,
+              127,
+              128
+            ]
+          }
+        ]
+      }
+    ],
+    "original_sha256": "136fd9e5f3ccd69415bc27b7b2dc0cccc398b5add0b287f0acacede0ea47b6a8",
+    "reproduced_sha256": "6c39430ed03d9e08688f49da426472bfb44442bf3a1e5cedc2082ba5e378b843"
+  },
+  "counterfactual_false_copper_static_field_attenuation/video.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 2,
+    "total_differing_pixels": 4,
+    "max_differing_pixels_per_frame": 2,
+    "differences": [
+      {
+        "frame": 28,
+        "pixel_count": 2,
+        "maximum_channel_difference": 2,
+        "samples": [
+          {
+            "x": 686,
+            "y": 1135,
+            "original": [
+              104,
+              105,
+              104
+            ],
+            "reproduced": [
+              103,
+              104,
+              102
+            ]
+          },
+          {
+            "x": 687,
+            "y": 1135,
+            "original": [
+              133,
+              135,
+              133
+            ],
+            "reproduced": [
+              132,
+              135,
+              133
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 46,
+        "pixel_count": 2,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 670,
+            "y": 1131,
+            "original": [
+              82,
+              83,
+              81
+            ],
+            "reproduced": [
+              82,
+              82,
+              80
+            ]
+          },
+          {
+            "x": 670,
+            "y": 1132,
+            "original": [
+              139,
+              142,
+              140
+            ],
+            "reproduced": [
+              139,
+              142,
+              139
+            ]
+          }
+        ]
+      }
+    ],
+    "original_sha256": "56e5dceb60aea2dbdef6262c1e212bae5b814828cb5145b1c0bf5f1a100bb31d",
+    "reproduced_sha256": "b75cd3da2350fbc9d9a279c6bc776ec616b56e11f6876e5aa5b6f96a99144a58"
+  },
+  "counterfactual_false_copper_static_field_attenuation/mask.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 0,
+    "total_differing_pixels": 0,
+    "max_differing_pixels_per_frame": 0,
+    "differences": [],
+    "original_sha256": "a3c4d4ca0e3b258a39191352b4b8e6418139374f370166adc7e437c419fe12fb",
+    "reproduced_sha256": "a3c4d4ca0e3b258a39191352b4b8e6418139374f370166adc7e437c419fe12fb"
+  },
+  "counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4": {
+    "decoded_frames": 120,
+    "max_channel_difference": 1,
+    "total_differing_pixels": 2,
+    "max_differing_pixels_per_frame": 1,
+    "differences": [
+      {
+        "frame": 28,
+        "pixel_count": 1,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 687,
+            "y": 1135,
+            "original": [
+              133,
+              135,
+              133
+            ],
+            "reproduced": [
+              132,
+              135,
+              133
+            ]
+          }
+        ]
+      },
+      {
+        "frame": 46,
+        "pixel_count": 1,
+        "maximum_channel_difference": 1,
+        "samples": [
+          {
+            "x": 670,
+            "y": 1132,
+            "original": [
+              139,
+              142,
+              140
+            ],
+            "reproduced": [
+              139,
+              142,
+              139
+            ]
+          }
+        ]
+      }
+    ],
+    "original_sha256": "2b580dec2465346d9cdf7df10c4d1dcbe81fd17341d773d411b56a96612ac7db",
+    "reproduced_sha256": "84736f09034fd90d21c9c067bb6d59a915ae43f5abf200db5f92127b85a21207"
+  }
+}

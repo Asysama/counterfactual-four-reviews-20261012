@@ -1,0 +1,61 @@
+{
+  "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+  "files": {
+    "rattleback_rocking_spin_coupling_reversal_00000042/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-42-true.mp4",
+      "bytes": 20291155,
+      "sha256": "3f66f3f0288932034e30b7e04a28fdeaa99e88c69ae4648df82d1875f8eeb390",
+      "github_asset_id": 638770199,
+      "server_digest": "sha256:3f66f3f0288932034e30b7e04a28fdeaa99e88c69ae4648df82d1875f8eeb390"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-42-counterfactual.mp4",
+      "bytes": 20128482,
+      "sha256": "15140c8b8b07531e4befde13210cad3f998f4e7afe56b1a25e3a928a82096a66",
+      "github_asset_id": 638770237,
+      "server_digest": "sha256:15140c8b8b07531e4befde13210cad3f998f4e7afe56b1a25e3a928a82096a66"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-42-mask.mp4",
+      "bytes": 2417831,
+      "sha256": "4299b105b02fa52a668cb82439f11f2773f77130527312579e1a587aa6021d7d",
+      "github_asset_id": 638770302,
+      "server_digest": "sha256:4299b105b02fa52a668cb82439f11f2773f77130527312579e1a587aa6021d7d"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000042/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-42-overlay.mp4",
+      "bytes": 17305269,
+      "sha256": "083defdf14c5a016e3efeba22eb7e1ac42832ca35fdec940d690c72cfe7c94cd",
+      "github_asset_id": 638770319,
+      "server_digest": "sha256:083defdf14c5a016e3efeba22eb7e1ac42832ca35fdec940d690c72cfe7c94cd"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/true/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-98-true.mp4",
+      "bytes": 21263574,
+      "sha256": "ca5ba14e32a22217e03331f1f32f81169ea0379ba1410d11d88919ba045b79ba",
+      "github_asset_id": 638770318,
+      "server_digest": "sha256:ca5ba14e32a22217e03331f1f32f81169ea0379ba1410d11d88919ba045b79ba"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/video.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-98-counterfactual.mp4",
+      "bytes": 21028722,
+      "sha256": "49b9e484ec6c5b052dd68749c12e471642a704355a2315d7413fd49b266a7e14",
+      "github_asset_id": 638770550,
+      "server_digest": "sha256:49b9e484ec6c5b052dd68749c12e471642a704355a2315d7413fd49b266a7e14"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-98-mask.mp4",
+      "bytes": 2309567,
+      "sha256": "017611656da67cd9b50e43f7d1608ada3804ecd5a2f4e3ecdfbe91c60174c22a",
+      "github_asset_id": 638771199,
+      "server_digest": "sha256:017611656da67cd9b50e43f7d1608ada3804ecd5a2f4e3ecdfbe91c60174c22a"
+    },
+    "rattleback_rocking_spin_coupling_reversal_00000098/counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay.mp4": {
+      "url": "https://github.com/Asysama/counterfactual-four-reviews-20261012/releases/download/native-20261013-owner-revision/rattleback_rocking_spin_coupling_reversal-2c75089e1d46863035970236a3dd5bba83a2ac59-98-overlay.mp4",
+      "bytes": 18866643,
+      "sha256": "8a16e01f0219104c76363a4e3ea731ee7de67f7d83ebf9977533f597006b1e33",
+      "github_asset_id": 638771426,
+      "server_digest": "sha256:8a16e01f0219104c76363a4e3ea731ee7de67f7d83ebf9977533f597006b1e33"
+    }
+  }
+}

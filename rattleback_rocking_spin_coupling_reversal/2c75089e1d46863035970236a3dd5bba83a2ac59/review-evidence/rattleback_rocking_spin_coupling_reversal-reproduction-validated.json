@@ -1,0 +1,321 @@
+{
+  "status": "PASS",
+  "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+  "case_id": "rattleback_rocking_spin_coupling_reversal_00000042",
+  "trajectory_and_recipe_exact": true,
+  "mask_exact": true,
+  "decoded_frames_per_stream": 120,
+  "independent_run_rgb_tolerance": {
+    "max_channel_difference": 1,
+    "max_pixels_per_frame": 4,
+    "max_pixels_per_stream": 32
+  },
+  "measured_streams": {
+    "true/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 2,
+      "total_differing_pixels": 7,
+      "max_differing_pixels_per_frame": 2,
+      "differences": [
+        {
+          "frame": 30,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 1204,
+              "y": 824,
+              "original": [
+                146,
+                152,
+                157
+              ],
+              "reproduced": [
+                147,
+                152,
+                157
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 44,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 1205,
+              "y": 824,
+              "original": [
+                144,
+                149,
+                154
+              ],
+              "reproduced": [
+                144,
+                149,
+                155
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 57,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 1207,
+              "y": 838,
+              "original": [
+                60,
+                68,
+                78
+              ],
+              "reproduced": [
+                59,
+                67,
+                77
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 65,
+          "pixel_count": 1,
+          "maximum_channel_difference": 2,
+          "samples": [
+            {
+              "x": 441,
+              "y": 860,
+              "original": [
+                41,
+                44,
+                48
+              ],
+              "reproduced": [
+                43,
+                46,
+                50
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 72,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 1203,
+              "y": 826,
+              "original": [
+                92,
+                98,
+                104
+              ],
+              "reproduced": [
+                93,
+                98,
+                105
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 74,
+          "pixel_count": 2,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 1202,
+              "y": 827,
+              "original": [
+                79,
+                84,
+                91
+              ],
+              "reproduced": [
+                79,
+                84,
+                90
+              ]
+            },
+            {
+              "x": 1202,
+              "y": 828,
+              "original": [
+                90,
+                96,
+                104
+              ],
+              "reproduced": [
+                89,
+                96,
+                103
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "3f66f3f0288932034e30b7e04a28fdeaa99e88c69ae4648df82d1875f8eeb390",
+      "reproduced_sha256": "60a3cdbfc8e4e1547ab71114a640500e1860e0e700aed44a89b0f52538481606"
+    },
+    "counterfactual_rocking_spin_chiral_coupling_sign_reversal/video.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 1,
+      "total_differing_pixels": 3,
+      "max_differing_pixels_per_frame": 1,
+      "differences": [
+        {
+          "frame": 24,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 420,
+              "y": 981,
+              "original": [
+                49,
+                51,
+                53
+              ],
+              "reproduced": [
+                48,
+                50,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 74,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 1203,
+              "y": 825,
+              "original": [
+                109,
+                114,
+                119
+              ],
+              "reproduced": [
+                109,
+                113,
+                118
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 106,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 442,
+              "y": 861,
+              "original": [
+                59,
+                67,
+                77
+              ],
+              "reproduced": [
+                58,
+                67,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "15140c8b8b07531e4befde13210cad3f998f4e7afe56b1a25e3a928a82096a66",
+      "reproduced_sha256": "9b4cb63641996d5d2303b5872ddf28ec81500452154f067eadf6cbd309f9b880"
+    },
+    "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 0,
+      "total_differing_pixels": 0,
+      "max_differing_pixels_per_frame": 0,
+      "differences": [],
+      "original_sha256": "4299b105b02fa52a668cb82439f11f2773f77130527312579e1a587aa6021d7d",
+      "reproduced_sha256": "4299b105b02fa52a668cb82439f11f2773f77130527312579e1a587aa6021d7d"
+    },
+    "counterfactual_rocking_spin_chiral_coupling_sign_reversal/mask_overlay.mp4": {
+      "decoded_frames": 120,
+      "max_channel_difference": 1,
+      "total_differing_pixels": 3,
+      "max_differing_pixels_per_frame": 1,
+      "differences": [
+        {
+          "frame": 24,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 420,
+              "y": 981,
+              "original": [
+                49,
+                51,
+                53
+              ],
+              "reproduced": [
+                48,
+                50,
+                52
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 74,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 1203,
+              "y": 825,
+              "original": [
+                109,
+                114,
+                119
+              ],
+              "reproduced": [
+                109,
+                113,
+                118
+              ]
+            }
+          ]
+        },
+        {
+          "frame": 106,
+          "pixel_count": 1,
+          "maximum_channel_difference": 1,
+          "samples": [
+            {
+              "x": 442,
+              "y": 861,
+              "original": [
+                59,
+                67,
+                77
+              ],
+              "reproduced": [
+                58,
+                67,
+                77
+              ]
+            }
+          ]
+        }
+      ],
+      "original_sha256": "083defdf14c5a016e3efeba22eb7e1ac42832ca35fdec940d690c72cfe7c94cd",
+      "reproduced_sha256": "cc04871fa674291bb7d6c2d5f1031522f9be1abd17d31926827a690f449d5b8f"
+    }
+  },
+  "explanation": "Independent GPU runs may differ at sparse one-level RGB rounding; this does not relax exact within-pair prefixes or formal masks. Original zero-difference comparison is retained."
+}

@@ -1,0 +1,85 @@
+{
+  "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+  "status": "PASS",
+  "image_hashes_verified": true,
+  "probes": [
+    {
+      "axis": "length",
+      "low_high_changed_pixels": 41686,
+      "mean_absolute_rgb_difference": 1.3064801251446758,
+      "actual_rendered": true,
+      "inspected_variant": "counterfactual-90",
+      "all_variants_changed_pixels": {
+        "true-35": 40939,
+        "true-90": 41603,
+        "counterfactual-35": 40679,
+        "counterfactual-90": 41686
+      }
+    },
+    {
+      "axis": "response",
+      "low_high_changed_pixels": 17659,
+      "mean_absolute_rgb_difference": 0.7565217194733797,
+      "actual_rendered": true,
+      "inspected_variant": "counterfactual-90",
+      "all_variants_changed_pixels": {
+        "true-35": 14620,
+        "true-90": 17458,
+        "counterfactual-35": 14367,
+        "counterfactual-90": 17659
+      }
+    },
+    {
+      "axis": "onset",
+      "low_high_changed_pixels": 19940,
+      "mean_absolute_rgb_difference": 1.0421210394965277,
+      "actual_rendered": true,
+      "inspected_variant": "true-35",
+      "all_variants_changed_pixels": {
+        "true-35": 19940,
+        "true-90": 19266,
+        "counterfactual-35": 17510,
+        "counterfactual-90": 19772
+      }
+    },
+    {
+      "axis": "depth",
+      "low_high_changed_pixels": 19321,
+      "mean_absolute_rgb_difference": 0.931356359411169,
+      "actual_rendered": true,
+      "inspected_variant": "counterfactual-90",
+      "all_variants_changed_pixels": {
+        "true-35": 16771,
+        "true-90": 18986,
+        "counterfactual-35": 16326,
+        "counterfactual-90": 19321
+      }
+    },
+    {
+      "axis": "appearance",
+      "low_high_changed_pixels": 304319,
+      "mean_absolute_rgb_difference": 1.6237459535951968,
+      "actual_rendered": true,
+      "inspected_variant": "true-35",
+      "all_variants_changed_pixels": {
+        "true-35": 304319,
+        "true-90": 304319,
+        "counterfactual-35": 304319,
+        "counterfactual-90": 304319
+      }
+    },
+    {
+      "axis": "view",
+      "low_high_changed_pixels": 252608,
+      "mean_absolute_rgb_difference": 5.3565798158998845,
+      "actual_rendered": true,
+      "inspected_variant": "true-35",
+      "all_variants_changed_pixels": {
+        "true-35": 252608,
+        "true-90": 249827,
+        "counterfactual-35": 250646,
+        "counterfactual-90": 252130
+      }
+    }
+  ]
+}

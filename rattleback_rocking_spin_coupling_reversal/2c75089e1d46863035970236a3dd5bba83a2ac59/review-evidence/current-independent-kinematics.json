@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+  "check": "Independent convex-contact translation reconstruction on recorded video time grid; outer finite-difference boundary frames excluded.",
+  "threshold": 0.018,
+  "cases": [
+    {
+      "case_id": "rattleback_rocking_spin_coupling_reversal_00000098",
+      "maximum_contact_velocity_residual": {
+        "true": 0.00906035511672465,
+        "counterfactual": 0.00906035511672465
+      }
+    },
+    {
+      "case_id": "rattleback_rocking_spin_coupling_reversal_00000042",
+      "maximum_contact_velocity_residual": {
+        "true": 0.014901702021799967,
+        "counterfactual": 0.014901702021799967
+      }
+    }
+  ]
+}

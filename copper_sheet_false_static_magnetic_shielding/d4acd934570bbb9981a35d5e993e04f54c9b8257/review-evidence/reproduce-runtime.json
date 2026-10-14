@@ -1,0 +1,10 @@
+{
+  "schema_version": "counterfactual-runtime-witness-audit-v1",
+  "pass": true,
+  "generator": "copper_sheet_false_static_magnetic_shielding",
+  "case_set": "owner-reproduction-seed42",
+  "commit": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+  "artifact_count": 38,
+  "accepted_case_count": 1,
+  "failures": []
+}

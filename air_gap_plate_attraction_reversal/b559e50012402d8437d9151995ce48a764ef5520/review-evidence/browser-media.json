@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "head_sha": "b559e50012402d8437d9151995ce48a764ef5520",
+  "decoder": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "cases": [
+    {
+      "case_id": "air_gap_plate_attraction_reversal_00000042",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 2321087,
+          "sha256": "1e22f9bd8f1f8b1001cd738b2215a7ac50c711e9be4d3f4d70f1f599767255d0"
+        },
+        {
+          "path": "counterfactual_gap_pressure_difference_sign_reversal/video_browser.mp4",
+          "bytes": 2300998,
+          "sha256": "a87d29c8cd8bf9a442b6af7d6037c48110ec0a31f0a7e70d323ae79596eb39db"
+        },
+        {
+          "path": "counterfactual_gap_pressure_difference_sign_reversal/mask_browser.mp4",
+          "bytes": 139738,
+          "sha256": "3bff9a2388dd22f37bfcbdf8909934f9547ee78d1e28023fb15cba5f814ca1a0"
+        },
+        {
+          "path": "counterfactual_gap_pressure_difference_sign_reversal/mask_overlay_browser.mp4",
+          "bytes": 2435429,
+          "sha256": "c149f203caaf14c16983b137f6a093eecc2961066a6af940b6f9548e92291827"
+        }
+      ]
+    },
+    {
+      "case_id": "air_gap_plate_attraction_reversal_00000098",
+      "decoded_frames_per_stream": 120,
+      "binary_review_mask": true,
+      "exact_review_prefix": true,
+      "streams": [
+        {
+          "path": "true/video_browser.mp4",
+          "bytes": 2199914,
+          "sha256": "af98e1b37c2adbea78dd0715fa81f26daacb5a297a9705cad559501b3142a20a"
+        },
+        {
+          "path": "counterfactual_gap_pressure_difference_sign_reversal/video_browser.mp4",
+          "bytes": 2178158,
+          "sha256": "10f3011e5d27873106c216a3aa6b7f75ff48244b1b270525679eba3fe51d25c3"
+        },
+        {
+          "path": "counterfactual_gap_pressure_difference_sign_reversal/mask_browser.mp4",
+          "bytes": 122519,
+          "sha256": "aea763d61514fd207103f0d450791a89c2a467dc7a6b820f8252f65bb5105339"
+        },
+        {
+          "path": "counterfactual_gap_pressure_difference_sign_reversal/mask_overlay_browser.mp4",
+          "bytes": 2268828,
+          "sha256": "6d4ee6657d8d0f6b4aad62602e510ec001ac25d258d49c386b64cf84d697e6b6"
+        }
+      ]
+    }
+  ]
+}

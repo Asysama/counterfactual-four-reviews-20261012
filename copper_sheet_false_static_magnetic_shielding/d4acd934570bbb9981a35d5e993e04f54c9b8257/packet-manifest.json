@@ -34,8 +34,8 @@
       "sha256": "251b5357cbfb3e7614098d96f012cc5e378339d5e1444303c86a3e0687151af1"
     },
     "review.md": {
-      "bytes": 1512,
-      "sha256": "9d968729a1d4e707bf2d5db80ce04cf06a968e25fe4ee018dc41cfdbfca6f06e"
+      "bytes": 2186,
+      "sha256": "2ab97c25627135f51d56f7f30d50b2a0b213574ea0706c4cf6061fdde2154425"
     },
     "application.json": {
       "bytes": 489,
@@ -165,6 +165,22 @@
       "bytes": 314,
       "sha256": "36249205867fb6e9aa30b1e80781beef4d436e26aabfdc811ed7e8fa9c24ec8d"
     },
+    "review-evidence/six-axis-independent.json": {
+      "bytes": 2394,
+      "sha256": "6b308411e2b08cef0b551107efa0ff8c29bf7b5ae7e19ec4bedba20b57daea85"
+    },
+    "review-evidence/six-axis-inspection.jpg": {
+      "bytes": 81023,
+      "sha256": "a0623a069d01557a5c8636673fddf21326248f4c3303a313a767efcfbe9ebc6f"
+    },
+    "review-evidence/copper_sheet_false_static_magnetic_shielding-reproduction-validated.json": {
+      "bytes": 5403,
+      "sha256": "c45c0b6a17ad7b1a18b1193db907492798f138cd86878658ed4196e3023ddec2"
+    },
+    "review-evidence/reproduction-diagnostic.json": {
+      "bytes": 4979,
+      "sha256": "eafb6c636bfb880a2bb91702dffcb402563bef3ecbc67bb4dd845c6174296ebb"
+    },
     "review-evidence/mesh.json": {
       "bytes": 401,
       "sha256": "7ae8814e560268c7e43569146625f7db2505d35425571dd4e44eb1249694143e"
@@ -173,9 +189,33 @@
       "bytes": 92,
       "sha256": "9134c8f0daba04a0ecabd1031245d2f6b4e3cec46e388072489f386fd6ed615d"
     },
+    "review-evidence/incompatible-resume.log": {
+      "bytes": 666,
+      "sha256": "b5802105f30e6c97e0eca86d95426740a22d2a18854ca5623be508b09088561d"
+    },
+    "review-evidence/reproduce.log": {
+      "bytes": 76655,
+      "sha256": "442694279463da171173d291c7fb0ea4a1875a8e9812bcf83e3367aed6d9757a"
+    },
+    "review-evidence/reproduction-validated.json": {
+      "bytes": 4951,
+      "sha256": "78d5d694c5b6f856305ea43fccfbfeb6200be2072d19b26f1aa101c8ff0f2c55"
+    },
+    "review-evidence/postrender-execution.json": {
+      "bytes": 272,
+      "sha256": "cc755902d795348e3e8b1ed5fac09b79f6240c6aafb9811c12851cd1192634bf"
+    },
+    "review-evidence/postrender-audit-script.py": {
+      "bytes": 2015,
+      "sha256": "3c69e9f5440fa58e0ee7a50adda0dfeebcbccff63c2cc7fb4094f9a7653c84e8"
+    },
     "review-evidence/browser-media.json": {
       "bytes": 2360,
       "sha256": "27523f7c8f2b1479ec7d7942a63f064f9961e8b748c14d18ce95fff2d7cfb758"
+    },
+    "review-evidence/resume.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     "review-evidence/tests.log": {
       "bytes": 98,
@@ -193,6 +233,10 @@
       "bytes": 162,
       "sha256": "b72b727995273cb4838c2106fe663e75191596750536be1b8ff34d2c376d5211"
     },
+    "review-evidence/reproduction-check.log": {
+      "bytes": 4422,
+      "sha256": "6ff4cc40982095c4404139433aa925bca7b24582a7596051546ff34365f48622"
+    },
     "review-evidence/independent.json": {
       "bytes": 1434,
       "sha256": "9793bdf032f427ddc38be04449675ad9cb2a12e3a767ce30822740e157857d85"
@@ -204,6 +248,10 @@
     "review-evidence/axis-probes.log": {
       "bytes": 9080,
       "sha256": "6ef39f127722363d197f09fac0b7286c912496ca0c8597d06ffd2bc7deea2d58"
+    },
+    "review-evidence/reproduce-runtime.json": {
+      "bytes": 314,
+      "sha256": "29578fdf7250daff96268ab4072d1412f0728c355dce84086de2813150540e69"
     },
     "copper_sheet_false_static_magnetic_shielding_00000098/frame-hashes.json": {
       "bytes": 34640,

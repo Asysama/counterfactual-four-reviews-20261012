@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "rattleback_rocking_spin_coupling_reversal_00000042",
+    "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+    "source_native_resolution": [
+      2048,
+      2048
+    ],
+    "full_scene_frames": [
+      0,
+      24,
+      38,
+      70,
+      119
+    ],
+    "native_crop_box": [
+      1124,
+      944,
+      1768,
+      1201
+    ],
+    "native_consecutive_frames": [
+      37,
+      38,
+      39,
+      40
+    ],
+    "files": {
+      "native-cf-037.png": "33dffe9b8ae16885498c7621299864dec97cb1cc582457f99fa016d0e991e98b",
+      "native-mask-039.png": "bf6fadb26ec6753fb23b458be71a117c89938f4e3d3610ae253c3dda5a6eb0e0",
+      "native-overlay-039.png": "4ef03a9d023aa8575bb8d0dc124f13143ff92c1a09a44007279ccc4a83d622fa",
+      "native-mask-038.png": "e8ef6e4347e94cdc912412fec9d8fef55c2d182506beaf62b851f86b4af0c53c",
+      "full-scenes.jpg": "f2ea36a5dc2ae024f3f67a488b056456f929ece92ce38fbbb020e29aebe0ec59",
+      "native-mask-037.png": "359c00c2ac4c8a84b896f24a8e3e3d8841cc4d898d397b159c6998ec397a97a2",
+      "native-overlay-038.png": "8c5b55bba4957b8b0a963dde7453219439ac25b44426f2b612abba18d8064dab",
+      "native-mask-040.png": "81b794b558e6168452a999bd1ee858c314275c014e90e7072254ee4d320db64a",
+      "native-cf-038.png": "40cd4ebf3064af0938bfca4bc7d184a8d2e1d7fb348a5059be4bc4b1548df822",
+      "native-overlay-040.png": "6933dfece30d2d5f303316c2c7e69ba2e899cb0f9e89c5bd35668929732c23c1",
+      "native-cf-039.png": "b6d94c796a4fc791f11759a270ed7dacc151e9881fa618bc7ab0ef28d4f7fdbc",
+      "native-overlay-037.png": "185ee11b1f36eb6b6bcbf78cf347faa9d68e3a5c68b6f1dd195a0b0f9a950ae6",
+      "native-cf-040.png": "1a4478200cea4c8c22d2a19a67bd9f18f148454b79ae4ae39dcc8e4c56ad6eb4"
+    }
+  },
+  {
+    "case_id": "rattleback_rocking_spin_coupling_reversal_00000098",
+    "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+    "source_native_resolution": [
+      2048,
+      2048
+    ],
+    "full_scene_frames": [
+      0,
+      28,
+      42,
+      70,
+      119
+    ],
+    "native_crop_box": [
+      1151,
+      1005,
+      1731,
+      1230
+    ],
+    "native_consecutive_frames": [
+      41,
+      42,
+      43,
+      44
+    ],
+    "files": {
+      "native-overlay-043.png": "0cd2a2dbe206d85ef92a853b2ed618adf268f5e9371ed32e89bbea68a76bf256",
+      "native-overlay-044.png": "3fc93bfcdc1e75118c7f0362cf72e16e523cc320fb1e72c8209d35155289ea30",
+      "native-mask-043.png": "02a22e1da62a3195ad582ae17470425bc5af118d5ca1868442f29c198d7b218d",
+      "native-cf-041.png": "d1f2aecba3fada5cf20045e82babfacb9adeb208649bd8080ae2564ebf385988",
+      "native-cf-043.png": "07ee23298c0b01938e15eaa1d5d756cb95439e898d90510447a77f3ffaae1683",
+      "native-mask-042.png": "d69c864a7d2b5e488c74a5733853af0de310aefccd5252bd0dee6ba912e6bb60",
+      "native-overlay-041.png": "b11851fd4442acb664c00817839defe44c76cc5013658473c137a4718b865314",
+      "native-cf-044.png": "84ea62bc91f9a7aff6544fc0f264842cdb3d2e14e1f10cb05f466b53bbe6dca9",
+      "full-scenes.jpg": "3a06789d12d963f769dc3d9b359d19ea61084695a605c5c1965b09588915b48a",
+      "native-overlay-042.png": "9dd94580543039e9aff406cd7e11907f20a71d27fcf72501cd8d4221dac877cd",
+      "native-mask-041.png": "4aa4a410f7613d3cf480b8949381bd76b1f36152655d9c814693137bff1c9c32",
+      "native-mask-044.png": "2329d66ac1d26171a0f88075c10b3230576713c67ec3a7f5940c7cc9de9a18d8",
+      "native-cf-042.png": "04dc14ee37599a5dac3f2861b83b2c685969af2ea8d5972300ae560bb832f46c"
+    }
+  }
+]

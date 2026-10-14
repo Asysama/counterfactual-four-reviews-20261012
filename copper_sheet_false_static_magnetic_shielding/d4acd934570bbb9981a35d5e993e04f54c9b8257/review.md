@@ -14,3 +14,13 @@ Mask includes only the physically violating sphere/cards/right boat; support, ri
 
 Scale and operating evidence: review-evidence/scale.json, axis-probes/, tests.log, resume.log, incompatible-resume.log. Reproduction evidence: reproduction-validated.json; exact trajectories/recipes and masks, measured sparse renderer RGB differences reported explicitly.
 
+Measured clean-source reproduction (seed42): exact recipe, trajectory and binary mask. RGB differences are sparse GPU-renderer rounding, not dynamics differences.
+
+| Stream | Maximum channel difference | Total changed pixel instances across120frames | Maximum changed pixels in one frame |
+|---|---:|---:|---:|
+| true/video.mp4 | 1 | 2 | 2 |
+| counterfactual_false_copper_static_field_attenuation/video.mp4 | 2 | 4 | 2 |
+| counterfactual_false_copper_static_field_attenuation/mask.mp4 | 0 | 0 | 0 |
+| counterfactual_false_copper_static_field_attenuation/mask_overlay.mp4 | 1 | 2 | 1 |
+
+Within each submitted True/CF pair, pre-intervention equality still has zero tolerance.
