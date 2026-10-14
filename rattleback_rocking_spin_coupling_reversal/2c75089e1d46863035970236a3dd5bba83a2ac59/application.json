@@ -3,6 +3,6 @@
   "pr_url": "https://github.com/hipo-dev/counterfactual-data/pull/668",
   "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
   "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/rattleback_rocking_spin_coupling_reversal/2c75089e1d46863035970236a3dd5bba83a2ac59/index.html",
-  "note": "本轮视觉修订预览；自检进行中，尚未提交Sara。",
-  "self_check_complete": false
+  "note": "本轮视觉修订；两组原生2048视频、完整运行证据与独立自检。等待本人审查，尚未提交Sara。",
+  "self_check_complete": true
 }

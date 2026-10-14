@@ -1,0 +1,32 @@
+{
+  "copper_sheet_false_static_magnetic_shielding": {
+    "status": "PASS",
+    "head_sha": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+    "notes": "Native full scenes and consecutive CF/mask/red-overlay crops for seeds42,98 visually inspected. N/S magnet, larger ball deflection, anchored vertical gauge and separate supports are legible; visible ball mask excludes rod/frame/background. Six-axis image sheet inspected; no evident floating/interpenetration.",
+    "formal_seeds": [
+      42,
+      98
+    ],
+    "browser_playback": "Recorded separately; this record covers decoded native visual inspection only."
+  },
+  "air_gap_plate_attraction_reversal": {
+    "status": "PASS",
+    "head_sha": "b559e50012402d8437d9151995ce48a764ef5520",
+    "notes": "Native full scenes and consecutive CF/mask/red-overlay crops for seeds42,98 visually inspected. Attached yellow nozzle ribbon rises continuously while cards diverge in CF; mask contains only cards and their rotating hinges, excludes ribbon/nozzle/frame. Six-axis images inspected; no evident interpenetration.",
+    "formal_seeds": [
+      42,
+      98
+    ],
+    "browser_playback": "Recorded separately; this record covers decoded native visual inspection only."
+  },
+  "rattleback_rocking_spin_coupling_reversal": {
+    "status": "PASS",
+    "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+    "notes": "Native full scenes and consecutive CF/mask/red-overlay crops for seeds42,98 visually inspected. Identical side-by-side boats are both visible at higher camera angle, compared spin directions are readable; only right boat assembly masked. Six-axis images inspected; no evident floating/interpenetration.",
+    "formal_seeds": [
+      42,
+      98
+    ],
+    "browser_playback": "Recorded separately; this record covers decoded native visual inspection only."
+  }
+}

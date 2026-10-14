@@ -10,8 +10,8 @@
       "sha256": "1c88e2b7c637c0c70872622deb80a8c863768c1ab7b39364afcd0445fd6a07da"
     },
     "index.html": {
-      "bytes": 9499,
-      "sha256": "2933485a6a1e1beed8cdcb52781de7fabc3eb5779511fa7a39ebf8f259dcb49b"
+      "bytes": 9560,
+      "sha256": "c6bd4e3afd0fb005e8cb830e8b71bfce53af7a38bb11a3102cbd193c6b7ad2bd"
     },
     "generator-README.md": {
       "bytes": 2951,
@@ -34,12 +34,12 @@
       "sha256": "251b5357cbfb3e7614098d96f012cc5e378339d5e1444303c86a3e0687151af1"
     },
     "review.md": {
-      "bytes": 2186,
-      "sha256": "2ab97c25627135f51d56f7f30d50b2a0b213574ea0706c4cf6061fdde2154425"
+      "bytes": 8226,
+      "sha256": "432a5f133fed7669926e586cdf23b6c92317af43a73183e148009aa0a35ac77e"
     },
     "application.json": {
-      "bytes": 489,
-      "sha256": "d2b583a7fef6aa30a3b7a215452b08b4adf53735eab022fb30e7d3b7edbe8297"
+      "bytes": 546,
+      "sha256": "1beeee54c2e38913b8061d3cfdb2fcf8d90de08e39918f2cdcd131f86d612361"
     },
     "native-media.json": {
       "bytes": 4833,
@@ -209,9 +209,17 @@
       "bytes": 2015,
       "sha256": "3c69e9f5440fa58e0ee7a50adda0dfeebcbccff63c2cc7fb4094f9a7653c84e8"
     },
+    "review-evidence/visual.json": {
+      "bytes": 1835,
+      "sha256": "138fde14f6c3ada75e9786770e0eb392a8c6098316040193a90b1870d99a47e7"
+    },
     "review-evidence/browser-media.json": {
       "bytes": 2360,
       "sha256": "27523f7c8f2b1479ec7d7942a63f064f9961e8b748c14d18ce95fff2d7cfb758"
+    },
+    "review-evidence/public.json": {
+      "bytes": 1012,
+      "sha256": "dd8a15b4338a54ffbd681a3206b527d59e07a83a20fa9c6e45eb4b88bbc2a10a"
     },
     "review-evidence/resume.log": {
       "bytes": 0,
@@ -240,6 +248,10 @@
     "review-evidence/independent.json": {
       "bytes": 1434,
       "sha256": "9793bdf032f427ddc38be04449675ad9cb2a12e3a767ce30822740e157857d85"
+    },
+    "review-evidence/browser.json": {
+      "bytes": 2526,
+      "sha256": "01e6445d1f5765d4282e468fa45ec66d1ce2c0fd7e8a5cd8493b247cce0f4d1f"
     },
     "review-evidence/index.log": {
       "bytes": 1250,

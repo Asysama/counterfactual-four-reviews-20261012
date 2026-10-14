@@ -10,8 +10,8 @@
       "sha256": "0858cf1480819aa4e6359233922771c83fd6d632a792623046ec3522d5921f2e"
     },
     "index.html": {
-      "bytes": 9751,
-      "sha256": "a4f33b132442ef4e12793a203ef7beb7abb1aeefa6e9cd2b9d17fc1d83201629"
+      "bytes": 9812,
+      "sha256": "637c1d0aee8ffa498d6b15aee6a09b0b3a06e4f961c378b9c446a65e9d108757"
     },
     "generator-README.md": {
       "bytes": 2945,
@@ -34,12 +34,12 @@
       "sha256": "e873043764597fce745e1daa36c32e3028f434bac2b8b7024ec42a34fb5c4b6a"
     },
     "review.md": {
-      "bytes": 2605,
-      "sha256": "047d3f4486ed032e5b98360ca2d62dfe81c0415109576a59b08369b5e02a9ee4"
+      "bytes": 8437,
+      "sha256": "a595615cd46d11a2d67a8878f48b24305ccbe77bf2283ab455177a459be13bdf"
     },
     "application.json": {
-      "bytes": 483,
-      "sha256": "571168336b6ecf88c062ffce4d8c84ff0a51e6d8b18cf525d158153c45239c4a"
+      "bytes": 540,
+      "sha256": "d14ca0345cc20425139ae8402af6e07c896a481df1f0f8c1be6a6e6f8cb54e3e"
     },
     "native-media.json": {
       "bytes": 4815,
@@ -317,9 +317,17 @@
       "bytes": 2015,
       "sha256": "3c69e9f5440fa58e0ee7a50adda0dfeebcbccff63c2cc7fb4094f9a7653c84e8"
     },
+    "review-evidence/visual.json": {
+      "bytes": 1835,
+      "sha256": "138fde14f6c3ada75e9786770e0eb392a8c6098316040193a90b1870d99a47e7"
+    },
     "review-evidence/browser-media.json": {
       "bytes": 2384,
       "sha256": "fa5259d4179454f1aabf228516fd5f93e882fc16e8bb19746abb02273e2da49f"
+    },
+    "review-evidence/public.json": {
+      "bytes": 1012,
+      "sha256": "dd8a15b4338a54ffbd681a3206b527d59e07a83a20fa9c6e45eb4b88bbc2a10a"
     },
     "review-evidence/rattleback_rocking_spin_coupling_reversal-reproduction-validated.json": {
       "bytes": 7876,
@@ -356,6 +364,10 @@
     "review-evidence/independent.json": {
       "bytes": 1854,
       "sha256": "0b20a8d9b13852ec79874331bb1d713efbbd5e49b8289b48e4b7c1cd56a99705"
+    },
+    "review-evidence/browser.json": {
+      "bytes": 2526,
+      "sha256": "01e6445d1f5765d4282e468fa45ec66d1ce2c0fd7e8a5cd8493b247cce0f4d1f"
     },
     "review-evidence/index.log": {
       "bytes": 1235,

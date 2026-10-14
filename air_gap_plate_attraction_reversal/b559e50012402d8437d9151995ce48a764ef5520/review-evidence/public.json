@@ -1,0 +1,20 @@
+{
+  "copper_sheet_false_static_magnetic_shielding": {
+    "status": "PASS",
+    "head_sha": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+    "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/copper_sheet_false_static_magnetic_shielding/d4acd934570bbb9981a35d5e993e04f54c9b8257/index.html",
+    "files_verified": 194
+  },
+  "air_gap_plate_attraction_reversal": {
+    "status": "PASS",
+    "head_sha": "b559e50012402d8437d9151995ce48a764ef5520",
+    "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/air_gap_plate_attraction_reversal/b559e50012402d8437d9151995ce48a764ef5520/index.html",
+    "files_verified": 195
+  },
+  "rattleback_rocking_spin_coupling_reversal": {
+    "status": "PASS",
+    "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+    "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/rattleback_rocking_spin_coupling_reversal/2c75089e1d46863035970236a3dd5bba83a2ac59/index.html",
+    "files_verified": 197
+  }
+}

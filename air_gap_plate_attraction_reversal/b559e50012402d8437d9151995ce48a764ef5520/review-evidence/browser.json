@@ -1,0 +1,74 @@
+{
+  "copper_sheet_false_static_magnetic_shielding": {
+    "status": "PASS",
+    "head_sha": "d4acd934570bbb9981a35d5e993e04f54c9b8257",
+    "browser": "Chrome",
+    "full_playback_ended_all_eight": true,
+    "all_durations_seconds": 5,
+    "all_dimensions": [
+      1024,
+      1024
+    ],
+    "all_errors": null,
+    "seek_start_seconds": 0,
+    "seek_evidence_seconds": {
+      "42": 1.1666666666666667,
+      "98": 1.2916666666666667
+    },
+    "seek_end_seconds": 4.958333333333333,
+    "visible_colors": "normal apparatus RGB; white sphere on black mask; red sphere overlay only",
+    "formal_seeds": [
+      42,
+      98
+    ],
+    "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/copper_sheet_false_static_magnetic_shielding/d4acd934570bbb9981a35d5e993e04f54c9b8257/index.html"
+  },
+  "air_gap_plate_attraction_reversal": {
+    "status": "PASS",
+    "head_sha": "b559e50012402d8437d9151995ce48a764ef5520",
+    "browser": "Chrome",
+    "full_playback_ended_all_eight": true,
+    "all_durations_seconds": 5,
+    "all_dimensions": [
+      1024,
+      1024
+    ],
+    "all_errors": null,
+    "seek_start_seconds": 0,
+    "seek_evidence_seconds": {
+      "42": 1.0833333333333333,
+      "98": 1.2083333333333333
+    },
+    "seek_end_seconds": 4.958333333333333,
+    "visible_colors": "Attached yellow ribbon rises with airflow; card-only binary mask and red overlay; normal cards inward and counterfactual cards outward.",
+    "formal_seeds": [
+      42,
+      98
+    ],
+    "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/air_gap_plate_attraction_reversal/b559e50012402d8437d9151995ce48a764ef5520/index.html"
+  },
+  "rattleback_rocking_spin_coupling_reversal": {
+    "status": "PASS",
+    "head_sha": "2c75089e1d46863035970236a3dd5bba83a2ac59",
+    "browser": "Chrome",
+    "full_playback_ended_all_eight": true,
+    "all_durations_seconds": 5,
+    "all_dimensions": [
+      1024,
+      1024
+    ],
+    "all_errors": null,
+    "seek_start_seconds": 0,
+    "seek_evidence_seconds": {
+      "42": 1.5833333333333333,
+      "98": 1.75
+    },
+    "seek_end_seconds": 4.958333333333333,
+    "visible_colors": "Identical side-by-side boats: normal same direction, counterfactual right boat opposite; only right boat masked and overlaid.",
+    "formal_seeds": [
+      42,
+      98
+    ],
+    "review_url": "https://asysama.github.io/counterfactual-four-reviews-20261012/rattleback_rocking_spin_coupling_reversal/2c75089e1d46863035970236a3dd5bba83a2ac59/index.html"
+  }
+}
